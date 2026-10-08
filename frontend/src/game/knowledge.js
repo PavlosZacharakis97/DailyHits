@@ -1,12 +1,10 @@
-import { YEAR_YELLOW_RANGE } from './rules.js'
-
 /**
  * What the player has learnt about the answer, derived only from the tiles the
  * server returned for past guesses (never from the answer itself).
  *
  * Returns { [key]: { color: 'green' | 'yellow' | 'range', value } }; missing keys are unknown.
  */
-export function knowledge(guesses) {
+export function knowledge(guesses, yearYellowRange) {
   const known = {}
   for (const { tiles } of guesses) {
     for (const tile of tiles) {
@@ -17,12 +15,15 @@ export function knowledge(guesses) {
       }
     }
   }
-  const year = yearKnowledge(guesses.map((g) => g.tiles.find((t) => t.key === 'year')))
+  const year = yearKnowledge(
+    guesses.map((g) => g.tiles.find((t) => t.key === 'year')),
+    yearYellowRange,
+  )
   if (year) known.year = year
   return known
 }
 
-function yearKnowledge(tiles) {
+function yearKnowledge(tiles, range) {
   let low = -Infinity
   let high = Infinity
   let close = false
@@ -32,11 +33,11 @@ function yearKnowledge(tiles) {
     const near = tile.color === 'yellow'
     close ||= near
     if (tile.direction === 'up') {
-      low = Math.max(low, year + (near ? 1 : YEAR_YELLOW_RANGE + 1))
-      if (near) high = Math.min(high, year + YEAR_YELLOW_RANGE)
+      low = Math.max(low, year + (near ? 1 : range + 1))
+      if (near) high = Math.min(high, year + range)
     } else {
-      high = Math.min(high, year - (near ? 1 : YEAR_YELLOW_RANGE + 1))
-      if (near) low = Math.max(low, year - YEAR_YELLOW_RANGE)
+      high = Math.min(high, year - (near ? 1 : range + 1))
+      if (near) low = Math.max(low, year - range)
     }
   }
   if (low === -Infinity && high === Infinity) return null

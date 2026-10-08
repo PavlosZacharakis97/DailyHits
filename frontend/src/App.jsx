@@ -3,8 +3,7 @@ import { Header } from './components/Header.jsx'
 import { NotFound } from './components/NotFound.jsx'
 import { PuzzleCard } from './components/PuzzleCard.jsx'
 import { ConsentGate } from './consent/ConsentGate.jsx'
-import { MAX_ATTEMPTS } from './game/rules.js'
-import { useMockGame } from './mock/useMockGame.js'
+import { useGame } from './game/useGame.js'
 import styles from './App.module.css'
 
 function App() {
@@ -27,11 +26,38 @@ function App() {
 
 /** Mounted only after cookie consent, so no game request happens before it. */
 function Game() {
-  const game = useMockGame()
+  const game = useGame()
+
+  if (game.loadError) {
+    const noPuzzle = game.loadError.code === 'puzzle_not_found'
+    return (
+      <main className={styles.main}>
+        <section className={styles.message} role="alert">
+          <h1 className={styles.messageTitle}>
+            {noPuzzle ? 'No song today… yet' : 'We could not load the game'}
+          </h1>
+          <p className={styles.messageText}>
+            {noPuzzle ? 'Today’s song is not ready. Please come back a little later.' : game.loadError.message}
+          </p>
+          <button type="button" className={styles.retry} onClick={() => window.location.reload()}>
+            Try again
+          </button>
+        </section>
+      </main>
+    )
+  }
+
+  if (game.loading) {
+    return (
+      <main className={styles.main} aria-busy="true">
+        <p className={styles.loading}>Loading today’s song…</p>
+      </main>
+    )
+  }
 
   return (
     <main className={styles.main}>
-      <PuzzleCard game={game} maxAttempts={MAX_ATTEMPTS} />
+      <PuzzleCard game={game} />
       <GuessHistory guesses={game.guesses} />
     </main>
   )

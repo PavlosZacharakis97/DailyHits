@@ -13,10 +13,10 @@ const STATUS_TITLE = {
   gave_up: 'Here is the answer',
 }
 
-export function PuzzleCard({ game, maxAttempts }) {
-  const { number, answer, guesses, status, hints } = game
+export function PuzzleCard({ game }) {
+  const { number, answer, guesses, status, hints, maxAttempts } = game
   const finished = status !== 'in_progress'
-  const known = knowledge(guesses)
+  const known = knowledge(guesses, game.yearYellowRange)
   const announcement = announcementFor(game, maxAttempts)
   const titleRef = useRef(null)
 
@@ -46,7 +46,8 @@ export function PuzzleCard({ game, maxAttempts }) {
               </span>
             </div>
 
-            {finished ? (
+            {finished && !answer && <p className={styles.answerArtist}>Loading the answer…</p>}
+            {finished && answer ? (
               <div className={styles.answer}>
                 <p className={styles.answerTitle}>{answer.title}</p>
                 <p className={styles.answerArtist}>
@@ -55,7 +56,7 @@ export function PuzzleCard({ game, maxAttempts }) {
                 </p>
                 <a
                   className={styles.youtube}
-                  href={`https://www.youtube.com/watch?v=${answer.youtube}`}
+                  href={answer.youtube_url}
                   target="_blank"
                   rel="noopener"
                 >
@@ -63,7 +64,7 @@ export function PuzzleCard({ game, maxAttempts }) {
                   <span className="visually-hidden"> (opens in a new tab)</span>
                 </a>
               </div>
-            ) : (
+            ) : finished ? null : (
               <p className={styles.mystery}>
                 <span aria-hidden="true">????</span>
                 <span className="visually-hidden">Unknown song</span>
@@ -105,7 +106,14 @@ export function PuzzleCard({ game, maxAttempts }) {
         </div>
       </div>
 
-      <GuessInput onSearch={game.search} onGuess={game.guess} disabled={finished} />
+      <GuessInput
+        onSearch={game.search}
+        onGuess={game.guess}
+        disabled={finished}
+        busy={game.busy}
+        error={game.actionError}
+        excludeIds={new Set(guesses.map((g) => g.song.id))}
+      />
 
       <div role="status" aria-live="polite" aria-atomic="true" className="visually-hidden">
         {announcement}
@@ -194,6 +202,7 @@ function Extras({ hints, finished, onGiveUp }) {
 function announcementFor({ guesses, status, answer, hints }, maxAttempts) {
   const count = guesses.length
   if (status !== 'in_progress') {
+    if (!answer) return ''
     const by = `${answer.title} by ${answer.artist}`
     if (status === 'won') return `You got it! The song is ${by}, solved in ${count} of ${maxAttempts}.`
     if (status === 'lost') return `Out of guesses. The answer was ${by}.`
