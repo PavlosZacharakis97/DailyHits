@@ -1,0 +1,170 @@
+/* Design tokens. Light theme follows docs/design/dailyhit-hero.svg,
+   dark theme follows dailyhit-hero-dark.svg. */
+:root {
+  color-scheme: light;
+  --font: 'Nunito Variable', 'Nunito', ui-rounded, 'SF Pro Rounded', system-ui, sans-serif;
+
+  --bg: #f8f3fb;
+  --blob-1: #e9dcff;
+  --blob-2: #ffe1ee;
+  --blob-3: #dff3ee;
+  --blob-4: #ffe9d6;
+
+  --card: rgb(255 255 255 / 0.58);
+  --card-border: rgb(255 255 255 / 0.9);
+  --card-shadow: 0 24px 60px -24px rgb(124 92 200 / 0.35);
+  --surface: rgb(255 255 255 / 0.72);
+  --surface-border: rgb(236 228 248 / 0.95);
+  --divider: rgb(160 132 220 / 0.25);
+
+  --text: #3a2c63;
+  --text-strong: #7b54e0;
+  --muted: #62588a;
+  --accent: #8a5cf0;
+  --accent-2: #e58bbf;
+  --accent-grad: linear-gradient(90deg, #8a5cf0, #c06ad8);
+  --button-grad: linear-gradient(90deg, #7b54e0, #a443bd);
+  --button-text: #ffffff;
+  --focus: #8a5cf0;
+
+  --green-bg: #d4f2e3;
+  --green-fg: #19704b;
+  --yellow-bg: #fff0bf;
+  --yellow-fg: #835b00;
+  --gray-bg: #eeecf4;
+  --gray-fg: #5d5876;
+  --known-icon-bg: rgb(255 255 255 / 0.55);
+
+  --ic-mint: #dcf3ea;   --ic-mint-fg: #1b6f50;
+  --ic-lav: #ece2ff;    --ic-lav-fg: #5f35c9;
+  --ic-pink: #ffe2ea;   --ic-pink-fg: #b02f55;
+  --ic-peach: #ffe9d8;  --ic-peach-fg: #a3541a;
+  --ic-sky: #e0eeff;    --ic-sky-fg: #2f63ad;
+  --ic-rose: #fbe0f3;   --ic-rose-fg: #94368a;
+
+  --art-sky: #fbe7f1;
+  --art-sun: #ffd3a8;
+  --art-1: #c9b6f5;
+  --art-2: #a8dfe0;
+  --art-3: #f6b6d3;
+  --art-4: #fff2e3;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #120f24;
+  --blob-1: #2c1f5c;
+  --blob-2: #4a1d55;
+  --blob-3: #123b3a;
+  --blob-4: #3a2a1c;
+
+  --card: rgb(32 26 64 / 0.62);
+  --card-border: rgb(255 255 255 / 0.08);
+  --card-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.6);
+  --surface: rgb(46 38 88 / 0.6);
+  --surface-border: rgb(255 255 255 / 0.07);
+  --divider: rgb(190 170 255 / 0.18);
+
+  --text: #ece6ff;
+  --text-strong: #c6b0ff;
+  --muted: #a49bc8;
+  --accent: #a98bff;
+  --accent-2: #f09acb;
+  --accent-grad: linear-gradient(90deg, #a98bff, #f09acb);
+  --button-grad: linear-gradient(90deg, #7c5ce6, #a350ba);
+  --button-text: #ffffff;
+  --focus: #c6b0ff;
+
+  --green-bg: #1d4a39;
+  --green-fg: #9fe6c4;
+  --yellow-bg: #574413;
+  --yellow-fg: #ffd977;
+  --gray-bg: #2d2850;
+  --gray-fg: #aaa4c8;
+  --known-icon-bg: rgb(255 255 255 / 0.1);
+
+  --ic-mint: #183e35;   --ic-mint-fg: #8fe0c1;
+  --ic-lav: #31285e;    --ic-lav-fg: #c3adff;
+  --ic-pink: #45233a;   --ic-pink-fg: #ff9fb8;
+  --ic-peach: #43301f;  --ic-peach-fg: #ffbe85;
+  --ic-sky: #1f3254;    --ic-sky-fg: #9cc3ff;
+  --ic-rose: #432447;   --ic-rose-fg: #f2a0de;
+
+  --art-sky: #2a1f55;
+  --art-sun: #f3a97f;
+  --art-1: #5a46b8;
+  --art-2: #2f6f7a;
+  --art-3: #9b4b8f;
+  --art-4: #3a2f6b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Soft colour blobs on a fixed layer, so they stay put while the page scrolls. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(40vmax 40vmax at 8% 12%, var(--blob-1), transparent 70%),
+    radial-gradient(38vmax 38vmax at 92% 8%, var(--blob-2), transparent 70%),
+    radial-gradient(45vmax 45vmax at 85% 90%, var(--blob-3), transparent 70%),
+    radial-gradient(40vmax 40vmax at 10% 95%, var(--blob-4), transparent 70%);
+  pointer-events: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Gradient text disappears in Windows high-contrast mode; fall back to plain text. */
+@media (forced-colors: active) {
+  .gradient-text {
+    background: none !important;
+    color: CanvasText !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

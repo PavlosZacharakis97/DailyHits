@@ -1,0 +1,123 @@
+.form {
+  position: relative;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 8px 8px 20px;
+  border: 1px solid var(--surface-border);
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: 0 6px 24px -14px rgb(124 92 200 / 0.4);
+}
+
+.icon {
+  flex: none;
+  color: var(--accent);
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 0;
+  border: 0;
+  background: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.input::placeholder {
+  color: var(--muted);
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.field:focus-within {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.submit {
+  flex: none;
+  padding: 12px clamp(20px, 5vw, 54px);
+  border: 0;
+  border-radius: 999px;
+  background: var(--button-grad);
+  color: var(--button-text);
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.submit:hover:not(:disabled) {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+.submit:disabled {
+  opacity: 0.4;
+  filter: saturate(0.5);
+  cursor: default;
+}
+
+.list {
+  position: absolute;
+  inset: auto 0 calc(100% + 8px);
+  z-index: 10;
+  max-height: 320px;
+  margin: 0;
+  padding: 6px;
+  overflow-y: auto;
+  border: 1px solid var(--surface-border);
+  border-radius: 20px;
+  background: var(--bg);
+  box-shadow: 0 20px 50px -20px rgb(60 40 120 / 0.45);
+  list-style: none;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 48px;
+  padding: 8px 14px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.optionActive {
+  background: var(--ic-lav);
+}
+
+.optionTitle {
+  font-weight: 800;
+}
+
+.optionArtist {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* On phones the keyboard covers the bottom, so open the list downwards. */
+@media (max-width: 480px) {
+  .list {
+    inset: calc(100% + 8px) 0 auto;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .field {
+    padding-left: 16px;
+  }
+
+  .submit {
+    padding: 12px 18px;
+  }
+}

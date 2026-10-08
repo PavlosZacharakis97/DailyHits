@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 96" width="264" height="96" font-family="Nunito, Poppins, 'SF Pro Rounded', ui-rounded, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a5cf0"/><stop offset="1" stop-color="#e58bbf"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" x2="1">
+      <stop offset="0" stop-color="#8a5cf0"/><stop offset="1" stop-color="#c06ad8"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="8" y="8" width="80" height="80" rx="22"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#tile)"/>
+  <g clip-path="url(#c)">
+    <circle cx="60" cy="36" r="13" fill="#ffd9b0"/>
+    <path d="M8 58 C24 48 38 52 50 58 S76 66 88 54 V88 H8Z" fill="#ffffff" fill-opacity=".55"/>
+    <path d="M8 70 C26 62 42 72 58 68 S80 60 88 66 V88 H8Z" fill="#ffffff" fill-opacity=".9"/>
+  </g>
+  <text x="104" y="64" font-size="44" font-weight="800" fill="url(#word)" letter-spacing="-1">dailyhit</text>
+</svg>

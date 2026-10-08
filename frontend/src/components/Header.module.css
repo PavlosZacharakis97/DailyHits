@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 28px 24px 20px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.mark {
+  width: clamp(36px, 5vw, 44px);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px -8px rgb(124 92 200 / 0.6);
+}
+
+.word {
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  background: var(--accent-grad);
+  background-clip: text;
+  color: transparent;
+}
+
+.themeToggle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--card-border);
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--text-strong);
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.themeToggle:hover {
+  transform: rotate(-12deg) scale(1.05);
+}
