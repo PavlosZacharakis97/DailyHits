@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960" font-family="Nunito, Poppins, 'SF Pro Rounded', ui-rounded, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe6ff"/><stop offset=".5" stop-color="#fbe8f4"/><stop offset="1" stop-color="#fff0e4"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#9b7fd1" flood-opacity=".2"/>
+    </filter>
+    <linearGradient id="logo" x1="0" x2="1"><stop offset="0" stop-color="#8a5cf0"/><stop offset="1" stop-color="#c06ad8"/></linearGradient>
+    <clipPath id="artClip"><rect x="80" y="140" width="380" height="360" rx="28"/></clipPath>
+    <linearGradient id="artSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde7f0"/><stop offset="1" stop-color="#fbe3d6"/></linearGradient>
+    <radialGradient id="sun" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ffd9b0"/><stop offset="1" stop-color="#f9b98f"/></radialGradient>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#c9b6ff"/><stop offset="1" stop-color="#f7c6e3"/></linearGradient>
+    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#a8e6e0"/><stop offset="1" stop-color="#cbb8ff"/></linearGradient>
+    <linearGradient id="w3" x1="0" x2="1"><stop offset="0" stop-color="#9fc4ff"/><stop offset="1" stop-color="#e3a8f0"/></linearGradient>
+    <linearGradient id="w4" x1="0" x2="1"><stop offset="0" stop-color="#ffc2c7"/><stop offset=".6" stop-color="#d7b8ff"/><stop offset="1" stop-color="#b6f0d8"/></linearGradient>
+    <linearGradient id="btn" x1="0" x2="1"><stop offset="0" stop-color="#c9a8ff"/><stop offset="1" stop-color="#e5a8f0"/></linearGradient>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".75">
+    <circle cx="60" cy="300" r="170" fill="#c7d8ff"/>
+    <circle cx="500" cy="80" r="160" fill="#ffd3e8"/>
+    <circle cx="270" cy="960" r="200" fill="#e2d1ff"/>
+    <circle cx="520" cy="620" r="140" fill="#ffe2c8"/>
+  </g>
+
+  <text x="270" y="92" font-size="42" font-weight="800" fill="url(#logo)" letter-spacing="-1" text-anchor="middle">dailyhit</text>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="132" width="396" height="376" rx="34" fill="#ffffff" fill-opacity=".7"/>
+  </g>
+  <g clip-path="url(#artClip)">
+    <rect x="80" y="140" width="380" height="360" fill="url(#artSky)"/>
+    <circle cx="340" cy="240" r="70" fill="url(#sun)" opacity=".9">
+      <animate attributeName="r" values="68;74;68" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M80 310 C150 255 215 285 270 310 S400 355 460 290 V500 H80Z" fill="url(#w1)" opacity=".75"/>
+    <path d="M80 355 C145 320 210 340 265 372 S395 395 460 340 V500 H80Z" fill="url(#w2)" opacity=".7"/>
+    <path d="M80 400 C155 372 230 410 295 400 S415 365 460 392 V500 H80Z" fill="url(#w3)" opacity=".65"/>
+    <path d="M80 445 C165 418 240 465 315 445 S425 420 460 438 V500 H80Z" fill="url(#w4)" opacity=".8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="30" y="540" width="480" height="380" rx="30" fill="#ffffff" fill-opacity=".5" stroke="#ffffff" stroke-opacity=".9" stroke-width="2"/>
+  </g>
+
+  <text x="56" y="594" font-size="32" font-weight="800" fill="#8a5cf0">Guess the song</text>
+  <text x="56" y="640" font-size="34" font-weight="800" fill="#a57cf5" letter-spacing="5">????</text>
+  <rect x="352" y="614" width="132" height="30" rx="15" fill="#ffffff" fill-opacity=".75" stroke="#eadfff"/>
+  <text x="418" y="634" font-size="13" font-weight="600" fill="#8a5cf0" text-anchor="middle">♫ 1 song a day</text>
+
+  <g font-weight="700">
+    <rect x="56" y="664" width="98" height="74" rx="16" fill="#eceaf3" stroke="#dcd7ea"/>
+    <text x="68" y="688" font-size="10" letter-spacing="1" fill="#9a94b3">ARTIST</text>
+    <text x="68" y="718" font-size="16" fill="#7c7699">Queen</text>
+
+    <rect x="164" y="664" width="98" height="74" rx="16" fill="#fff2cc" stroke="#f3dc8c"/>
+    <text x="176" y="688" font-size="10" letter-spacing="1" fill="#c49a2c">YEAR</text>
+    <text x="176" y="718" font-size="16" fill="#b5871a">1984 ↑</text>
+
+    <rect x="272" y="664" width="98" height="74" rx="16" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="284" y="688" font-size="10" letter-spacing="1" fill="#46a877">GENRE</text>
+    <text x="284" y="718" font-size="16" fill="#2f9463">Pop</text>
+
+    <rect x="380" y="664" width="98" height="74" rx="16" fill="#fff2cc" stroke="#f3dc8c"/>
+    <text x="392" y="688" font-size="10" letter-spacing="1" fill="#c49a2c">STYLE</text>
+    <text x="392" y="718" font-size="15" fill="#b5871a">Synth-pop</text>
+
+    <rect x="56" y="748" width="98" height="74" rx="16" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="68" y="772" font-size="10" letter-spacing="1" fill="#46a877">VOCAL</text>
+    <text x="68" y="802" font-size="16" fill="#2f9463">Male</text>
+
+    <rect x="164" y="748" width="98" height="74" rx="16" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="176" y="772" font-size="10" letter-spacing="1" fill="#46a877">THEME</text>
+    <text x="176" y="802" font-size="16" fill="#2f9463">Love</text>
+
+    <rect x="272" y="748" width="98" height="74" rx="16" fill="#eceaf3" stroke="#dcd7ea"/>
+    <text x="284" y="772" font-size="10" letter-spacing="1" fill="#9a94b3">COUNTRY</text>
+    <text x="284" y="802" font-size="16" fill="#7c7699">UK</text>
+
+    <rect x="380" y="748" width="98" height="74" rx="16" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="392" y="772" font-size="10" letter-spacing="1" fill="#46a877">LANGUAGE</text>
+    <text x="392" y="802" font-size="16" fill="#2f9463">English</text>
+  </g>
+
+  <rect x="56" y="844" width="422" height="48" rx="24" fill="#ffffff" fill-opacity=".85" stroke="#eee4ff"/>
+  <text x="78" y="874" font-size="17" fill="#a57cf5">♪</text>
+  <text x="100" y="873" font-size="15" fill="#a9a1c4">Type your guess…</text>
+  <rect x="374" y="849" width="100" height="38" rx="19" fill="url(#btn)"/>
+  <text x="424" y="873" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Submit</text>
+
+  <g font-weight="700">
+    <text x="470" y="118" font-size="26" opacity=".55" fill="#b48cf5">♪
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="34" y="530" font-size="24" opacity=".45" fill="#7fc7b8">♫
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g fill="#ffffff">
+    <path d="M70 60 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" opacity=".9"/>
+    <path d="M500 520 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" opacity=".8"/>
+  </g>
+</svg>

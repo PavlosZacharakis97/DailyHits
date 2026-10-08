@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="Nunito, Poppins, 'SF Pro Rounded', ui-rounded, system-ui, sans-serif">
+  <defs>
+    <!-- фон -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe6ff"/>
+      <stop offset=".5" stop-color="#fbe8f4"/>
+      <stop offset="1" stop-color="#fff0e4"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#9b7fd1" flood-opacity=".18"/>
+    </filter>
+
+    <!-- логотип -->
+    <linearGradient id="logo" x1="0" x2="1">
+      <stop offset="0" stop-color="#8a5cf0"/>
+      <stop offset="1" stop-color="#c06ad8"/>
+    </linearGradient>
+
+    <!-- обложка -->
+    <clipPath id="artClip"><rect x="70" y="140" width="400" height="400" rx="28"/></clipPath>
+    <linearGradient id="artSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde7f0"/>
+      <stop offset="1" stop-color="#fbe3d6"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".4" cy=".35" r=".7">
+      <stop offset="0" stop-color="#ffd9b0"/>
+      <stop offset="1" stop-color="#f9b98f"/>
+    </radialGradient>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#c9b6ff"/><stop offset="1" stop-color="#f7c6e3"/></linearGradient>
+    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#a8e6e0"/><stop offset="1" stop-color="#cbb8ff"/></linearGradient>
+    <linearGradient id="w3" x1="0" x2="1"><stop offset="0" stop-color="#9fc4ff"/><stop offset="1" stop-color="#e3a8f0"/></linearGradient>
+    <linearGradient id="w4" x1="0" x2="1"><stop offset="0" stop-color="#ffc2c7"/><stop offset=".6" stop-color="#d7b8ff"/><stop offset="1" stop-color="#b6f0d8"/></linearGradient>
+
+    <linearGradient id="btn" x1="0" x2="1">
+      <stop offset="0" stop-color="#c9a8ff"/>
+      <stop offset="1" stop-color="#e5a8f0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- фон с мягкими пятнами -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".75">
+    <circle cx="150" cy="520" r="200" fill="#c7d8ff"/>
+    <circle cx="1080" cy="90" r="190" fill="#ffd3e8"/>
+    <circle cx="700" cy="640" r="220" fill="#e2d1ff"/>
+    <circle cx="1150" cy="560" r="160" fill="#ffe2c8"/>
+  </g>
+
+  <!-- логотип -->
+  <text x="70" y="102" font-size="46" font-weight="800" fill="url(#logo)" letter-spacing="-1">dailyhit</text>
+
+  <!-- обложка -->
+  <g filter="url(#shadow)">
+    <rect x="62" y="132" width="416" height="416" rx="34" fill="#ffffff" fill-opacity=".7"/>
+  </g>
+  <g clip-path="url(#artClip)">
+    <rect x="70" y="140" width="400" height="400" fill="url(#artSky)"/>
+    <circle cx="340" cy="255" r="78" fill="url(#sun)" opacity=".9">
+      <animate attributeName="r" values="76;82;76" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M70 330 C150 270 220 300 280 330 S410 380 470 300 V540 H70Z" fill="url(#w1)" opacity=".75"/>
+    <path d="M70 380 C140 340 210 360 270 395 S400 420 470 360 V540 H70Z" fill="url(#w2)" opacity=".7"/>
+    <path d="M70 430 C150 400 230 440 300 430 S420 390 470 420 V540 H70Z" fill="url(#w3)" opacity=".65"/>
+    <path d="M70 480 C160 450 240 500 320 480 S430 450 470 470 V540 H70Z" fill="url(#w4)" opacity=".8"/>
+  </g>
+
+  <!-- стеклянная карточка -->
+  <g filter="url(#shadow)">
+    <rect x="520" y="110" width="620" height="472" rx="32" fill="#ffffff" fill-opacity=".5" stroke="#ffffff" stroke-opacity=".9" stroke-width="2"/>
+  </g>
+
+  <text x="560" y="176" font-size="40" font-weight="800" fill="#8a5cf0">Guess the song</text>
+
+  <!-- пилюля «1 song a day» -->
+  <rect x="938" y="140" width="170" height="38" rx="19" fill="#ffffff" fill-opacity=".75" stroke="#eadfff"/>
+  <text x="1023" y="165" font-size="16" font-weight="600" fill="#8a5cf0" text-anchor="middle">♫ 1 song a day</text>
+
+  <text x="560" y="236" font-size="46" font-weight="800" fill="#a57cf5" letter-spacing="6">????</text>
+
+  <!-- теги -->
+  <rect x="560" y="256" width="78" height="32" rx="16" fill="#eadcff"/>
+  <text x="599" y="278" font-size="15" font-weight="600" fill="#8a5cf0" text-anchor="middle">Pop</text>
+  <rect x="648" y="256" width="84" height="32" rx="16" fill="#d8f3ea"/>
+  <text x="690" y="278" font-size="15" font-weight="600" fill="#3a9c84" text-anchor="middle">Indie</text>
+  <rect x="742" y="256" width="122" height="32" rx="16" fill="#ffe0ea"/>
+  <text x="803" y="278" font-size="15" font-weight="600" fill="#d9668f" text-anchor="middle">Alternative</text>
+
+  <!-- 8 плиток: green / yellow / gray -->
+  <g font-weight="700">
+    <!-- ряд 1 -->
+    <rect x="560" y="312" width="130" height="88" rx="18" fill="#eceaf3" stroke="#dcd7ea"/>
+    <text x="578" y="342" font-size="12" letter-spacing="1.5" fill="#9a94b3">ARTIST</text>
+    <text x="578" y="378" font-size="21" fill="#7c7699">Queen</text>
+
+    <rect x="702" y="312" width="130" height="88" rx="18" fill="#fff2cc" stroke="#f3dc8c"/>
+    <text x="720" y="342" font-size="12" letter-spacing="1.5" fill="#c49a2c">YEAR</text>
+    <text x="720" y="378" font-size="21" fill="#b5871a">1984 ↑</text>
+
+    <rect x="844" y="312" width="130" height="88" rx="18" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="862" y="342" font-size="12" letter-spacing="1.5" fill="#46a877">GENRE</text>
+    <text x="862" y="378" font-size="21" fill="#2f9463">Pop</text>
+
+    <rect x="986" y="312" width="130" height="88" rx="18" fill="#fff2cc" stroke="#f3dc8c"/>
+    <text x="1004" y="342" font-size="12" letter-spacing="1.5" fill="#c49a2c">STYLE</text>
+    <text x="1004" y="378" font-size="18" fill="#b5871a">Synth-pop</text>
+
+    <!-- ряд 2 -->
+    <rect x="560" y="412" width="130" height="88" rx="18" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="578" y="442" font-size="12" letter-spacing="1.5" fill="#46a877">VOCAL</text>
+    <text x="578" y="478" font-size="21" fill="#2f9463">Male</text>
+
+    <rect x="702" y="412" width="130" height="88" rx="18" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="720" y="442" font-size="12" letter-spacing="1.5" fill="#46a877">THEME</text>
+    <text x="720" y="478" font-size="21" fill="#2f9463">Love</text>
+
+    <rect x="844" y="412" width="130" height="88" rx="18" fill="#eceaf3" stroke="#dcd7ea"/>
+    <text x="862" y="442" font-size="12" letter-spacing="1.5" fill="#9a94b3">COUNTRY</text>
+    <text x="862" y="478" font-size="21" fill="#7c7699">UK</text>
+
+    <rect x="986" y="412" width="130" height="88" rx="18" fill="#d9f5e5" stroke="#a6e2c2"/>
+    <text x="1004" y="442" font-size="12" letter-spacing="1.5" fill="#46a877">LANGUAGE</text>
+    <text x="1004" y="478" font-size="21" fill="#2f9463">English</text>
+  </g>
+
+  <!-- поле ввода -->
+  <rect x="560" y="518" width="556" height="46" rx="23" fill="#ffffff" fill-opacity=".85" stroke="#eee4ff"/>
+  <text x="584" y="548" font-size="18" fill="#a57cf5">♪</text>
+  <text x="610" y="547" font-size="16" fill="#a9a1c4">Type your guess…</text>
+  <rect x="990" y="522" width="122" height="38" rx="19" fill="url(#btn)"/>
+  <text x="1051" y="547" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Submit</text>
+
+  <!-- парящие ноты -->
+  <g fill="#b48cf5" font-weight="700">
+    <text x="488" y="128" font-size="30" opacity=".55">♪
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="1150" y="300" font-size="26" opacity=".45" fill="#e58bbf">♫
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="40" y="590" font-size="28" opacity=".45" fill="#7fc7b8">♪
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <!-- искорки -->
+  <g fill="#ffffff">
+    <path d="M300 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" opacity=".9"/>
+    <path d="M880 60 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" opacity=".8"/>
+    <path d="M1160 410 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" opacity=".8"/>
+  </g>
+</svg>

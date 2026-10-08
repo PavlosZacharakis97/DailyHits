@@ -1,0 +1,10 @@
+# Dev/test tooling on top of runtime dependencies.
+-r requirements.txt
+factory_boy==3.3.3
+Faker==40.41.0
+iniconfig==2.3.0
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.1.1
+pytest-django==4.14.0
+ruff==0.16.10

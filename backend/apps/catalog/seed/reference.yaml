@@ -1,0 +1,189 @@
+# Reference data loaded by `python manage.py seed_reference`.
+# The command is idempotent: it creates missing rows and updates changed ones,
+# keyed by `code` / `iso_code` / `name`. It never deletes anything.
+
+editions:
+  - {code: world, name: World Hits, timezone: UTC, is_active: true}
+
+regions:
+  - {code: europe, name: Europe}
+  - {code: north-america, name: North America}
+  - {code: latin-america, name: Latin America}
+  - {code: asia, name: Asia}
+  - {code: oceania, name: Oceania}
+  - {code: mena, name: Middle East & North Africa}
+  - {code: sub-saharan-africa, name: Sub-Saharan Africa}
+
+# region: code from the list above
+countries:
+  europe:
+    AT: Austria
+    BE: Belgium
+    BG: Bulgaria
+    HR: Croatia
+    CZ: Czechia
+    DK: Denmark
+    EE: Estonia
+    FI: Finland
+    FR: France
+    DE: Germany
+    GR: Greece
+    HU: Hungary
+    IS: Iceland
+    IE: Ireland
+    IT: Italy
+    LV: Latvia
+    LT: Lithuania
+    NL: Netherlands
+    "NO": Norway
+    PL: Poland
+    PT: Portugal
+    RO: Romania
+    RU: Russia
+    RS: Serbia
+    SK: Slovakia
+    SI: Slovenia
+    ES: Spain
+    SE: Sweden
+    CH: Switzerland
+    TR: Turkey
+    UA: Ukraine
+    GB: United Kingdom
+  north-america:
+    CA: Canada
+    US: United States
+  latin-america:
+    AR: Argentina
+    BB: Barbados
+    BR: Brazil
+    CL: Chile
+    CO: Colombia
+    CU: Cuba
+    DO: Dominican Republic
+    HT: Haiti
+    JM: Jamaica
+    MX: Mexico
+    PA: Panama
+    PE: Peru
+    PR: Puerto Rico
+    TT: Trinidad and Tobago
+    VE: Venezuela
+  asia:
+    CN: China
+    IN: India
+    ID: Indonesia
+    JP: Japan
+    KZ: Kazakhstan
+    MY: Malaysia
+    PK: Pakistan
+    PH: Philippines
+    SG: Singapore
+    KR: South Korea
+    TH: Thailand
+    VN: Vietnam
+  oceania:
+    AU: Australia
+    NZ: New Zealand
+  mena:
+    DZ: Algeria
+    EG: Egypt
+    IR: Iran
+    IQ: Iraq
+    IL: Israel
+    LB: Lebanon
+    MA: Morocco
+    SA: Saudi Arabia
+    TN: Tunisia
+    AE: United Arab Emirates
+  sub-saharan-africa:
+    CM: Cameroon
+    CD: DR Congo
+    GH: Ghana
+    KE: Kenya
+    ML: Mali
+    NG: Nigeria
+    SN: Senegal
+    ZA: South Africa
+
+# ISO 639-1, or ISO 639-3 where no two-letter code exists.
+languages:
+  ar: Arabic
+  zh: Chinese
+  hr: Croatian
+  cs: Czech
+  da: Danish
+  nl: Dutch
+  en: English
+  fi: Finnish
+  fr: French
+  de: German
+  el: Greek
+  he: Hebrew
+  hi: Hindi
+  hu: Hungarian
+  is: Icelandic
+  id: Indonesian
+  ga: Irish
+  it: Italian
+  ja: Japanese
+  ko: Korean
+  la: Latin
+  "no": Norwegian
+  fa: Persian
+  pl: Polish
+  pt: Portuguese
+  pa: Punjabi
+  ro: Romanian
+  ru: Russian
+  sr: Serbian
+  es: Spanish
+  sw: Swahili
+  sv: Swedish
+  tl: Tagalog
+  tr: Turkish
+  uk: Ukrainian
+  yo: Yoruba
+  zu: Zulu
+  zxx: No lyrics   # instrumentals
+
+# genre: [styles]
+genres:
+  Pop: [Dance-Pop, Synth-Pop, Electropop, Teen Pop, Indie Pop, K-Pop, Pop Ballad]
+  Rock: [Rock and Roll, Classic Rock, Hard Rock, Glam Rock, Soft Rock, Pop Rock, Punk Rock,
+         New Wave, Alternative Rock, Grunge, Indie Rock, Progressive Rock]
+  Metal: [Heavy Metal, Glam Metal, Thrash Metal, Nu Metal]
+  Hip-Hop: [Pop Rap, Gangsta Rap, Trap, Boom Bap]
+  R&B/Soul: [Soul, Motown, Contemporary R&B, Neo Soul]
+  Electronic: [House, Techno, Trance, Eurodance, EDM, Drum and Bass]
+  Disco/Funk: [Disco, Funk, Nu-Disco]
+  Country: [Classic Country, Country Pop, Country Rock]
+  Folk: [Folk Rock, Singer-Songwriter, Indie Folk]
+  Latin: [Latin Pop, Reggaeton, Salsa, Bachata, Bossa Nova]
+  Reggae: [Roots Reggae, Ska, Dancehall]
+  Jazz/Blues: [Vocal Jazz, Swing, Blues, Blues Rock]
+  Classical/Soundtrack: [Film Score, Musical Theatre, Classical Crossover]
+
+# Symmetric pairs: a guess in a related genre gets a yellow genre tile.
+related_genres:
+  - [Rock, Metal]
+  - [Rock, Folk]
+  - [Rock, Jazz/Blues]
+  - [Pop, Electronic]
+  - [Pop, R&B/Soul]
+  - [Pop, Disco/Funk]
+  - [Hip-Hop, R&B/Soul]
+  - [R&B/Soul, Disco/Funk]
+  - [R&B/Soul, Jazz/Blues]
+  - [Electronic, Disco/Funk]
+  - [Country, Folk]
+  - [Latin, Reggae]
+
+# group: [themes] — by the meaning of the lyrics, not the mood of the music.
+themes:
+  Love: [Falling in Love, Breakup / Heartbreak, Passion / Desire, Jealousy / Infidelity]
+  Fun: [Party / Dancing, Freedom / Carefree, Summer / Holiday]
+  Life & Feelings: [Nostalgia / Memories, Loneliness / Sadness, Motivation / Strength,
+                    Growing Up / Self-Discovery]
+  Society: [Protest / Politics, War / Peace, Social Issues, Money / Success]
+  Stories: [Story / Character, City / Place, Road / Journey]
+  Special: [Religion / Spirituality, Death / Loss, Fantasy / Surreal]

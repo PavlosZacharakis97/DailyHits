@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="Nunito, Poppins, 'SF Pro Rounded', ui-rounded, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17112b"/>
+      <stop offset=".55" stop-color="#241536"/>
+      <stop offset="1" stop-color="#2a1a29"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+    <linearGradient id="logo" x1="0" x2="1"><stop offset="0" stop-color="#b79bff"/><stop offset="1" stop-color="#f0a0e0"/></linearGradient>
+    <clipPath id="artClip"><rect x="70" y="140" width="400" height="400" rx="28"/></clipPath>
+    <linearGradient id="artSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2150"/><stop offset="1" stop-color="#4a2a4c"/></linearGradient>
+    <radialGradient id="sun" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ffd2a8"/><stop offset="1" stop-color="#f3928a"/></radialGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ffb59a" stop-opacity=".45"/><stop offset="1" stop-color="#ffb59a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#7d62d9"/><stop offset="1" stop-color="#c46aa8"/></linearGradient>
+    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#3f9f97"/><stop offset="1" stop-color="#7a63d6"/></linearGradient>
+    <linearGradient id="w3" x1="0" x2="1"><stop offset="0" stop-color="#4f7fd6"/><stop offset="1" stop-color="#a95cc4"/></linearGradient>
+    <linearGradient id="w4" x1="0" x2="1"><stop offset="0" stop-color="#c46a86"/><stop offset=".6" stop-color="#8462d0"/><stop offset="1" stop-color="#4fae8f"/></linearGradient>
+    <linearGradient id="btn" x1="0" x2="1"><stop offset="0" stop-color="#9b6cff"/><stop offset="1" stop-color="#d66ac4"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".6">
+    <circle cx="150" cy="520" r="200" fill="#3c3a9a"/>
+    <circle cx="1080" cy="90" r="190" fill="#7a2f6a"/>
+    <circle cx="700" cy="640" r="220" fill="#4a2f8f"/>
+    <circle cx="1150" cy="560" r="160" fill="#6b3a3a"/>
+  </g>
+
+  <text x="70" y="102" font-size="46" font-weight="800" fill="url(#logo)" letter-spacing="-1">dailyhit</text>
+
+  <g filter="url(#shadow)">
+    <rect x="62" y="132" width="416" height="416" rx="34" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".15"/>
+  </g>
+  <g clip-path="url(#artClip)">
+    <rect x="70" y="140" width="400" height="400" fill="url(#artSky)"/>
+    <circle cx="340" cy="255" r="140" fill="url(#glow)"/>
+    <circle cx="340" cy="255" r="78" fill="url(#sun)">
+      <animate attributeName="r" values="76;82;76" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M70 330 C150 270 220 300 280 330 S410 380 470 300 V540 H70Z" fill="url(#w1)" opacity=".8"/>
+    <path d="M70 380 C140 340 210 360 270 395 S400 420 470 360 V540 H70Z" fill="url(#w2)" opacity=".75"/>
+    <path d="M70 430 C150 400 230 440 300 430 S420 390 470 420 V540 H70Z" fill="url(#w3)" opacity=".7"/>
+    <path d="M70 480 C160 450 240 500 320 480 S430 450 470 470 V540 H70Z" fill="url(#w4)" opacity=".85"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="110" width="620" height="472" rx="32" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+  </g>
+
+  <text x="560" y="176" font-size="40" font-weight="800" fill="#cbb5ff">Guess the song</text>
+  <rect x="938" y="140" width="170" height="38" rx="19" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".2"/>
+  <text x="1023" y="165" font-size="16" font-weight="600" fill="#cbb5ff" text-anchor="middle">♫ 1 song a day</text>
+  <text x="560" y="236" font-size="46" font-weight="800" fill="#a88aff" letter-spacing="6">????</text>
+
+  <rect x="560" y="256" width="78" height="32" rx="16" fill="#3a2b68"/>
+  <text x="599" y="278" font-size="15" font-weight="600" fill="#cbb5ff" text-anchor="middle">Pop</text>
+  <rect x="648" y="256" width="84" height="32" rx="16" fill="#1e4740"/>
+  <text x="690" y="278" font-size="15" font-weight="600" fill="#8fe0c8" text-anchor="middle">Indie</text>
+  <rect x="742" y="256" width="122" height="32" rx="16" fill="#572a44"/>
+  <text x="803" y="278" font-size="15" font-weight="600" fill="#ffa3c8" text-anchor="middle">Alternative</text>
+
+  <g font-weight="700">
+    <rect x="560" y="312" width="130" height="88" rx="18" fill="#2c2840" stroke="#433c5c"/>
+    <text x="578" y="342" font-size="12" letter-spacing="1.5" fill="#8f88ad">ARTIST</text>
+    <text x="578" y="378" font-size="21" fill="#bdb6d6">Queen</text>
+
+    <rect x="702" y="312" width="130" height="88" rx="18" fill="#41361b" stroke="#7a6326"/>
+    <text x="720" y="342" font-size="12" letter-spacing="1.5" fill="#e0b84f">YEAR</text>
+    <text x="720" y="378" font-size="21" fill="#ffd36b">1984 ↑</text>
+
+    <rect x="844" y="312" width="130" height="88" rx="18" fill="#1b3f31" stroke="#2f6e52"/>
+    <text x="862" y="342" font-size="12" letter-spacing="1.5" fill="#6fd6a2">GENRE</text>
+    <text x="862" y="378" font-size="21" fill="#8ef0bc">Pop</text>
+
+    <rect x="986" y="312" width="130" height="88" rx="18" fill="#41361b" stroke="#7a6326"/>
+    <text x="1004" y="342" font-size="12" letter-spacing="1.5" fill="#e0b84f">STYLE</text>
+    <text x="1004" y="378" font-size="18" fill="#ffd36b">Synth-pop</text>
+
+    <rect x="560" y="412" width="130" height="88" rx="18" fill="#1b3f31" stroke="#2f6e52"/>
+    <text x="578" y="442" font-size="12" letter-spacing="1.5" fill="#6fd6a2">VOCAL</text>
+    <text x="578" y="478" font-size="21" fill="#8ef0bc">Male</text>
+
+    <rect x="702" y="412" width="130" height="88" rx="18" fill="#1b3f31" stroke="#2f6e52"/>
+    <text x="720" y="442" font-size="12" letter-spacing="1.5" fill="#6fd6a2">THEME</text>
+    <text x="720" y="478" font-size="21" fill="#8ef0bc">Love</text>
+
+    <rect x="844" y="412" width="130" height="88" rx="18" fill="#2c2840" stroke="#433c5c"/>
+    <text x="862" y="442" font-size="12" letter-spacing="1.5" fill="#8f88ad">COUNTRY</text>
+    <text x="862" y="478" font-size="21" fill="#bdb6d6">UK</text>
+
+    <rect x="986" y="412" width="130" height="88" rx="18" fill="#1b3f31" stroke="#2f6e52"/>
+    <text x="1004" y="442" font-size="12" letter-spacing="1.5" fill="#6fd6a2">LANGUAGE</text>
+    <text x="1004" y="478" font-size="21" fill="#8ef0bc">English</text>
+  </g>
+
+  <rect x="560" y="518" width="556" height="46" rx="23" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".16"/>
+  <text x="584" y="548" font-size="18" fill="#a88aff">♪</text>
+  <text x="610" y="547" font-size="16" fill="#8f88ad">Type your guess…</text>
+  <rect x="990" y="522" width="122" height="38" rx="19" fill="url(#btn)"/>
+  <text x="1051" y="547" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Submit</text>
+
+  <g font-weight="700">
+    <text x="488" y="128" font-size="30" opacity=".6" fill="#a88aff">♪
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="1150" y="300" font-size="26" opacity=".5" fill="#f08cc4">♫
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="40" y="590" font-size="28" opacity=".5" fill="#6fd6c0">♪
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g fill="#ffffff">
+    <path d="M300 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" opacity=".7">
+      <animate attributeName="opacity" values=".7;.2;.7" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M880 60 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" opacity=".6">
+      <animate attributeName="opacity" values=".2;.7;.2" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1160 410 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" opacity=".6"/>
+    <circle cx="210" cy="60" r="1.5" opacity=".5"/><circle cx="640" cy="70" r="1.5" opacity=".4"/><circle cx="1010" cy="40" r="1.2" opacity=".5"/><circle cx="500" cy="600" r="1.3" opacity=".4"/>
+  </g>
+</svg>

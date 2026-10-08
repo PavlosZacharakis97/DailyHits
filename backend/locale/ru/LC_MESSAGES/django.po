@@ -1,0 +1,712 @@
+# Russian translation of the DailyHit admin.
+msgid ""
+msgstr ""
+"Project-Id-Version: dailyhit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-06 10:30+0000\n"
+"PO-Revision-Date: 2026-10-06 10:30+0000\n"
+"Last-Translator: DailyHit\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps/catalog/admin.py:70 apps/catalog/models.py:169
+msgid "related genres"
+msgstr "похожие жанры"
+
+#: apps/catalog/admin.py:137
+msgid "decade"
+msgstr "десятилетие"
+
+#: apps/catalog/admin.py:159
+msgid "featured artist"
+msgstr "приглашённый исполнитель"
+
+#: apps/catalog/admin.py:160
+msgid "featured artists"
+msgstr "приглашённые исполнители"
+
+#: apps/catalog/admin.py:213
+msgid "Tiles"
+msgstr "Плитки"
+
+#: apps/catalog/admin.py:214
+msgid "Links"
+msgstr "Ссылки"
+
+#: apps/catalog/admin.py:215
+msgid "Moderation"
+msgstr "Модерация"
+
+#: apps/catalog/admin.py:227
+msgid "problems"
+msgstr "проблемы"
+
+#: apps/catalog/admin.py:257
+msgid "The song was saved with status “Review” because it cannot be verified yet:"
+msgstr "Песня сохранена со статусом «На проверке», потому что её пока нельзя подтвердить:"
+
+#: apps/catalog/admin.py:263
+msgid "Move selected songs to review"
+msgstr "Отправить выбранные песни на проверку"
+
+#: apps/catalog/admin.py:268
+#, python-format
+msgid "%(n)d song moved to review."
+msgid_plural "%(n)d songs moved to review."
+msgstr[0] "%(n)d песня отправлена на проверку."
+msgstr[1] "%(n)d песни отправлены на проверку."
+msgstr[2] "%(n)d песен отправлено на проверку."
+msgstr[3] "%(n)d песен отправлено на проверку."
+
+#: apps/catalog/admin.py:273
+msgid "Verify selected songs (only those that pass validation)"
+msgstr "Подтвердить выбранные песни (только прошедшие проверку)"
+
+#: apps/catalog/admin.py:286
+#, python-format
+msgid "%(n)d song verified."
+msgid_plural "%(n)d songs verified."
+msgstr[0] "%(n)d песня подтверждена."
+msgstr[1] "%(n)d песни подтверждены."
+msgstr[2] "%(n)d песен подтверждено."
+msgstr[3] "%(n)d песен подтверждено."
+
+#: apps/catalog/apps.py:8
+msgid "Catalog"
+msgstr "Каталог"
+
+#: apps/catalog/models.py:21
+msgid "A YouTube video ID is exactly 11 characters: letters, digits, - or _."
+msgstr "ID видео YouTube — ровно 11 символов: буквы, цифры, - или _."
+
+#: apps/catalog/models.py:27
+#, python-format
+msgid "Unknown time zone: %(value)s"
+msgstr "Неизвестный часовой пояс: %(value)s"
+
+#: apps/catalog/models.py:32 apps/catalog/models.py:36
+msgid "Sources must be a list of URLs."
+msgstr "Источники должны быть списком URL."
+
+#: apps/catalog/models.py:50
+msgid "Solo"
+msgstr "Сольный"
+
+#: apps/catalog/models.py:51
+msgid "Group"
+msgstr "Группа"
+
+#: apps/catalog/models.py:52
+msgid "Duo"
+msgstr "Дуэт"
+
+#: apps/catalog/models.py:53
+msgid "Collaboration"
+msgstr "Коллаборация"
+
+#: apps/catalog/models.py:57
+msgid "Male"
+msgstr "Мужской"
+
+#: apps/catalog/models.py:58
+msgid "Female"
+msgstr "Женский"
+
+#: apps/catalog/models.py:59
+msgid "Mixed"
+msgstr "Смешанный"
+
+#: apps/catalog/models.py:60
+msgid "Instrumental"
+msgstr "Инструментал"
+
+#: apps/catalog/models.py:64
+msgid "Easy"
+msgstr "Лёгкая"
+
+#: apps/catalog/models.py:65 apps/catalog/models.py:83
+msgid "Medium"
+msgstr "Средняя"
+
+#: apps/catalog/models.py:66
+msgid "Hard"
+msgstr "Сложная"
+
+#: apps/catalog/models.py:70
+msgid "Draft"
+msgstr "Черновик"
+
+#: apps/catalog/models.py:71
+msgid "Review"
+msgstr "На проверке"
+
+#: apps/catalog/models.py:72
+msgid "Verified"
+msgstr "Подтверждена"
+
+#: apps/catalog/models.py:76
+msgid "Primary"
+msgstr "Основной"
+
+#: apps/catalog/models.py:77
+msgid "Featured"
+msgstr "Приглашённый"
+
+#: apps/catalog/models.py:82
+msgid "Easy — subtle"
+msgstr "Слабый — почти не выдаёт ответ"
+
+#: apps/catalog/models.py:84
+msgid "Strong — revealing"
+msgstr "Сильный — почти выдаёт ответ"
+
+#: apps/catalog/models.py:88 apps/game/models.py:88 apps/game/models.py:120
+msgid "created at"
+msgstr "создано"
+
+#: apps/catalog/models.py:89
+msgid "updated at"
+msgstr "изменено"
+
+#: apps/catalog/models.py:99 apps/catalog/models.py:225
+msgid "code"
+msgstr "код"
+
+#: apps/catalog/models.py:100 apps/catalog/models.py:112
+#: apps/catalog/models.py:138 apps/catalog/models.py:164
+#: apps/catalog/models.py:183 apps/catalog/models.py:196
+#: apps/catalog/models.py:209 apps/catalog/models.py:226
+#: apps/catalog/models.py:249 apps/catalog/models.py:267
+msgid "name"
+msgstr "название"
+
+#: apps/catalog/models.py:103 apps/catalog/models.py:120
+msgid "region"
+msgstr "регион"
+
+#: apps/catalog/models.py:104
+msgid "regions"
+msgstr "регионы"
+
+#: apps/catalog/models.py:114 apps/catalog/models.py:140
+msgid "ISO code"
+msgstr "код ISO"
+
+#: apps/catalog/models.py:117
+msgid "Two uppercase letters, ISO 3166-1 alpha-2."
+msgstr "Две заглавные буквы, ISO 3166-1 alpha-2."
+
+#: apps/catalog/models.py:124 apps/catalog/models.py:270
+msgid "country"
+msgstr "страна"
+
+#: apps/catalog/models.py:125
+msgid "countries"
+msgstr "страны"
+
+#: apps/catalog/models.py:144
+msgid "ISO 639-1 (en), or ISO 639-3 when there is no two-letter code (zxx = no lyrics)."
+msgstr "ISO 639-1 (en) или ISO 639-3, если двухбуквенного кода нет (zxx — без слов)."
+
+#: apps/catalog/models.py:146
+msgid "Two or three lowercase letters."
+msgstr "Две или три строчные буквы."
+
+#: apps/catalog/models.py:150 apps/catalog/models.py:358
+msgid "language"
+msgstr "язык"
+
+#: apps/catalog/models.py:151
+msgid "languages"
+msgstr "языки"
+
+#: apps/catalog/models.py:170
+msgid "A guess in a related genre gets a yellow tile."
+msgstr "Если игрок назвал песню похожего жанра, плитка будет жёлтой."
+
+#: apps/catalog/models.py:174 apps/catalog/models.py:184
+#: apps/catalog/models.py:339 apps/game/admin.py:33
+msgid "genre"
+msgstr "жанр"
+
+#: apps/catalog/models.py:175
+msgid "genres"
+msgstr "жанры"
+
+#: apps/catalog/models.py:187
+msgid "style"
+msgstr "стиль"
+
+#: apps/catalog/models.py:188 apps/catalog/models.py:345
+msgid "styles"
+msgstr "стили"
+
+#: apps/catalog/models.py:197 apps/catalog/models.py:213
+#: apps/catalog/models.py:583
+msgid "order"
+msgstr "порядок"
+
+#: apps/catalog/models.py:200
+msgid "theme group"
+msgstr "группа тем"
+
+#: apps/catalog/models.py:201
+msgid "theme groups"
+msgstr "группы тем"
+
+#: apps/catalog/models.py:211
+msgid "group"
+msgstr "группа"
+
+#: apps/catalog/models.py:216 apps/catalog/models.py:524
+msgid "theme"
+msgstr "тема"
+
+#: apps/catalog/models.py:217 apps/catalog/models.py:349
+msgid "themes"
+msgstr "темы"
+
+#: apps/catalog/models.py:228
+msgid "time zone"
+msgstr "часовой пояс"
+
+#: apps/catalog/models.py:232
+msgid "The daily puzzle changes at midnight in this time zone."
+msgstr "Песня дня меняется в полночь по этому часовому поясу."
+
+#: apps/catalog/models.py:234
+msgid "active"
+msgstr "активна"
+
+#: apps/catalog/models.py:237 apps/game/models.py:15
+msgid "edition"
+msgstr "версия игры"
+
+#: apps/catalog/models.py:238 apps/catalog/models.py:377
+msgid "editions"
+msgstr "версии игры"
+
+#: apps/catalog/models.py:250 apps/catalog/models.py:272
+#: apps/catalog/models.py:369
+msgid "MusicBrainz ID"
+msgstr "MusicBrainz ID"
+
+#: apps/catalog/models.py:253 apps/catalog/models.py:297
+msgid "person"
+msgstr "человек"
+
+#: apps/catalog/models.py:254
+msgid "people"
+msgstr "люди"
+
+#: apps/catalog/models.py:268
+msgid "type"
+msgstr "тип"
+
+#: apps/catalog/models.py:274
+msgid "members"
+msgstr "участники"
+
+#: apps/catalog/models.py:278 apps/catalog/models.py:294
+#: apps/catalog/models.py:477 apps/game/admin.py:29
+msgid "artist"
+msgstr "исполнитель"
+
+#: apps/catalog/models.py:279 apps/catalog/models.py:388
+msgid "artists"
+msgstr "исполнители"
+
+#: apps/catalog/models.py:301
+msgid "artist member"
+msgstr "участник исполнителя"
+
+#: apps/catalog/models.py:302
+msgid "artist members"
+msgstr "участники исполнителей"
+
+#: apps/catalog/models.py:320
+msgid "title"
+msgstr "название"
+
+#: apps/catalog/models.py:322
+msgid "Official title, without “(Remastered)”, “– Radio Edit” and the like."
+msgstr "Официальное название, без «(Remastered)», «– Radio Edit» и подобного."
+
+#: apps/catalog/models.py:328
+msgid "primary artist"
+msgstr "основной исполнитель"
+
+#: apps/catalog/models.py:329
+msgid "The artist credited on the original release. Featured artists go below."
+msgstr "Исполнитель, указанный на оригинальном релизе. Приглашённые исполнители — ниже."
+
+#: apps/catalog/models.py:332
+msgid "year"
+msgstr "год"
+
+#: apps/catalog/models.py:336
+msgid "Year of the first official release (not a remaster or compilation)."
+msgstr "Год первого официального релиза (не ремастер и не сборник)."
+
+#: apps/catalog/models.py:346
+msgid "1–2 styles."
+msgstr "1–2 стиля."
+
+#: apps/catalog/models.py:351
+msgid "vocal"
+msgstr "вокал"
+
+#: apps/catalog/models.py:362
+msgid "YouTube video ID"
+msgstr "ID видео YouTube"
+
+#: apps/catalog/models.py:367
+msgid "Without it the game links to a YouTube search for “artist title”."
+msgstr "Если пусто, игра даст ссылку на поиск YouTube «исполнитель название»."
+
+#: apps/catalog/models.py:371 apps/game/admin.py:37
+msgid "difficulty"
+msgstr "сложность"
+
+#: apps/catalog/models.py:374 apps/game/models.py:86
+msgid "status"
+msgstr "статус"
+
+#: apps/catalog/models.py:380
+msgid "sources"
+msgstr "источники"
+
+#: apps/catalog/models.py:384
+msgid "List of source URLs."
+msgstr "Список URL источников."
+
+#: apps/catalog/models.py:386
+msgid "moderator notes"
+msgstr "заметки модератора"
+
+#: apps/catalog/models.py:392 apps/catalog/models.py:474
+#: apps/catalog/models.py:521 apps/catalog/models.py:547
+#: apps/catalog/models.py:575 apps/game/models.py:18 apps/game/models.py:118
+msgid "song"
+msgstr "песня"
+
+#: apps/catalog/models.py:393
+msgid "songs"
+msgstr "песни"
+
+#: apps/catalog/models.py:400
+msgid "This artist already has a song with this title."
+msgstr "У этого исполнителя уже есть песня с таким названием."
+
+#: apps/catalog/models.py:407
+msgid "The year must be between 1900 and the current year."
+msgstr "Год должен быть от 1900 до текущего."
+
+#: apps/catalog/models.py:434
+msgid "A verified song needs a year, genre, vocal and language."
+msgstr "У подтверждённой песни должны быть год, жанр, вокал и язык."
+
+#: apps/catalog/models.py:457
+#, python-format
+msgid "The year cannot be later than %(year)s."
+msgstr "Год не может быть позже %(year)s."
+
+#: apps/catalog/models.py:480
+msgid "role"
+msgstr "роль"
+
+#: apps/catalog/models.py:484
+msgid "song artist"
+msgstr "исполнитель песни"
+
+#: apps/catalog/models.py:485
+msgid "song artists"
+msgstr "исполнители песни"
+
+#: apps/catalog/models.py:515
+msgid "This artist is already the primary artist of the song."
+msgstr "Этот исполнитель уже основной исполнитель песни."
+
+#: apps/catalog/models.py:526
+msgid "primary"
+msgstr "главная"
+
+#: apps/catalog/models.py:529
+msgid "song theme"
+msgstr "тема песни"
+
+#: apps/catalog/models.py:530
+msgid "song themes"
+msgstr "темы песни"
+
+#: apps/catalog/models.py:538
+msgid "A song can have only one primary theme."
+msgstr "У песни может быть только одна главная тема."
+
+#: apps/catalog/models.py:549 apps/catalog/models.py:555
+msgid "alias"
+msgstr "вариант написания"
+
+#: apps/catalog/models.py:551
+msgid "Alternative spelling players may type, e.g. “Despasito”."
+msgstr "Другое написание, которое может ввести игрок, например «Деспасито»."
+
+#: apps/catalog/models.py:556
+msgid "aliases"
+msgstr "варианты написания"
+
+#: apps/catalog/models.py:563
+msgid "This song already has this alias."
+msgstr "У песни уже есть такой вариант написания."
+
+#: apps/catalog/models.py:577
+msgid "text"
+msgstr "текст"
+
+#: apps/catalog/models.py:579
+msgid "In your own words. No lyric quotes. Must not mention the title or the artist."
+msgstr "Своими словами. Без цитат из текста песни. Без названия песни и имени исполнителя."
+
+#: apps/catalog/models.py:582
+msgid "strength"
+msgstr "сила"
+
+#: apps/catalog/models.py:584
+msgid "source URL"
+msgstr "URL источника"
+
+#: apps/catalog/models.py:585
+msgid "verified"
+msgstr "проверен"
+
+#: apps/catalog/models.py:588
+msgid "fact"
+msgstr "факт"
+
+#: apps/catalog/models.py:589
+msgid "facts"
+msgstr "факты"
+
+#: apps/catalog/validation.py:68
+msgid "No year."
+msgstr "Нет года."
+
+#: apps/catalog/validation.py:70
+msgid "No genre."
+msgstr "Нет жанра."
+
+#: apps/catalog/validation.py:72
+msgid "No language."
+msgstr "Нет языка."
+
+#: apps/catalog/validation.py:74
+msgid "No vocal."
+msgstr "Не указан вокал."
+
+#: apps/catalog/validation.py:78
+msgid "No styles."
+msgstr "Нет стилей."
+
+#: apps/catalog/validation.py:80
+#, python-format
+msgid "More than %(n)s styles."
+msgstr "Больше %(n)s стилей."
+
+#: apps/catalog/validation.py:84
+msgid "No themes."
+msgstr "Нет тем."
+
+#: apps/catalog/validation.py:87
+#, python-format
+msgid "More than %(n)s themes."
+msgstr "Больше %(n)s тем."
+
+#: apps/catalog/validation.py:89
+msgid "Exactly one theme must be primary."
+msgstr "Главной должна быть ровно одна тема."
+
+#: apps/catalog/validation.py:92
+msgid "Not part of any edition."
+msgstr "Не входит ни в одну версию игры."
+
+#: apps/catalog/validation.py:96
+msgid "No facts."
+msgstr "Нет фактов."
+
+#: apps/catalog/validation.py:98
+#, python-format
+msgid "Fewer than %(n)s facts."
+msgstr "Меньше %(n)s фактов."
+
+#: apps/catalog/validation.py:100
+msgid "A fact has no source."
+msgstr "У факта нет источника."
+
+#: apps/catalog/validation.py:107
+#, python-format
+msgid "Fact #%(order)s mentions “%(name)s”."
+msgstr "Факт №%(order)s упоминает «%(name)s»."
+
+#: apps/catalog/validation.py:112
+msgid "No YouTube video."
+msgstr "Нет видео YouTube."
+
+#: apps/catalog/validation.py:114
+msgid "No sources."
+msgstr "Нет источников."
+
+#: apps/game/admin.py:48
+#, python-format
+msgid "%(edition)s: no puzzle in the next %(days)s days on %(dates)s."
+msgstr "%(edition)s: в ближайшие %(days)s дней нет песни на даты %(dates)s."
+
+#: apps/game/apps.py:8
+msgid "Game"
+msgstr "Игра"
+
+#: apps/game/models.py:17
+msgid "date"
+msgstr "дата"
+
+#: apps/game/models.py:20
+msgid "number"
+msgstr "номер"
+
+#: apps/game/models.py:22
+msgid "Issue number. Leave empty to use the next free number."
+msgstr "Номер выпуска. Оставьте пустым, чтобы взять следующий свободный."
+
+#: apps/game/models.py:26
+msgid "daily puzzle"
+msgstr "песня дня"
+
+#: apps/game/models.py:27
+msgid "daily puzzles"
+msgstr "песни дня"
+
+#: apps/game/models.py:33
+msgid "This edition already has a puzzle on this date."
+msgstr "В этой версии игры на эту дату уже есть песня."
+
+#: apps/game/models.py:38
+msgid "This edition already has a puzzle with this number."
+msgstr "В этой версии игры уже есть выпуск с таким номером."
+
+#: apps/game/models.py:69
+msgid "In progress"
+msgstr "Идёт"
+
+#: apps/game/models.py:70
+msgid "Won"
+msgstr "Угадал"
+
+#: apps/game/models.py:71
+msgid "Lost"
+msgstr "Не угадал"
+
+#: apps/game/models.py:72
+msgid "Gave up"
+msgstr "Сдался"
+
+#: apps/game/models.py:80
+msgid "player token"
+msgstr "токен игрока"
+
+#: apps/game/models.py:80
+msgid "Anonymous player ID from an httpOnly cookie."
+msgstr "Анонимный ID игрока из httpOnly cookie."
+
+#: apps/game/models.py:83
+msgid "puzzle"
+msgstr "песня дня"
+
+#: apps/game/models.py:89
+msgid "finished at"
+msgstr "завершена"
+
+#: apps/game/models.py:92
+msgid "game session"
+msgstr "игровая сессия"
+
+#: apps/game/models.py:93
+msgid "game sessions"
+msgstr "игровые сессии"
+
+#: apps/game/models.py:116
+msgid "session"
+msgstr "сессия"
+
+#: apps/game/models.py:119
+msgid "attempt number"
+msgstr "номер попытки"
+
+#: apps/game/models.py:123
+msgid "guess"
+msgstr "попытка"
+
+#: apps/game/models.py:124
+msgid "guesses"
+msgstr "попытки"
+
+#: apps/game/schedule.py:20
+msgid "Only verified songs can be scheduled."
+msgstr "В расписание можно ставить только подтверждённые песни."
+
+#: apps/game/schedule.py:23
+#, python-format
+msgid "The song is not part of the “%(edition)s” edition."
+msgstr "Песня не входит в версию игры «%(edition)s»."
+
+#: apps/game/schedule.py:37
+#, python-format
+msgid "Already scheduled on %(date)s; a song may repeat once in %(days)s days."
+msgstr "Уже стоит в расписании на %(date)s; песня может повторяться раз в %(days)s дней."
+
+#: apps/game/schedule.py:51
+#, python-format
+msgid "%(artist)s is also on %(date)s; an artist cannot play two days in a row."
+msgstr "%(artist)s уже стоит на %(date)s; один исполнитель не может быть два дня подряд."
+
+#: apps/game/schedule.py:79
+#, python-format
+msgid "%(days)s days in a row from %(date)s are all %(genre)s."
+msgstr "%(days)s дня подряд с %(date)s один жанр: %(genre)s."
+
+#: apps/game/schedule.py:84
+#, python-format
+msgid "%(days)s hard songs in a row from %(date)s."
+msgstr "%(days)s сложные песни подряд с %(date)s."
+
+#: apps/importer/apps.py:8
+msgid "Import"
+msgstr "Импорт"
+
+#: config/settings.py:95
+msgid "English"
+msgstr "Английский"
+
+#: config/settings.py:96
+msgid "Russian"
+msgstr "Русский"
+
+#: config/urls.py:8
+msgid "DailyHit administration"
+msgstr "Администрирование DailyHit"
+
+#: config/urls.py:9
+msgid "DailyHit admin"
+msgstr "Админка DailyHit"
+
+#: config/urls.py:10
+msgid "Content"
+msgstr "Контент"
+
+#: templates/admin/base_site.html:11
+msgid "Language"
+msgstr "Язык"

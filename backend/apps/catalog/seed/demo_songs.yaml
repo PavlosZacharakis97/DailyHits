@@ -1,0 +1,431 @@
+# Demo songs for development and manual testing, loaded by `python manage.py seed_demo`.
+# Facts were checked against the linked Wikipedia articles (2026-10-06).
+# Fact strength: easy = subtle (hint #1), strong = revealing (hint #2).
+
+people:
+  - Freddie Mercury
+  - Brian May
+  - Roger Taylor
+  - John Deacon
+  - Michael Jackson
+  - Kurt Cobain
+  - Krist Novoselic
+  - Dave Grohl
+  - Luis Fonsi
+  - Ramón Ayala
+  - Adele Adkins
+  - Park Jae-sang
+  - Ed Sheeran
+  - Agnetha Fältskog
+  - Björn Ulvaeus
+  - Benny Andersson
+  - Anni-Frid Lyngstad
+  - Abel Tesfaye
+  - Bob Marley
+
+  - Morten Harket
+  - Magne Furuholmen
+  - Paul Waaktaar-Savoy
+  - Stevie Nicks
+  - Lindsey Buckingham
+  - Mick Fleetwood
+  - John McVie
+  - Christine McVie
+  - Annie Lennox
+  - Dave Stewart
+  - Thomas Bangalter
+  - Guy-Manuel de Homem-Christo
+  - Paul Van Haver
+  - Shakira Mebarak
+  - Wyclef Jean
+  - David Paich
+  - Jeff Porcaro
+  - Steve Lukather
+  - Bobby Kimball
+  - Steve Porcaro
+  - Wally De Backer
+  - Kimbra Johnson
+  - Gabriele Kerner
+  - Carlo Karges
+  - Uwe Fahrenkrog-Petersen
+  - James Hetfield
+  - Lars Ulrich
+  - Kirk Hammett
+  - Jason Newsted
+
+artists:
+  - {name: Queen, type: group, country: GB,
+     members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
+  - {name: Michael Jackson, type: solo, country: US, members: [Michael Jackson]}
+  - {name: Nirvana, type: group, country: US, members: [Kurt Cobain, Krist Novoselic, Dave Grohl]}
+  - {name: Luis Fonsi, type: solo, country: PR, members: [Luis Fonsi]}
+  - {name: Daddy Yankee, type: solo, country: PR, members: [Ramón Ayala]}
+  - {name: Adele, type: solo, country: GB, members: [Adele Adkins]}
+  - {name: PSY, type: solo, country: KR, members: [Park Jae-sang]}
+  - {name: Ed Sheeran, type: solo, country: GB, members: [Ed Sheeran]}
+  - {name: ABBA, type: group, country: SE,
+     members: [Agnetha Fältskog, Björn Ulvaeus, Benny Andersson, Anni-Frid Lyngstad]}
+  - {name: The Weeknd, type: solo, country: CA, members: [Abel Tesfaye]}
+  - {name: Bob Marley & The Wailers, type: group, country: JM, members: [Bob Marley]}
+
+  - {name: a-ha, type: group, country: "NO",
+     members: [Morten Harket, Magne Furuholmen, Paul Waaktaar-Savoy]}
+  - {name: Fleetwood Mac, type: group, country: GB,
+     members: [Stevie Nicks, Lindsey Buckingham, Mick Fleetwood, John McVie, Christine McVie]}
+  - {name: Eurythmics, type: duo, country: GB, members: [Annie Lennox, Dave Stewart]}
+  - {name: Daft Punk, type: duo, country: FR, members: [Thomas Bangalter, Guy-Manuel de Homem-Christo]}
+  - {name: Stromae, type: solo, country: BE, members: [Paul Van Haver]}
+  - {name: Shakira, type: solo, country: CO, members: [Shakira Mebarak]}
+  - {name: Wyclef Jean, type: solo, country: HT, members: [Wyclef Jean]}
+  - {name: Toto, type: group, country: US,
+     members: [David Paich, Jeff Porcaro, Steve Lukather, Bobby Kimball, Steve Porcaro]}
+  - {name: Gotye, type: solo, country: AU, members: [Wally De Backer]}
+  - {name: Kimbra, type: solo, country: NZ, members: [Kimbra Johnson]}
+  - {name: Nena, type: group, country: DE,
+     members: [Gabriele Kerner, Carlo Karges, Uwe Fahrenkrog-Petersen]}
+  - {name: Metallica, type: group, country: US,
+     members: [James Hetfield, Lars Ulrich, Kirk Hammett, Jason Newsted]}
+
+songs:
+  - title: Bohemian Rhapsody
+    artist: Queen
+    year: 1975
+    genre: Rock
+    styles: [Progressive Rock, Hard Rock]
+    vocal: male
+    language: en
+    themes: [Story / Character, Death / Loss]   # first one is primary
+    difficulty: easy
+    youtube: fJ9rUzIMcZQ
+    aliases: [Bohemian Rapsody]
+    source: https://en.wikipedia.org/wiki/Bohemian_Rhapsody
+    facts:
+      - [easy, "It has no chorus at all: it moves from a ballad through an operatic passage to a hard rock section."]
+      - [medium, "It topped the UK chart for nine weeks, then spent five more weeks at number one in 1991 after the singer's death."]
+      - [strong, "A 2018 biopic about the band and its frontman shares its name with this song."]
+
+  - title: Billie Jean
+    artist: Michael Jackson
+    year: 1982
+    genre: Pop
+    styles: [Dance-Pop, Funk]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: Zi_XLOBDo_Y
+    aliases: [Billy Jean]
+    source: https://en.wikipedia.org/wiki/Billie_Jean
+    facts:
+      - [easy, "It was released in January 1983 as the second single from the singer's sixth studio album."]
+      - [medium, "It reached number one on the Billboard Hot 100 in March 1983 and stayed there for seven weeks."]
+      - [strong, "Performing it on the TV special Motown 25, the singer introduced the moonwalk."]
+
+  - title: Smells Like Teen Spirit
+    artist: Nirvana
+    year: 1991
+    genre: Rock
+    styles: [Grunge, Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Growing Up / Self-Discovery, Social Issues]
+    difficulty: medium
+    youtube: hTWKbfoikeg
+    aliases: [Smells Like Teenspirit]
+    source: https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit
+    facts:
+      - [easy, "It is the opening track and lead single of the band's second album, released in 1991."]
+      - [medium, "Its writer set out to create the ultimate pop song, borrowing the soft-and-loud dynamics of the Pixies."]
+      - [strong, "Its name comes from a deodorant: a riot grrrl singer wrote on a wall that the band's frontman smelled like it."]
+
+  - title: Despacito
+    artist: Luis Fonsi
+    featured: [Daddy Yankee]
+    year: 2017
+    genre: Latin
+    styles: [Reggaeton, Latin Pop]
+    vocal: male
+    language: es
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: kJQP7kiw5Fk
+    aliases: [Despasito, Деспасито]
+    source: https://en.wikipedia.org/wiki/Despacito
+    facts:
+      - [easy, "Its music video was shot in the La Perla neighbourhood of Old San Juan."]
+      - [medium, "It was the first Spanish-language song to top the Billboard Hot 100 since “Macarena” in 1996."]
+      - [strong, "Its video was the most-viewed on YouTube from 2017 to 2020 and the first to reach three billion views."]
+
+  - title: Rolling in the Deep
+    artist: Adele
+    year: 2010
+    genre: R&B/Soul
+    styles: [Soul]
+    vocal: female
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: medium
+    youtube: rYEDA3JcQqw
+    aliases: [Rolling in the Deap]
+    source: https://en.wikipedia.org/wiki/Rolling_in_the_Deep
+    facts:
+      - [easy, "It was written with producer Paul Epworth in a single afternoon, shortly after a breakup."]
+      - [medium, "It is the lead single and opening track of the singer's second album, and it spent seven weeks at number one in the US."]
+      - [strong, "At the 2012 Grammys it won both Record of the Year and Song of the Year."]
+
+  - title: Gangnam Style
+    artist: PSY
+    year: 2012
+    genre: Pop
+    styles: [K-Pop, Dance-Pop]
+    vocal: male
+    language: ko
+    themes: [Party / Dancing, Money / Success]
+    difficulty: easy
+    youtube: 9bZkp7q19f0
+    aliases: [Gangam Style, Oppa Gangnam Style]
+    source: https://en.wikipedia.org/wiki/Gangnam_Style
+    facts:
+      - [easy, "On 21 December 2012 its video became the first on YouTube to reach one billion views."]
+      - [medium, "It satirises the flashy lifestyle associated with an affluent district of Seoul."]
+      - [strong, "Its video made the singer's “invisible horse” dance a worldwide craze."]
+
+  - title: Shape of You
+    artist: Ed Sheeran
+    year: 2017
+    genre: Pop
+    styles: [Dance-Pop, Dancehall]
+    vocal: male
+    language: en
+    themes: [Passion / Desire, Falling in Love]
+    difficulty: easy
+    youtube: JGwWNGJdvx8
+    aliases: [Shape of U]
+    source: https://en.wikipedia.org/wiki/Shape_of_You
+    facts:
+      - [easy, "It was released on 6 January 2017, the same day as another single from the same album."]
+      - [medium, "It was first written for Little Mix, then imagined as a duet for other artists, before the label boss persuaded the writer to keep it."]
+      - [strong, "It comes from the singer-songwriter's album whose title is the division sign, ÷."]
+
+  - title: Dancing Queen
+    artist: ABBA
+    year: 1976
+    genre: Disco/Funk
+    styles: [Disco]
+    vocal: female
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: xFrGuyw1V8s
+    aliases: [Dansing Queen]
+    source: https://en.wikipedia.org/wiki/Dancing_Queen
+    facts:
+      - [easy, "It was first performed live on 18 June 1976 at a gala at the Royal Swedish Opera honouring King Carl XVI Gustaf and his bride-to-be."]
+      - [medium, "It was the group's only number-one hit in the United States, and it topped the charts in 15 other countries."]
+      - [strong, "The band wanted it to be the follow-up single to their hit “Mamma Mia”."]
+
+  - title: Blinding Lights
+    artist: The Weeknd
+    year: 2019
+    genre: Pop
+    styles: [Synth-Pop]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness, Passion / Desire]
+    difficulty: medium
+    youtube: 4NRXx6U8ABQ
+    aliases: [Blinding Light]
+    source: https://en.wikipedia.org/wiki/Blinding_Lights
+    facts:
+      - [easy, "Released on 29 November 2019, it is a deliberate callback to the sound of 1980s synth-pop."]
+      - [medium, "It spent a record 57 weeks in the top ten of the Billboard Hot 100."]
+      - [strong, "The singer performed it during his headlining set at the Super Bowl LV halftime show."]
+
+  - title: No Woman, No Cry
+    artist: Bob Marley & The Wailers
+    year: 1974
+    genre: Reggae
+    styles: [Roots Reggae]
+    vocal: male
+    language: en
+    themes: [Nostalgia / Memories, Motivation / Strength]
+    difficulty: hard
+    youtube: IT8XvzIfi4U
+    aliases: [No Woman No Cry]
+    source: https://en.wikipedia.org/wiki/No_Woman,_No_Cry
+    facts:
+      - [easy, "It first came out on a 1974 studio album, but the live recording made at London's Lyceum Theatre in July 1975 became the best-known version."]
+      - [medium, "The songwriting credit went to Vincent Ford, a friend who ran a soup kitchen in Trenchtown, Kingston."]
+      - [strong, "The lyrics look back on the singer's youth in Trenchtown, the Kingston neighbourhood where he grew up."]
+
+  # --- Harder set: less obvious picks that overlap with the songs above, so
+  # tiles often turn yellow instead of green (same decade, related genre,
+  # same region or style).
+
+  - title: Take On Me
+    artist: a-ha
+    year: 1984
+    genre: Pop
+    styles: [Synth-Pop, New Wave]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: djV11Xbc914
+    aliases: [Take on Me, Take Me On]
+    source: https://en.wikipedia.org/wiki/Take_On_Me
+    facts:
+      - [easy, "Its first version, released in October 1984, failed to chart; a re-recorded version became a hit a year later."]
+      - [medium, "In October 1985 it topped the Billboard Hot 100, helped by heavy MTV rotation of its video."]
+      - [strong, "Its award-winning video puts the band inside a live-action pencil-sketch animation."]
+
+  - title: Dreams
+    artist: Fleetwood Mac
+    year: 1977
+    genre: Rock
+    styles: [Soft Rock]
+    vocal: female
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: hard
+    youtube: Y3ywicffOj4
+    source: https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)
+    facts:
+      - [easy, "It came out in March 1977 as a single from the band's eleventh studio album."]
+      - [medium, "It is the band's only number-one single in the United States."]
+      - [strong, "In 2020 it returned to the charts after a viral TikTok of a man skateboarding to work while drinking cran-raspberry juice."]
+
+  - title: Sweet Dreams (Are Made of This)
+    artist: Eurythmics
+    year: 1983
+    genre: Pop
+    styles: [Synth-Pop, New Wave]
+    vocal: female
+    language: en
+    themes: [Social Issues, Motivation / Strength]
+    difficulty: medium
+    youtube: qeMFqkcPYcg
+    aliases: [Sweet Dreams]
+    source: https://en.wikipedia.org/wiki/Sweet_Dreams_(Are_Made_of_This)
+    facts:
+      - [easy, "It was released in January 1983 as the fourth and final single from the duo's second album."]
+      - [medium, "It peaked at number two in the UK and reached number one in the US six months later."]
+      - [strong, "In its video the singer wears cropped orange hair and a man's business suit."]
+
+  - title: One More Time
+    artist: Daft Punk
+    year: 2000
+    genre: Electronic
+    styles: [House]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: FGBhQbmPwH8
+    source: https://en.wikipedia.org/wiki/One_More_Time_(Daft_Punk_song)
+    facts:
+      - [easy, "It was released in November 2000 as the lead single from the duo's second studio album."]
+      - [medium, "Its vocal, sung by Romanthony, is heavily processed with Auto-Tune."]
+      - [strong, "Its music video is part of the 2003 anime film Interstella 5555."]
+
+  - title: Alors on danse
+    artist: Stromae
+    year: 2009
+    genre: Electronic
+    styles: [House]
+    vocal: male
+    language: fr
+    themes: [Social Issues, Party / Dancing]
+    difficulty: hard
+    youtube: VHoT4N43jK8
+    aliases: [Alors On Dance]
+    source: https://en.wikipedia.org/wiki/Alors_on_danse
+    facts:
+      - [easy, "It came out in Belgium in September 2009 and in the rest of Europe in February 2010."]
+      - [medium, "It reached number one in about twenty countries, including France, Germany, Italy and Russia."]
+      - [strong, "Its title is French for “and so we dance”."]
+
+  - title: Hips Don't Lie
+    artist: Shakira
+    featured: [Wyclef Jean]
+    year: 2006
+    genre: Latin
+    styles: [Latin Pop, Reggaeton]
+    vocal: mixed
+    language: en
+    themes: [Passion / Desire, Party / Dancing]
+    difficulty: medium
+    youtube: DUT5rEU6pqM
+    aliases: [Hips Dont Lie]
+    source: https://en.wikipedia.org/wiki/Hips_Don%27t_Lie
+    facts:
+      - [easy, "It was released in February 2006 as the lead single of the reissue of the singer's seventh studio album."]
+      - [medium, "It reworks “Dance Like This”, a 2004 track by the featured rapper."]
+      - [strong, "A remixed version was sung at the closing ceremony of the 2006 FIFA World Cup in Berlin."]
+
+  - title: Africa
+    artist: Toto
+    year: 1982
+    genre: Rock
+    styles: [Soft Rock]
+    vocal: male
+    language: en
+    themes: [City / Place, Falling in Love]
+    difficulty: hard
+    youtube: FTQbiNvZqaY
+    source: https://en.wikipedia.org/wiki/Africa_(song)
+    facts:
+      - [easy, "It is the tenth and final track of the band's fourth studio album, released in 1982."]
+      - [medium, "It reached number one on the Billboard Hot 100 in February 1983."]
+      - [strong, "Since 2019 a solar-powered sound installation in the Namib desert has played it on an endless loop."]
+
+  - title: Somebody That I Used to Know
+    artist: Gotye
+    featured: [Kimbra]
+    year: 2011
+    genre: Pop
+    styles: [Indie Pop]
+    vocal: mixed
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: hard
+    youtube: 8UVNT4wvIGY
+    aliases: [Somebody That I Use to Know]
+    source: https://en.wikipedia.org/wiki/Somebody_That_I_Used_to_Know
+    facts:
+      - [easy, "It was recorded at the songwriter's parents' house on the Mornington Peninsula in Victoria."]
+      - [medium, "It came out in July 2011 as the second single from the singer-songwriter's third album."]
+      - [strong, "In its video the two singers' skin is painted with geometric patterns that blend into the backdrop."]
+
+  - title: 99 Luftballons
+    artist: Nena
+    year: 1983
+    genre: Rock
+    styles: [New Wave]
+    vocal: female
+    language: de
+    themes: [War / Peace, Protest / Politics]
+    difficulty: hard
+    youtube: Fpu5a0Bl8eY
+    aliases: [99 Red Balloons, Neunundneunzig Luftballons]
+    source: https://en.wikipedia.org/wiki/99_Luftballons
+    facts:
+      - [easy, "It was released in West Germany in March 1983."]
+      - [medium, "An English version with different lyrics followed in 1984, but in the US only the original charted."]
+      - [strong, "The idea came to the band's guitarist at a 1982 Rolling Stones concert in West Berlin, where balloons were released."]
+
+  - title: Enter Sandman
+    artist: Metallica
+    year: 1991
+    genre: Metal
+    styles: [Heavy Metal]
+    vocal: male
+    language: en
+    themes: [Fantasy / Surreal]
+    difficulty: medium
+    youtube: CD-E-LDc384
+    source: https://en.wikipedia.org/wiki/Enter_Sandman
+    facts:
+      - [easy, "It is the opening track and lead single of the band's self-titled fifth album."]
+      - [medium, "It peaked at number 16 in the US, yet helped its album sell more than 30 million copies."]
+      - [strong, "Its lyrics are about a child's nightmares."]
