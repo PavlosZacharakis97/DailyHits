@@ -19,3 +19,10 @@ def healthz(request: HttpRequest) -> JsonResponse:
         logger.exception("Health check: database is unavailable")
         return JsonResponse({"status": "error", "database": "unavailable"}, status=503)
     return JsonResponse({"status": "ok", "database": "ok"})
+
+
+def api_not_found(request: HttpRequest, *args, **kwargs) -> JsonResponse:
+    """JSON 404 for unknown /api/ paths (instead of Django's HTML page)."""
+    return JsonResponse(
+        {"error": {"code": "not_found", "message": "Unknown API endpoint."}}, status=404
+    )

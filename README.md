@@ -46,10 +46,17 @@ docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py seed_reference
 ```
 
-Для разработки можно загрузить 10 демо-песен со всеми полями и фактами (статус «На проверке»):
+Для разработки можно загрузить 40 демо-песен со всеми полями и фактами (статус «На проверке»):
 
 ```sh
 docker compose exec backend python manage.py seed_demo
+```
+
+Чтобы поиграть локально, подтвердите демо-песни и составьте из них расписание
+(40 дней, начиная с недели назад — для архива):
+
+```sh
+docker compose exec backend python manage.py seed_demo --status verified --schedule 40 --past 7
 ```
 
 Сами справочники лежат в [backend/apps/catalog/seed/reference.yaml](backend/apps/catalog/seed/reference.yaml).
@@ -63,6 +70,8 @@ docker compose exec backend python manage.py seed_demo
 
 ```sh
 docker compose exec backend pytest                 # тесты
+docker compose exec backend pytest --cov           # тесты с покрытием
+docker compose exec backend pytest tests/game/test_comparison.py --cov=apps.game.comparison --cov-fail-under=100
 docker compose exec backend ruff check .           # линтер
 docker compose exec backend ruff format .          # форматирование
 docker compose exec backend python manage.py makemigrations
@@ -86,6 +95,26 @@ docker compose up -d --build backend     # или frontend
 ```
 
 Для фронтенда также удалите анонимный том с `node_modules`: `docker compose rm -sfv frontend`, затем `up -d --build frontend`.
+
+## API
+
+Префикс `/api/v1/`, все ответы — JSON. Схема OpenAPI: `/api/v1/schema/`, Swagger UI: `/api/v1/docs/`.
+
+| Метод | Путь | Что делает |
+|---|---|---|
+| GET | `/puzzles/{day}` | состояние игры игрока; при первом заходе создаёт сессию |
+| POST | `/puzzles/{day}/guess` | попытка `{"song_id": 1}` → 8 плиток |
+| GET | `/puzzles/{day}/hints` | открытые подсказки (после 5-й и 8-й попытки) |
+| POST | `/puzzles/{day}/give-up` | сдаться |
+| GET | `/puzzles/{day}/reveal` | ответ и факты, только после конца игры |
+| GET | `/songs/search?q=` | автодополнение (от 2 символов, до 10 песен) |
+
+`{day}` — `today` или дата архива `YYYY-MM-DD` (до 50 дней назад). Параметр `?edition=` (по умолчанию `world`).
+
+- Игровые запросы требуют cookie согласия `dh_consent=1`; сервер ставит анонимную httpOnly cookie `dh_player`.
+- POST-запросы должны прийти с заголовком `Origin` сайта игры.
+- Ошибки: `{"error": {"code": "...", "message": "..."}}`, например `already_guessed`, `game_over`, `throttled`.
+- Ограничения частоты: `API_THROTTLE_SEARCH` и `API_THROTTLE_GUESS` в `.env`.
 
 ## Данные
 

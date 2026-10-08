@@ -20,3 +20,11 @@ DJANGO_SETTINGS_MODULE = "config.settings"
 testpaths = ["tests", "apps"]
 python_files = ["test_*.py"]
 addopts = "--strict-markers"
+
+[tool.coverage.run]
+source = ["apps", "config"]
+omit = ["*/migrations/*"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

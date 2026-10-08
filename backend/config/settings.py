@@ -45,6 +45,7 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.locale.LocaleMiddleware",
+    "config.middleware.EnglishApiMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -141,10 +142,39 @@ GAME = {
 
 REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
+    "DEFAULT_PARSER_CLASSES": ["rest_framework.parsers.JSONParser"],
+    # Players are anonymous (cookie token); no DRF auth, so no session CSRF either —
+    # state-changing game requests check the Origin header instead.
+    "DEFAULT_AUTHENTICATION_CLASSES": [],
+    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],
+    "UNAUTHENTICATED_USER": None,
+    "DEFAULT_THROTTLE_CLASSES": ["rest_framework.throttling.ScopedRateThrottle"],
+    "DEFAULT_THROTTLE_RATES": {
+        "search": env.str("API_THROTTLE_SEARCH", default="60/min"),
+        "guess": env.str("API_THROTTLE_GUESS", default="20/min"),
+    },
+    # Number of reverse proxies in front of Django (for the client IP used by throttling).
+    "NUM_PROXIES": env.int("API_NUM_PROXIES", default=0),
+    "EXCEPTION_HANDLER": "config.exceptions.api_exception_handler",
 }
+
+# --- Game cookies -----------------------------------------------------------
+
+CONSENT_COOKIE_NAME = "dh_consent"
+# Must match CONSENT_VERSION in frontend/src/consent/consent.js.
+CONSENT_COOKIE_VERSION = env.str("CONSENT_COOKIE_VERSION", default="1")
+PLAYER_COOKIE_NAME = "dh_player"
+PLAYER_COOKIE_AGE = 60 * 60 * 24 * 365
+PLAYER_COOKIE_SECURE = SESSION_COOKIE_SECURE
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "DailyHit API",
+    "DESCRIPTION": (
+        "Daily song guessing game. Game endpoints need the `dh_consent=1` cookie; "
+        "the server then sets the anonymous `dh_player` cookie. POST requests must "
+        "send an `Origin` header of the game website."
+    ),
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }

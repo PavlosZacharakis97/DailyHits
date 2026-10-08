@@ -53,6 +53,53 @@ people:
   - Kirk Hammett
   - Jason Newsted
 
+  - Jackie Jackson
+  - Tito Jackson
+  - Jermaine Jackson
+  - Marlon Jackson
+  - Beyoncé Knowles
+  - Kelly Rowland
+  - LeToya Luckett
+  - LaTavia Roberson
+  - Michelle Williams
+  - Shawn Carter
+  - Pharrell Williams
+  - Nile Rodgers
+  - Dolly Parton
+  - Johnny Cash
+  - Louis Armstrong
+  - Ray Charles
+  - Vangelis Papathanassiou
+  - Ville Virtanen
+  - Antonio Romero Monge
+  - Rafael Ruiz Perdigones
+  - Ricky Martin
+  - Kyu Sakamoto
+  - Angus Young
+  - Malcolm Young
+  - Bon Scott
+  - Cliff Williams
+  - Phil Rudd
+  - Axl Rose
+  - Slash
+  - Izzy Stradlin
+  - Duff McKagan
+  - Steven Adler
+  - Liam Gallagher
+  - Noel Gallagher
+  - Paul Arthurs
+  - Paul McGuigan
+  - Tony McCarroll
+  - Kim Nam-joon
+  - Kim Seok-jin
+  - Min Yoon-gi
+  - Jung Ho-seok
+  - Park Ji-min
+  - Kim Tae-hyung
+  - Jeon Jung-kook
+  - Artis Ivey Jr.
+  - Larry Sanders
+
 artists:
   - {name: Queen, type: group, country: GB,
      members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
@@ -85,6 +132,35 @@ artists:
      members: [Gabriele Kerner, Carlo Karges, Uwe Fahrenkrog-Petersen]}
   - {name: Metallica, type: group, country: US,
      members: [James Hetfield, Lars Ulrich, Kirk Hammett, Jason Newsted]}
+
+  - {name: Freddie Mercury, type: solo, country: GB, members: [Freddie Mercury]}
+  - {name: The Jackson 5, type: group, country: US,
+     members: [Michael Jackson, Jackie Jackson, Tito Jackson, Jermaine Jackson, Marlon Jackson]}
+  - {name: Destiny's Child, type: group, country: US,
+     members: [Beyoncé Knowles, Kelly Rowland, LeToya Luckett, LaTavia Roberson, Michelle Williams]}
+  - {name: Beyoncé, type: solo, country: US, members: [Beyoncé Knowles]}
+  - {name: Jay-Z, type: solo, country: US, members: [Shawn Carter]}
+  - {name: Pharrell Williams, type: solo, country: US, members: [Pharrell Williams]}
+  - {name: Nile Rodgers, type: solo, country: US, members: [Nile Rodgers]}
+  - {name: Dolly Parton, type: solo, country: US, members: [Dolly Parton]}
+  - {name: Johnny Cash, type: solo, country: US, members: [Johnny Cash]}
+  - {name: Louis Armstrong, type: solo, country: US, members: [Louis Armstrong]}
+  - {name: Ray Charles, type: solo, country: US, members: [Ray Charles]}
+  - {name: Vangelis, type: solo, country: GR, members: [Vangelis Papathanassiou]}
+  - {name: Darude, type: solo, country: FI, members: [Ville Virtanen]}
+  - {name: Los del Río, type: duo, country: ES, members: [Antonio Romero Monge, Rafael Ruiz Perdigones]}
+  - {name: Ricky Martin, type: solo, country: PR, members: [Ricky Martin]}
+  - {name: Kyu Sakamoto, type: solo, country: JP, members: [Kyu Sakamoto]}
+  - {name: AC/DC, type: group, country: AU,
+     members: [Angus Young, Malcolm Young, Bon Scott, Cliff Williams, Phil Rudd]}
+  - {name: Guns N' Roses, type: group, country: US,
+     members: [Axl Rose, Slash, Izzy Stradlin, Duff McKagan, Steven Adler]}
+  - {name: Oasis, type: group, country: GB,
+     members: [Liam Gallagher, Noel Gallagher, Paul Arthurs, Paul McGuigan, Tony McCarroll]}
+  - {name: BTS, type: group, country: KR,
+     members: [Kim Nam-joon, Kim Seok-jin, Min Yoon-gi, Jung Ho-seok, Park Ji-min, Kim Tae-hyung, Jeon Jung-kook]}
+  - {name: Coolio, type: solo, country: US, members: [Artis Ivey Jr.]}
+  - {name: L.V., type: solo, country: US, members: [Larry Sanders]}
 
 songs:
   - title: Bohemian Rhapsody
@@ -429,3 +505,337 @@ songs:
       - [easy, "It is the opening track and lead single of the band's self-titled fifth album."]
       - [medium, "It peaked at number 16 in the US, yet helped its album sell more than 30 million copies."]
       - [strong, "Its lyrics are about a child's nightmares."]
+
+  # --- Set 3: shared members and featured artists (yellow artist tiles),
+  # plus country, jazz, hip-hop, trance and two instrumentals.
+  # Instrumentals have no lyrics, so their theme follows the work itself.
+
+  - title: Living on My Own
+    artist: Freddie Mercury
+    year: 1985
+    genre: Pop
+    styles: [Dance-Pop, Synth-Pop]
+    vocal: male
+    language: en
+    themes: [Freedom / Carefree, Loneliness / Sadness]
+    difficulty: hard
+    youtube: DedaEVIbTkY
+    source: https://en.wikipedia.org/wiki/Living_on_My_Own
+    facts:
+      - [easy, "It first appeared in 1985 on the singer's first solo album."]
+      - [medium, "On its original release it only reached number 50 in the UK."]
+      - [strong, "A 1993 remix, released after the singer's death, went to number one in the UK and across Europe."]
+
+  - title: ABC
+    artist: The Jackson 5
+    year: 1970
+    genre: R&B/Soul
+    styles: [Motown]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: ISqzbbZVIiU
+    source: https://en.wikipedia.org/wiki/ABC_(The_Jackson_5_song)
+    facts:
+      - [easy, "It is the title track of the group's second album."]
+      - [medium, "It sold 2 million copies in its first week in the US."]
+      - [strong, "It spent two weeks at number one on the Billboard Hot 100 in April 1970."]
+
+  - title: Say My Name
+    artist: Destiny's Child
+    year: 1999
+    genre: R&B/Soul
+    styles: [Contemporary R&B]
+    vocal: female
+    language: en
+    themes: [Jealousy / Infidelity]
+    difficulty: medium
+    youtube: sQgd6MccwZc
+    source: https://en.wikipedia.org/wiki/Say_My_Name
+    facts:
+      - [easy, "It was released in October 1999 as the third single from the group's second album."]
+      - [medium, "It won two Grammy Awards at the 2001 ceremony."]
+      - [strong, "Its music video introduced a new line-up, with replacement members for two original singers."]
+
+  - title: Crazy in Love
+    artist: Beyoncé
+    featured: [Jay-Z]
+    year: 2003
+    genre: R&B/Soul
+    styles: [Contemporary R&B, Funk]
+    vocal: mixed
+    language: en
+    themes: [Falling in Love, Passion / Desire]
+    difficulty: easy
+    youtube: ViwtNLUqkMY
+    source: https://en.wikipedia.org/wiki/Crazy_in_Love
+    facts:
+      - [easy, "It was written and co-produced with Rich Harrison."]
+      - [medium, "It reached number one on the Billboard Hot 100 on radio airplay alone, before it was even in stores."]
+      - [strong, "Its famous horn hook comes from a sample of the Chi-Lites' 1970 song “Are You My Woman (Tell Me So)”."]
+
+  - title: Get Lucky
+    artist: Daft Punk
+    featured: [Pharrell Williams, Nile Rodgers]
+    year: 2013
+    genre: Disco/Funk
+    styles: [Nu-Disco, Funk]
+    vocal: male
+    language: en
+    themes: [Party / Dancing, Passion / Desire]
+    difficulty: easy
+    youtube: 5NV6Rdv1a3I
+    source: https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)
+    facts:
+      - [easy, "Short clips of it were first teased in TV adverts during Saturday Night Live."]
+      - [medium, "It was released in April 2013 as the lead single of the duo's fourth and final studio album."]
+      - [strong, "The album it launched is Random Access Memories."]
+
+  - title: Happy
+    artist: Pharrell Williams
+    year: 2013
+    genre: R&B/Soul
+    styles: [Neo Soul, Soul]
+    vocal: male
+    language: en
+    themes: [Freedom / Carefree]
+    difficulty: easy
+    youtube: ZbZSe6N_BXs
+    aliases: [Happy Pharrell]
+    source: https://en.wikipedia.org/wiki/Happy_(Pharrell_Williams_song)
+    facts:
+      - [easy, "It was first released in July 2013 on a film soundtrack."]
+      - [medium, "Its single release came with a 24-hour-long music video."]
+      - [strong, "It is the only single from the soundtrack of Despicable Me 2."]
+
+  - title: Jolene
+    artist: Dolly Parton
+    year: 1973
+    genre: Country
+    styles: [Classic Country]
+    vocal: female
+    language: en
+    themes: [Jealousy / Infidelity]
+    difficulty: medium
+    youtube: Ixrje2rXLMA
+    source: https://en.wikipedia.org/wiki/Jolene_(song)
+    facts:
+      - [easy, "It was recorded at RCA Studio B in Nashville on 22 May 1973."]
+      - [medium, "Rolling Stone ranked it number 63 on its 2021 list of the 500 greatest songs."]
+      - [strong, "The narrator pleads with a beautiful woman not to take her man."]
+
+  - title: I Walk the Line
+    artist: Johnny Cash
+    year: 1956
+    genre: Country
+    styles: [Classic Country]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: hard
+    youtube: J-6fW66IUY4
+    source: https://en.wikipedia.org/wiki/I_Walk_the_Line
+    facts:
+      - [easy, "It was recorded on 2 April 1956 at Sun Studio in Memphis."]
+      - [medium, "Rolling Stone ranked it number 30 on its 2004 list of the 500 greatest songs."]
+      - [strong, "The 2005 biopic about the singer, starring Joaquin Phoenix, takes its name from it."]
+
+  - title: What a Wonderful World
+    artist: Louis Armstrong
+    year: 1967
+    genre: Jazz/Blues
+    styles: [Vocal Jazz]
+    vocal: male
+    language: en
+    themes: [Motivation / Strength]
+    difficulty: medium
+    youtube: rBrd_3VMC3c
+    aliases: [Wonderful World]
+    source: https://en.wikipedia.org/wiki/What_a_Wonderful_World
+    facts:
+      - [easy, "It was first recorded on 16 August 1967."]
+      - [medium, "It topped the UK chart in 1968, but flopped in the US because the label's president refused to promote it."]
+      - [strong, "Its use in the film Good Morning, Vietnam brought it back to the US charts in 1988."]
+
+  - title: Hit the Road Jack
+    artist: Ray Charles
+    year: 1961
+    genre: R&B/Soul
+    styles: [Soul]
+    vocal: mixed
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: medium
+    youtube: uSiHqxgE2d0
+    source: https://en.wikipedia.org/wiki/Hit_the_Road_Jack
+    facts:
+      - [easy, "Its writer, Percy Mayfield, first recorded it in 1960 as an a cappella demo."]
+      - [medium, "It was a US number one in 1961 and won the Grammy for Best Rhythm and Blues Recording."]
+      - [strong, "It is a call-and-response duet with Margie Hendrix of the Raelettes."]
+
+  - title: Chariots of Fire
+    artist: Vangelis
+    year: 1981
+    genre: Classical/Soundtrack
+    styles: [Film Score]
+    vocal: instrumental
+    language: zxx
+    themes: [Motivation / Strength]
+    difficulty: medium
+    youtube: 8a-HfNE3EIo
+    source: https://en.wikipedia.org/wiki/Chariots_of_Fire_(instrumental)
+    facts:
+      - [easy, "On its soundtrack album the piece is simply called “Titles”."]
+      - [medium, "It reached number one on the US Billboard Hot 100 in 1982."]
+      - [strong, "It is the theme of the 1981 film it shares its name with."]
+
+  - title: Sandstorm
+    artist: Darude
+    year: 1999
+    genre: Electronic
+    styles: [Trance]
+    vocal: instrumental
+    language: zxx
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: y6120QOlsfU
+    source: https://en.wikipedia.org/wiki/Sandstorm_(instrumental)
+    facts:
+      - [easy, "It was first released in Finland on 26 October 1999."]
+      - [medium, "It became known worldwide after being uploaded to MP3.com."]
+      - [strong, "It is a sports-arena anthem and a famous internet meme."]
+
+  - title: Macarena
+    artist: Los del Río
+    year: 1993
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: male
+    language: es
+    themes: [Party / Dancing, Jealousy / Infidelity]
+    difficulty: easy
+    youtube: zWaymcVmJ-A
+    source: https://en.wikipedia.org/wiki/Macarena_(song)
+    facts:
+      - [easy, "It was first recorded for the duo's 1993 album A mí me gusta."]
+      - [medium, "A remix by the Bayside Boys added a section with English lyrics."]
+      - [strong, "In 1996 it spent 14 weeks at number one in the US, carried by a worldwide dance craze."]
+
+  - title: Livin' la Vida Loca
+    artist: Ricky Martin
+    year: 1999
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: male
+    language: en
+    themes: [Passion / Desire, Party / Dancing]
+    difficulty: easy
+    youtube: p47fEXGabaY
+    aliases: [Living la Vida Loca, Livin la Vida Loca]
+    source: https://en.wikipedia.org/wiki/Livin%27_la_Vida_Loca
+    facts:
+      - [easy, "It was written by Draco Rosa and Desmond Child."]
+      - [medium, "It was the lead single of the singer's English-language debut album."]
+      - [strong, "It is about an irresistible wild woman who lives on the edge and seduces others into her crazy life."]
+
+  - title: Ue o Muite Arukō
+    artist: Kyu Sakamoto
+    year: 1961
+    genre: Pop
+    styles: [Pop Ballad]
+    vocal: male
+    language: ja
+    themes: [Loneliness / Sadness]
+    difficulty: hard
+    youtube: lAbInOKklN8
+    aliases: [Sukiyaki, Ue o Muite Aruko]
+    source: https://en.wikipedia.org/wiki/Sukiyaki_(song)
+    facts:
+      - [easy, "It was first released in Japan in October 1961."]
+      - [medium, "It has sold more than 13 million copies worldwide."]
+      - [strong, "Until 2020 it was the only song by an Asian artist to top the Billboard Hot 100; abroad it was renamed after a Japanese dish."]
+
+  - title: Highway to Hell
+    artist: AC/DC
+    year: 1979
+    genre: Rock
+    styles: [Hard Rock]
+    vocal: male
+    language: en
+    themes: [Freedom / Carefree, Road / Journey]
+    difficulty: medium
+    youtube: l482T0yNkeo
+    source: https://en.wikipedia.org/wiki/Highway_to_Hell_(song)
+    facts:
+      - [easy, "It was released as a single on 27 July 1979, the same day as its album."]
+      - [medium, "Its title came from how the band's guitarist described their gruelling tour schedule."]
+      - [strong, "It is the opening track of the 1979 album that carries the same name."]
+
+  - title: Sweet Child o' Mine
+    artist: Guns N' Roses
+    year: 1987
+    genre: Rock
+    styles: [Hard Rock]
+    vocal: male
+    language: en
+    themes: [Falling in Love, Nostalgia / Memories]
+    difficulty: easy
+    youtube: 1w7OgIMMRc4
+    aliases: [Sweet Child of Mine]
+    source: https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine
+    facts:
+      - [easy, "It appeared on the band's 1987 debut studio album."]
+      - [medium, "It is the band's only US number-one single."]
+      - [strong, "Its guitar intro began as a “circus” melody the lead guitarist played to make faces at the drummer during a warm-up."]
+
+  - title: Wonderwall
+    artist: Oasis
+    year: 1995
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: bx1Bh8ZvH84
+    aliases: [Wonder Wall]
+    source: https://en.wikipedia.org/wiki/Wonderwall_(song)
+    facts:
+      - [easy, "It was released on 30 October 1995 as the fourth single from the band's second album."]
+      - [medium, "Its title was inspired by a George Harrison solo album."]
+      - [strong, "Its songwriter described it as being about an imaginary friend who is going to come and save you from yourself."]
+
+  - title: Dynamite
+    artist: BTS
+    year: 2020
+    genre: Pop
+    styles: [K-Pop, Disco]
+    vocal: male
+    language: en
+    themes: [Party / Dancing, Motivation / Strength]
+    difficulty: easy
+    youtube: gdZLi9oWNZg
+    source: https://en.wikipedia.org/wiki/Dynamite_(BTS_song)
+    facts:
+      - [easy, "It was released on 21 August 2020 to lift spirits during the COVID-19 pandemic."]
+      - [medium, "It was the band's first song recorded entirely in English."]
+      - [strong, "It debuted at number one on the Billboard Hot 100, the South Korean band's first US number one."]
+
+  - title: Gangsta's Paradise
+    artist: Coolio
+    featured: [L.V.]
+    year: 1995
+    genre: Hip-Hop
+    styles: [Gangsta Rap]
+    vocal: male
+    language: en
+    themes: [Social Issues, Death / Loss]
+    difficulty: easy
+    youtube: SQCSxqScSVQ
+    aliases: [Gangstas Paradise]
+    source: https://en.wikipedia.org/wiki/Gangsta%27s_Paradise
+    facts:
+      - [easy, "It was released as a single on 1 August 1995."]
+      - [medium, "It interpolates Stevie Wonder's 1976 song “Pastime Paradise”."]
+      - [strong, "It was the lead single of the soundtrack to Dangerous Minds, starring Michelle Pfeiffer."]

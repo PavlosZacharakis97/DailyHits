@@ -1,7 +1,9 @@
+from datetime import timedelta
 from pathlib import Path
 from typing import Any
 
 import yaml
+from django.core.exceptions import ValidationError
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 
@@ -24,6 +26,8 @@ from apps.catalog.models import (
     Theme,
 )
 from apps.catalog.validation import SONG_ISSUE_PREFETCH, verification_errors
+from apps.game.dates import edition_today
+from apps.game.models import DailyPuzzle
 
 DEMO_FILE = Path(__file__).resolve().parents[2] / "seed" / "demo_songs.yaml"
 
@@ -40,8 +44,33 @@ class Command(BaseCommand):
             help="Status for songs that pass validation (default: review).",
         )
         parser.add_argument("--edition", default="world", help="Edition code for the songs.")
+        parser.add_argument(
+            "--schedule",
+            type=int,
+            default=0,
+            metavar="DAYS",
+            help="Also schedule daily puzzles for this many days (needs --status verified).",
+        )
+        parser.add_argument(
+            "--past",
+            type=int,
+            default=0,
+            metavar="DAYS",
+            help="Start the schedule this many days before today (for the archive).",
+        )
 
-    def handle(self, *args: Any, file: Path, status: str, edition: str, **options: Any) -> None:
+    def handle(
+        self,
+        *args: Any,
+        file: Path,
+        status: str,
+        edition: str,
+        schedule: int,
+        past: int,
+        **options: Any,
+    ) -> None:
+        if schedule and status != SongStatus.VERIFIED:
+            raise CommandError("--schedule needs --status verified.")
         try:
             data = yaml.safe_load(file.read_text(encoding="utf-8"))
         except (OSError, yaml.YAMLError) as exc:
@@ -66,7 +95,35 @@ class Command(BaseCommand):
                 mark = " ".join(e.message for e in errors) if errors else "ok"
                 self.stdout.write(f"  {song.title} — {song.primary_artist}: {mark}")
 
+            if schedule:
+                self._schedule(edition_obj, schedule, past)
+
         self.stdout.write(self.style.SUCCESS(f"Loaded {len(data['songs'])} demo songs."))
+
+    def _schedule(self, edition: Edition, days: int, past: int) -> None:
+        """Fill free dates with demo songs, respecting every schedule rule."""
+        start = edition_today(edition) - timedelta(days=past)
+        songs = list(
+            Song.objects.filter(editions=edition, status=SongStatus.VERIFIED).order_by("pk")
+        )
+        created = 0
+        for offset in range(days):
+            day = start + timedelta(days=offset)
+            if DailyPuzzle.objects.filter(edition=edition, date=day).exists():
+                continue
+            for i in range(len(songs)):
+                song = songs[(offset + i) % len(songs)]
+                puzzle = DailyPuzzle(edition=edition, date=day, song=song)
+                try:
+                    puzzle.full_clean(exclude=["number"])
+                except ValidationError:
+                    continue
+                puzzle.save()
+                created += 1
+                break
+            else:
+                self.stdout.write(self.style.WARNING(f"  {day}: no song fits the schedule rules"))
+        self.stdout.write(f"  Scheduled {created} new puzzles from {start}.")
 
     def _artist(self, data: dict, people: dict[str, Person]) -> Artist:
         artist, _ = Artist.objects.update_or_create(
