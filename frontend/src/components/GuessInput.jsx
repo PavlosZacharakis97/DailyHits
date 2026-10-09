@@ -14,6 +14,8 @@ export function GuessInput({ onSearch, onGuess, disabled, busy, error, excludeId
   // Message from the last action (selection, empty submit); otherwise the result count.
   const [notice, setNotice] = useState('')
   const pending = useRef({ timer: 0, controller: null })
+  const fieldRef = useRef(null)
+  const inputRef = useRef(null)
   const id = useId()
   const inputId = `${id}-input`
   const listId = `${id}-list`
@@ -30,6 +32,35 @@ export function GuessInput({ onSearch, onGuess, disabled, busy, error, excludeId
   }, [activeId])
 
   useEffect(() => () => clearPending(pending.current), [])
+
+  // Rejected guess: wobble the field and buzz the phone.
+  useEffect(() => {
+    if (!error) return
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      fieldRef.current?.animate(
+        [
+          { transform: 'translateX(0)' },
+          { transform: 'translateX(-8px)' },
+          { transform: 'translateX(7px)' },
+          { transform: 'translateX(-5px)' },
+          { transform: 'translateX(3px)' },
+          { transform: 'translateX(0)' },
+        ],
+        { duration: 420, easing: 'ease' },
+      )
+    }
+    navigator.vibrate?.(30)
+  }, [error])
+
+  // On phones, offer a floating button back to the field once it scrolls away.
+  const [offscreen, setOffscreen] = useState(false)
+  useEffect(() => {
+    const field = fieldRef.current
+    if (!field || disabled || !('IntersectionObserver' in window)) return undefined
+    const observer = new IntersectionObserver(([entry]) => setOffscreen(!entry.isIntersecting))
+    observer.observe(field)
+    return () => observer.disconnect()
+  }, [disabled])
 
   function lookUp(value) {
     clearPending(pending.current)
@@ -102,13 +133,14 @@ export function GuessInput({ onSearch, onGuess, disabled, busy, error, excludeId
 
   return (
     <form className={styles.form} onSubmit={submit} aria-busy={busy || undefined}>
-      <div className={styles.field}>
+      <div className={styles.field} ref={fieldRef}>
         <NoteIcon className={styles.icon} />
         <label className="visually-hidden" htmlFor={inputId}>
           Your guess
         </label>
         <input
           id={inputId}
+          ref={inputRef}
           className={styles.input}
           type="text"
           placeholder={disabled ? 'Come back tomorrow for a new song' : 'Type your guess…'}
@@ -163,8 +195,21 @@ export function GuessInput({ onSearch, onGuess, disabled, busy, error, excludeId
 
       {error && (
         <p id={`${id}-error`} className={styles.error} role="alert">
-          {error}
+          {error.message}
         </p>
+      )}
+
+      {offscreen && !disabled && (
+        <button
+          type="button"
+          className={styles.jump}
+          onClick={() => {
+            fieldRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+            inputRef.current?.focus({ preventScroll: true })
+          }}
+        >
+          ♪ Guess
+        </button>
       )}
 
       <div role="status" aria-live="polite" className="visually-hidden">

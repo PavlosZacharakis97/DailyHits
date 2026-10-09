@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { knowledge } from '../game/knowledge.js'
 import { Artwork } from './Artwork.jsx'
+import { Vinyl } from './Vinyl.jsx'
 import { GuessInput } from './GuessInput.jsx'
 import { BulbIcon, FlagIcon, LockIcon, NoteIcon, PlayIcon } from './Icons.jsx'
 import { COLOR_LABEL, TILES } from './tiles.js'
@@ -13,7 +14,7 @@ const STATUS_TITLE = {
   gave_up: 'Here is the answer',
 }
 
-export function PuzzleCard({ game }) {
+export function PuzzleCard({ game, onShowResult }) {
   const { number, answer, guesses, status, hints, maxAttempts } = game
   const finished = status !== 'in_progress'
   const known = knowledge(guesses, game.yearYellowRange)
@@ -30,7 +31,11 @@ export function PuzzleCard({ game }) {
       <div className={styles.layout}>
         <div className={styles.side}>
           <div className={styles.cover} data-won={status === 'won' || undefined}>
-            {status === 'won' ? <WinCelebration /> : <Artwork className={styles.art} />}
+            {status === 'won' ? (
+              <WinCelebration />
+            ) : (
+              <Sleeve spinning={!finished} />
+            )}
           </div>
           <Extras hints={hints} finished={finished} onGiveUp={game.giveUp} />
         </div>
@@ -72,6 +77,11 @@ export function PuzzleCard({ game }) {
             )}
 
             <Progress used={guesses.length} max={maxAttempts} hintAt={hints.map((h) => h.after)} status={status} />
+            {finished && answer && (
+              <button type="button" className={styles.resultsButton} onClick={onShowResult}>
+                Results &amp; share
+              </button>
+            )}
           </div>
 
           <ul className={styles.grid} role="list" aria-label="What you know about the song">
@@ -122,6 +132,17 @@ export function PuzzleCard({ game }) {
   )
 }
 
+/** Album sleeve with the record peeking out and spinning while the game is on. */
+function Sleeve({ spinning }) {
+  return (
+    <div className={styles.sleeve} data-spinning={spinning || undefined}>
+      <Vinyl className={styles.sleeveRecord} />
+      <Artwork className={styles.art} />
+    </div>
+  )
+}
+
+/** Progress as a track scrubber: one segment per guess, hint unlocks marked. */
 function Progress({ used, max, hintAt, status }) {
   const left = max - used
   const summary =
@@ -132,15 +153,25 @@ function Progress({ used, max, hintAt, status }) {
         : `${used} of ${max} guesses used`
   return (
     <div className={styles.progress}>
-      <div className={styles.pips} role="img" aria-label={`${used} of ${max} guesses used`}>
+      <div
+        className={styles.track}
+        role="progressbar"
+        aria-label="Guesses used"
+        aria-valuemin={0}
+        aria-valuemax={max}
+        aria-valuenow={used}
+        aria-valuetext={summary}
+        style={{ '--done': used / max }}
+      >
         {Array.from({ length: max }, (_, i) => (
           <span
             key={i}
-            className={styles.pip}
+            className={styles.segment}
             data-used={i < used || undefined}
             data-hint={hintAt.includes(i + 1) || undefined}
           />
         ))}
+        <span className={styles.playhead} aria-hidden="true" />
       </div>
       <span className={styles.left}>{summary}</span>
     </div>

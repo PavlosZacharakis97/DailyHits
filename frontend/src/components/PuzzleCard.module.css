@@ -42,9 +42,54 @@
 }
 
 .art {
+  position: relative;
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 20px;
+}
+
+/* The cover is an album sleeve; the record slides out to the right and spins. */
+.cover:has(.sleeve) {
+  overflow: visible;
+  border: 0;
+  box-shadow: none;
+}
+
+.sleeve {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sleeve .art {
+  border: 4px solid var(--card-border);
+  box-shadow: 0 16px 34px -18px rgb(80 50 160 / 0.55);
+}
+
+.sleeveRecord {
+  position: absolute;
+  top: 6%;
+  right: -20%;
+  width: 88%;
+  height: 88%;
+  filter: drop-shadow(0 10px 18px rgb(43 32 72 / 0.35));
+  animation: slide-out 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) 0.2s both;
+}
+
+.sleeve[data-spinning] .sleeveRecord {
+  animation:
+    slide-out 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) 0.2s both,
+    spin 6s linear 1.1s infinite;
+}
+
+@keyframes slide-out {
+  from { transform: translateX(-24%) rotate(-40deg); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 /* --- Title block ---------------------------------------------------------- */
@@ -65,8 +110,8 @@
 
 .title {
   margin: 0;
-  font-size: clamp(1.8rem, 4vw, 2.75rem);
-  font-weight: 900;
+  font-size: clamp(1.9rem, 4.4vw, 3rem);
+  font-weight: 800;
   line-height: 1.05;
   letter-spacing: -0.02em;
   background: var(--accent-grad);
@@ -128,6 +173,7 @@
 
 .mystery {
   margin: 0;
+  font-family: var(--font-display);
   font-size: clamp(2.4rem, 5vw, 3.2rem);
   font-weight: 900;
   line-height: 1.1;
@@ -175,26 +221,49 @@
   margin-top: 6px;
 }
 
-.pips {
-  display: flex;
-  gap: 6px;
+.track {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+  width: min(260px, 100%);
+  padding: 6px 0;
 }
 
-.pip {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+.segment {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
   background: var(--divider);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.35s ease;
 }
 
-.pip[data-used] {
+.segment[data-used] {
+  background: var(--button-grad);
+}
+
+/* Bulb marks above the guesses that unlock a hint. */
+.segment[data-hint]::before {
+  content: '💡';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  font-size: 0.7rem;
+  transform: translateX(-50%);
+}
+
+.playhead {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--done) * 100%);
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border: 3px solid var(--card);
+  border-radius: 50%;
   background: var(--accent);
-}
-
-/* Guesses that unlock a hint get a ring. */
-.pip[data-hint] {
-  box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--ic-peach-fg);
+  box-shadow: 0 2px 8px rgb(60 30 140 / 0.35);
+  transition: left 0.45s cubic-bezier(0.3, 1.3, 0.5, 1);
 }
 
 .left {
@@ -297,7 +366,8 @@
   font-size: 1.1rem;
   font-weight: 800;
   line-height: 1.25;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  hyphens: auto;
   color: var(--muted);
 }
 
@@ -445,4 +515,28 @@
 
 @media (max-width: 360px) {
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.resultsButton {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 11px 22px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--button-grad);
+  color: var(--button-text);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 12px 24px -12px color-mix(in srgb, var(--accent) 70%, transparent);
+}
+
+/* Leave room for the record sticking out of the sleeve. */
+@media (min-width: 761px) {
+  .side { padding-right: 12%; }
+}
+
+@media (max-width: 760px) {
+  /* Centre the sleeve together with the record sticking out on its right. */
+  .cover { width: 112px; margin: 0 auto; transform: translateX(-12px); }
+  .resultsButton { align-self: center; }
 }

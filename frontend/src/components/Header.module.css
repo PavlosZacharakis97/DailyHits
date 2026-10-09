@@ -22,15 +22,21 @@
 }
 
 .word {
-  font-size: clamp(1.9rem, 4vw, 2.5rem);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
   letter-spacing: -0.03em;
   background: var(--accent-grad);
   background-clip: text;
   color: transparent;
 }
 
-.themeToggle {
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.iconButton {
   display: grid;
   place-items: center;
   width: 44px;
@@ -44,6 +50,6 @@
   transition: transform 0.2s ease;
 }
 
-.themeToggle:hover {
+.iconButton:hover {
   transform: rotate(-12deg) scale(1.05);
 }

@@ -98,3 +98,14 @@ export const LockIcon = (p) => (
     <path d="M8 11V8a4 4 0 0 1 8 0v3" />
   </Icon>
 )
+export const HelpIcon = (p) => (
+  <Icon {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01" />
+  </Icon>
+)
+export const ChartIcon = (p) => (
+  <Icon {...p}>
+    <path d="M5 20V10M12 20V4M19 20v-7" />
+  </Icon>
+)

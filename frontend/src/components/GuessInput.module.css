@@ -131,3 +131,33 @@
   font-weight: 700;
   text-align: center;
 }
+
+/* Floating shortcut back to the field (phones, when scrolled down to the history). */
+.jump {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .jump {
+    position: fixed;
+    right: 16px;
+    bottom: max(16px, env(safe-area-inset-bottom));
+    z-index: 20;
+    display: inline-flex;
+    align-items: center;
+    min-height: 52px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--button-grad);
+    color: var(--button-text);
+    font-size: 1.05rem;
+    font-weight: 800;
+    box-shadow: 0 14px 30px -10px color-mix(in srgb, var(--accent) 80%, transparent);
+    animation: pop-in 0.3s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+  }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.9); }
+}

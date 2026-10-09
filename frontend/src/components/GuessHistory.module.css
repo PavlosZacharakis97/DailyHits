@@ -135,7 +135,8 @@
   font-size: 0.95rem;
   font-weight: 800;
   line-height: 1.2;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  hyphens: auto;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }

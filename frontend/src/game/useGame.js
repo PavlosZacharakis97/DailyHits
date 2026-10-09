@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { api } from '../api/client.js'
+import { recordResult } from './stats.js'
 
 const CACHE_PREFIX = 'dh_game:'
 
@@ -65,6 +66,13 @@ export function useGame({ edition = 'world', day = 'today' } = {}) {
     if (state) writeCache(key, { state, answer })
   }, [key, state, answer])
 
+  // Streaks and stats count daily games only (not the archive).
+  useEffect(() => {
+    if (day === 'today' && finished) {
+      recordResult({ date: state.date, status: state.status, attempts: state.guesses.length })
+    }
+  }, [day, finished, state])
+
   const search = useCallback((q, signal) => api.search(q, edition, signal), [edition])
 
   async function guess(song) {
@@ -82,7 +90,8 @@ export function useGame({ edition = 'world', day = 'today' } = {}) {
         guesses: [...prev.guesses, result.guess],
       }))
     } catch (error) {
-      setActionError(ERROR_TEXT[error.code] ?? error.message)
+      // A fresh object each time, so the same message still shakes the input again.
+      setActionError({ message: ERROR_TEXT[error.code] ?? error.message })
     } finally {
       setBusy(false)
     }
@@ -95,7 +104,7 @@ export function useGame({ edition = 'world', day = 'today' } = {}) {
     try {
       setState(await api.giveUp(day, edition))
     } catch (error) {
-      setActionError(ERROR_TEXT[error.code] ?? error.message)
+      setActionError({ message: ERROR_TEXT[error.code] ?? error.message })
     } finally {
       setBusy(false)
     }
@@ -107,6 +116,7 @@ export function useGame({ edition = 'world', day = 'today' } = {}) {
     actionError,
     busy,
     number: state?.number,
+    date: state?.date,
     maxAttempts: state?.max_attempts ?? 10,
     yearYellowRange: state?.year_yellow_range ?? 5,
     status: state?.status ?? 'in_progress',
