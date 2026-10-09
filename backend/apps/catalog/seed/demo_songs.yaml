@@ -100,6 +100,66 @@ people:
   - Artis Ivey Jr.
   - Larry Sanders
 
+  - Roger Waters
+  - David Gilmour
+  - Nick Mason
+  - Richard Wright
+  - Syd Barrett
+  - John Lennon
+  - Paul McCartney
+  - George Harrison
+  - Ringo Starr
+  - Robyn Fenty
+  - Elton John
+  - David Bowie
+  - Whitney Houston
+  - Madonna Ciccone
+  - Prince Rogers Nelson
+  - Wendy Melvoin
+  - Lisa Coleman
+  - Bobby Z.
+  - Matt Fink
+  - Brown Mark
+  - Jon Bon Jovi
+  - Richie Sambora
+  - David Bryan
+  - Tico Torres
+  - Alec John Such
+  - Barry Gibb
+  - Robin Gibb
+  - Maurice Gibb
+  - Maurice White
+  - Verdine White
+  - Philip Bailey
+  - Al McKay
+  - Ralph Johnson
+  - Gloria Gaynor
+  - Frankie Sullivan
+  - Jim Peterik
+  - Dave Bickler
+  - Marc Droubay
+  - Stephan Ellis
+  - Joey Tempest
+  - John Norum
+  - John Levén
+  - Mic Michaeli
+  - Ian Haugland
+  - Bono
+  - The Edge
+  - Adam Clayton
+  - Larry Mullen Jr.
+  - Chris Martin
+  - Jonny Buckland
+  - Guy Berryman
+  - Will Champion
+  - Chester Bennington
+  - Mike Shinoda
+  - Brad Delson
+  - Rob Bourdon
+  - Joe Hahn
+  - Dave Farrell
+  - Enrique Iglesias
+
 artists:
   - {name: Queen, type: group, country: GB,
      members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
@@ -161,6 +221,35 @@ artists:
      members: [Kim Nam-joon, Kim Seok-jin, Min Yoon-gi, Jung Ho-seok, Park Ji-min, Kim Tae-hyung, Jeon Jung-kook]}
   - {name: Coolio, type: solo, country: US, members: [Artis Ivey Jr.]}
   - {name: L.V., type: solo, country: US, members: [Larry Sanders]}
+
+  - {name: Pink Floyd, type: group, country: GB,
+     members: [Roger Waters, David Gilmour, Nick Mason, Richard Wright, Syd Barrett]}
+  - {name: The Beatles, type: group, country: GB,
+     members: [John Lennon, Paul McCartney, George Harrison, Ringo Starr]}
+  - {name: John Lennon, type: solo, country: GB, members: [John Lennon]}
+  - {name: Rihanna, type: solo, country: BB, members: [Robyn Fenty]}
+  - {name: Elton John, type: solo, country: GB, members: [Elton John]}
+  - {name: David Bowie, type: solo, country: GB, members: [David Bowie]}
+  - {name: Whitney Houston, type: solo, country: US, members: [Whitney Houston]}
+  - {name: Madonna, type: solo, country: US, members: [Madonna Ciccone]}
+  - {name: Prince and the Revolution, type: group, country: US,
+     members: [Prince Rogers Nelson, Wendy Melvoin, Lisa Coleman, Bobby Z., Matt Fink, Brown Mark]}
+  - {name: Bon Jovi, type: group, country: US,
+     members: [Jon Bon Jovi, Richie Sambora, David Bryan, Tico Torres, Alec John Such]}
+  - {name: Bee Gees, type: group, country: GB, members: [Barry Gibb, Robin Gibb, Maurice Gibb]}
+  - {name: "Earth, Wind & Fire", type: group, country: US,
+     members: [Maurice White, Verdine White, Philip Bailey, Al McKay, Ralph Johnson]}
+  - {name: Gloria Gaynor, type: solo, country: US, members: [Gloria Gaynor]}
+  - {name: Survivor, type: group, country: US,
+     members: [Frankie Sullivan, Jim Peterik, Dave Bickler, Marc Droubay, Stephan Ellis]}
+  - {name: Europe, type: group, country: SE,
+     members: [Joey Tempest, John Norum, John Levén, Mic Michaeli, Ian Haugland]}
+  - {name: U2, type: group, country: IE, members: [Bono, The Edge, Adam Clayton, Larry Mullen Jr.]}
+  - {name: Coldplay, type: group, country: GB,
+     members: [Chris Martin, Jonny Buckland, Guy Berryman, Will Champion]}
+  - {name: Linkin Park, type: group, country: US,
+     members: [Chester Bennington, Mike Shinoda, Brad Delson, Rob Bourdon, Joe Hahn, Dave Farrell]}
+  - {name: Enrique Iglesias, type: solo, country: ES, members: [Enrique Iglesias]}
 
 songs:
   - title: Bohemian Rhapsody
@@ -839,3 +928,908 @@ songs:
       - [easy, "It was released as a single on 1 August 1995."]
       - [medium, "It interpolates Stevie Wonder's 1976 song “Pastime Paradise”."]
       - [strong, "It was the lead single of the soundtrack to Dangerous Minds, starring Michelle Pfeiffer."]
+
+  # --- Set 4: several songs per artist (green artist tile, but which song?)
+  # and new names; Pink Floyd, The Beatles and John Lennon (yellow: shared member).
+
+  - title: Another Brick in the Wall, Part 2
+    artist: Pink Floyd
+    year: 1979
+    genre: Rock
+    styles:
+    - Progressive Rock
+    vocal: mixed
+    language: en
+    themes:
+    - Protest / Politics
+    - Social Issues
+    difficulty: easy
+    youtube: HrxX9TBj2zY
+    aliases:
+    - Another Brick in the Wall
+    - Another Brick in the Wall Part 2
+    source: https://en.wikipedia.org/wiki/Another_Brick_in_the_Wall
+    facts:
+    - - easy
+      - It is the second part of a three-part composition on the band's eleventh studio album.
+    - - medium
+      - It topped the charts in 14 countries, including the UK and the US, and was the UK Christmas number one of 1979.
+    - - strong
+      - It is a protest song against harsh, abusive schooling, sung partly by a children's choir.
+
+  - title: Wish You Were Here
+    artist: Pink Floyd
+    year: 1975
+    genre: Rock
+    styles:
+    - Progressive Rock
+    vocal: male
+    language: en
+    themes:
+    - Loneliness / Sadness
+    - Nostalgia / Memories
+    difficulty: medium
+    youtube: K6qj09OHvjw
+    source: https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_song)
+    facts:
+    - - easy
+      - Rolling Stone ranked it number 302 on its 2021 list of the 500 greatest songs.
+    - - medium
+      - Its music was written by the band's guitarist and bassist, and the guitarist sings lead.
+    - - strong
+      - It is the title track of the band's 1975 album.
+
+  - title: Money
+    artist: Pink Floyd
+    year: 1973
+    genre: Rock
+    styles:
+    - Progressive Rock
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    difficulty: medium
+    youtube: -0kcet4aPpQ
+    source: https://en.wikipedia.org/wiki/Money_(Pink_Floyd_song)
+    facts:
+    - - easy
+      - It opened side two of the original vinyl album.
+    - - medium
+      - It was the band's first US hit, reaching number 13 on the Billboard Hot 100.
+    - - strong
+      - It comes from The Dark Side of the Moon and opens with a loop of cash-register sound effects.
+
+  - title: Comfortably Numb
+    artist: Pink Floyd
+    year: 1979
+    genre: Rock
+    styles:
+    - Progressive Rock
+    vocal: male
+    language: en
+    themes:
+    - Loneliness / Sadness
+    difficulty: medium
+    youtube: 7f3EGjRxxNI
+    source: https://en.wikipedia.org/wiki/Comfortably_Numb
+    facts:
+    - - easy
+      - It was released as a single in 1980 with “Hey You” as its B-side.
+    - - medium
+      - Its lyrics recall the bassist being injected with tranquilisers before a 1977 concert.
+    - - strong
+      - It comes from the band's 1979 album The Wall.
+
+  - title: We Will Rock You
+    artist: Queen
+    year: 1977
+    genre: Rock
+    styles:
+    - Hard Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: easy
+    youtube: -tJYN-eG1zk
+    source: https://en.wikipedia.org/wiki/We_Will_Rock_You
+    facts:
+    - - easy
+      - Rolling Stone ranked it number 330 on its 2004 list of the 500 greatest songs.
+    - - medium
+      - 'Apart from the final 30 seconds it has no instruments: only stomping and clapping.'
+    - - strong
+      - It was released in 1977 on a single with “We Are the Champions”.
+
+  - title: Don't Stop Me Now
+    artist: Queen
+    year: 1978
+    genre: Rock
+    styles:
+    - Pop Rock
+    vocal: male
+    language: en
+    themes:
+    - Freedom / Carefree
+    - Party / Dancing
+    difficulty: easy
+    youtube: HgzGwKwLmgM
+    aliases:
+    - Dont Stop Me Now
+    source: https://en.wikipedia.org/wiki/Don%27t_Stop_Me_Now
+    facts:
+    - - easy
+      - It was recorded in August 1978 at Super Bear Studios in the south of France.
+    - - medium
+      - It is the twelfth track on the band's 1978 album Jazz.
+    - - strong
+      - It was written by the band's lead singer and released as a single on 26 January 1979.
+
+  - title: Thriller
+    artist: Michael Jackson
+    year: 1982
+    genre: Disco/Funk
+    styles:
+    - Disco
+    - Funk
+    vocal: male
+    language: en
+    themes:
+    - Fantasy / Surreal
+    difficulty: easy
+    youtube: sOnqjkJTMaA
+    source: https://en.wikipedia.org/wiki/Thriller_(song)
+    facts:
+    - - easy
+      - It was the seventh and final single from the album of the same name.
+    - - medium
+      - It includes a spoken-word sequence by horror actor Vincent Price.
+    - - strong
+      - Its famous music video, a short horror film, was directed by John Landis.
+
+  - title: Beat It
+    artist: Michael Jackson
+    year: 1982
+    genre: Rock
+    styles:
+    - Hard Rock
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    difficulty: easy
+    youtube: oRdxUFDoQe0
+    source: https://en.wikipedia.org/wiki/Beat_It
+    facts:
+    - - easy
+      - Producer Quincy Jones wanted a rock song like “My Sharona” on the album.
+    - - medium
+      - It features a guitar solo by Eddie Van Halen.
+    - - strong
+      - It followed “Billie Jean” as a single from the singer's sixth studio album.
+
+  - title: Mamma Mia
+    artist: ABBA
+    year: 1975
+    genre: Pop
+    styles:
+    - Pop Rock
+    vocal: female
+    language: en
+    themes:
+    - Jealousy / Infidelity
+    - Falling in Love
+    difficulty: medium
+    youtube: unfzfe8f9NI
+    source: https://en.wikipedia.org/wiki/Mamma_Mia_(ABBA_song)
+    facts:
+    - - easy
+      - It is the opening track of the group's third, self-titled album.
+    - - medium
+      - It tells of an on-again, off-again relationship with a lover who keeps being unfaithful.
+    - - strong
+      - Its title is an Italian exclamation that literally means “my mother”.
+
+  - title: Waterloo
+    artist: ABBA
+    year: 1974
+    genre: Pop
+    styles:
+    - Pop Rock
+    vocal: female
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: medium
+    youtube: Sj_9CiNkkn4
+    source: https://en.wikipedia.org/wiki/Waterloo_(ABBA_song)
+    facts:
+    - - easy
+      - It was released on 4 March 1974 as the first single of the group's second album.
+    - - medium
+      - It was the group's first single on the Atlantic label in the US.
+    - - strong
+      - It won the 1974 Eurovision Song Contest for Sweden in Brighton.
+
+  - title: Hey Jude
+    artist: The Beatles
+    year: 1968
+    genre: Rock
+    styles:
+    - Pop Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: easy
+    youtube: A_MjCqQoLLA
+    source: https://en.wikipedia.org/wiki/Hey_Jude
+    facts:
+    - - easy
+      - It was released in August 1968 as a single that was not on any album.
+    - - medium
+      - It was the band's first release on their own Apple label.
+    - - strong
+      - Its nine weeks at number one on the Billboard Hot 100 tied the record at the time.
+
+  - title: Let It Be
+    artist: The Beatles
+    year: 1970
+    genre: Rock
+    styles:
+    - Pop Rock
+    - Soft Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    - Religion / Spirituality
+    difficulty: easy
+    youtube: CGj85pVzRJs
+    source: https://en.wikipedia.org/wiki/Let_It_Be_(song)
+    facts:
+    - - easy
+      - It was released as a single on 6 March 1970.
+    - - medium
+      - The single version was produced by George Martin, the album version by Phil Spector.
+    - - strong
+      - It is the title track of the band's 1970 album.
+
+  - title: Yesterday
+    artist: The Beatles
+    year: 1965
+    genre: Pop
+    styles:
+    - Pop Ballad
+    vocal: male
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    - Nostalgia / Memories
+    difficulty: easy
+    youtube: fCV9oqtwyVA
+    source: https://en.wikipedia.org/wiki/Yesterday_(Beatles_song)
+    facts:
+    - - easy
+      - It first appeared on the band's 1965 album Help!
+    - - medium
+      - Only one band member plays on it, with an acoustic guitar and a string quartet.
+    - - strong
+      - With some 2,200 cover versions, it is one of the most covered songs ever.
+
+  - title: Here Comes the Sun
+    artist: The Beatles
+    year: 1969
+    genre: Folk
+    styles:
+    - Folk Rock
+    vocal: male
+    language: en
+    themes:
+    - Freedom / Carefree
+    - Summer / Holiday
+    difficulty: medium
+    youtube: KQetemT1sWc
+    source: https://en.wikipedia.org/wiki/Here_Comes_the_Sun
+    facts:
+    - - easy
+      - It is on the band's 1969 album Abbey Road.
+    - - medium
+      - It was written at Eric Clapton's country house while its writer skipped a business meeting.
+    - - strong
+      - Its lyrics celebrate the arrival of spring and a break from business worries.
+
+  - title: Imagine
+    artist: John Lennon
+    year: 1971
+    genre: Pop
+    styles:
+    - Pop Ballad
+    - Soft Rock
+    vocal: male
+    language: en
+    themes:
+    - War / Peace
+    - Social Issues
+    difficulty: easy
+    youtube: VOgFZfRVaww
+    source: https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)
+    facts:
+    - - easy
+      - Recording began in May 1971 at the singer's home studio at Tittenhurst Park.
+    - - medium
+      - In 2017 the singer's wife, Yoko Ono, was credited as a co-writer.
+    - - strong
+      - It invites listeners to picture a peaceful world without religion, possessions or borders.
+
+  - title: Someone Like You
+    artist: Adele
+    year: 2011
+    genre: Pop
+    styles:
+    - Pop Ballad
+    vocal: female
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    - Nostalgia / Memories
+    difficulty: easy
+    youtube: hLQl3WQQoQ0
+    source: https://en.wikipedia.org/wiki/Someone_Like_You_(Adele_song)
+    facts:
+    - - easy
+      - It was released on 24 January 2011, the same day as its album.
+    - - medium
+      - Its only accompaniment is a piano, played by co-writer Dan Wilson.
+    - - strong
+      - The singer sings about an ex-partner who has moved on with a new love.
+
+  - title: Hello
+    artist: Adele
+    year: 2015
+    genre: Pop
+    styles:
+    - Pop Ballad
+    - Soul
+    vocal: female
+    language: en
+    themes:
+    - Nostalgia / Memories
+    - Breakup / Heartbreak
+    difficulty: easy
+    youtube: YQHsXMglC9A
+    source: https://en.wikipedia.org/wiki/Hello_(Adele_song)
+    facts:
+    - - easy
+      - It was recorded at Metropolis Studios in London.
+    - - medium
+      - It was written with producer Greg Kurstin and deals with nostalgia and regret.
+    - - strong
+      - It was the lead single of the singer's 2015 album 25.
+
+  - title: Perfect
+    artist: Ed Sheeran
+    year: 2017
+    genre: Pop
+    styles:
+    - Pop Ballad
+    vocal: male
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: easy
+    youtube: 2Vv-BfVoq4g
+    source: https://en.wikipedia.org/wiki/Perfect_(Ed_Sheeran_song)
+    facts:
+    - - easy
+      - It reached number four in the UK right after its album came out.
+    - - medium
+      - A duet version with Andrea Bocelli was also released.
+    - - strong
+      - A duet version with Beyoncé was released in December 2017.
+
+  - title: Starboy
+    artist: The Weeknd
+    featured:
+    - Daft Punk
+    year: 2016
+    genre: R&B/Soul
+    styles:
+    - Contemporary R&B
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    difficulty: medium
+    youtube: 34Na4j8AVgA
+    source: https://en.wikipedia.org/wiki/Starboy_(song)
+    facts:
+    - - easy
+      - It was released on 23 September 2016.
+    - - medium
+      - Its lyrics are about extravagance and celebrity life.
+    - - strong
+      - It topped the Billboard Hot 100 and features a French electronic duo.
+
+  - title: Come as You Are
+    artist: Nirvana
+    year: 1991
+    genre: Rock
+    styles:
+    - Grunge
+    - Alternative Rock
+    vocal: male
+    language: en
+    themes:
+    - Growing Up / Self-Discovery
+    difficulty: medium
+    youtube: vabnZ9-ex7o
+    source: https://en.wikipedia.org/wiki/Come_as_You_Are_(Nirvana_song)
+    facts:
+    - - easy
+      - It was released as a single on 18 February 1992.
+    - - medium
+      - It was the band's second and final US Top 40 hit.
+    - - strong
+      - It is the third track of the band's second album, Nevermind.
+
+  - title: Nothing Else Matters
+    artist: Metallica
+    year: 1991
+    genre: Rock
+    styles:
+    - Soft Rock
+    vocal: male
+    language: en
+    themes:
+    - Falling in Love
+    - Loneliness / Sadness
+    difficulty: medium
+    youtube: tAGnKpE4NCI
+    source: https://en.wikipedia.org/wiki/Nothing_Else_Matters
+    facts:
+    - - easy
+      - It was released on 20 April 1992 as the third single of the band's self-titled fifth album.
+    - - medium
+      - It reached number one in Denmark and number six in the UK.
+    - - strong
+      - It is a power ballad by a heavy metal band, written by its singer while on tour.
+
+  - title: Three Little Birds
+    artist: Bob Marley & The Wailers
+    year: 1977
+    genre: Reggae
+    styles:
+    - Roots Reggae
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    - Freedom / Carefree
+    difficulty: medium
+    youtube: HNBCVM4KbUM
+    source: https://en.wikipedia.org/wiki/Three_Little_Birds
+    facts:
+    - - easy
+      - It is the fourth track on side two of a 1977 album.
+    - - medium
+      - It was released as a single in 1980 and peaked at number 17 in the UK.
+    - - strong
+      - It comes from the album Exodus.
+
+  - title: Umbrella
+    artist: Rihanna
+    featured:
+    - Jay-Z
+    year: 2007
+    genre: R&B/Soul
+    styles:
+    - Contemporary R&B
+    - Dance-Pop
+    vocal: mixed
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: easy
+    youtube: CvBfHwUxHIk
+    source: https://en.wikipedia.org/wiki/Umbrella_(song)
+    facts:
+    - - easy
+      - It was released on 29 March 2007 as the opening track of the singer's third album.
+    - - medium
+      - It topped the charts in 19 countries.
+    - - strong
+      - It features the singer's mentor and label boss, who co-wrote it with the-Dream.
+
+  - title: Rocket Man
+    artist: Elton John
+    year: 1972
+    genre: Rock
+    styles:
+    - Pop Rock
+    - Soft Rock
+    vocal: male
+    language: en
+    themes:
+    - Road / Journey
+    - Loneliness / Sadness
+    difficulty: medium
+    youtube: DtVBCG6ThDk
+    aliases:
+    - Rocket Man (I Think It's Going to Be a Long, Long Time)
+    source: https://en.wikipedia.org/wiki/Rocket_Man_(song)
+    facts:
+    - - easy
+      - It was first released in the US on 31 March 1972.
+    - - medium
+      - It reached number 2 in the UK and number 6 in the US.
+    - - strong
+      - Its lyrics are by Bernie Taupin, and it is considered the singer's signature song.
+
+  - title: I'm Still Standing
+    artist: Elton John
+    year: 1983
+    genre: Rock
+    styles:
+    - Pop Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    - Breakup / Heartbreak
+    difficulty: medium
+    youtube: ZHwVBirqD2s
+    aliases:
+    - Im Still Standing
+    source: https://en.wikipedia.org/wiki/I%27m_Still_Standing
+    facts:
+    - - easy
+      - It comes from the 1983 album Too Low for Zero.
+    - - medium
+      - It reached number one in Canada and Switzerland, helped by its MTV video.
+    - - strong
+      - It was the lead single of its album in North America but the second single in the UK.
+
+  - title: Space Oddity
+    artist: David Bowie
+    year: 1969
+    genre: Rock
+    styles:
+    - Folk Rock
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    - Fantasy / Surreal
+    difficulty: medium
+    youtube: iYYRH4apXDo
+    source: https://en.wikipedia.org/wiki/Space_Oddity_(song)
+    facts:
+    - - easy
+      - It was released as a single on 11 July 1969.
+    - - medium
+      - 'It was partly inspired by the film 2001: A Space Odyssey.'
+    - - strong
+      - It tells the story of a fictional astronaut called Major Tom.
+
+  - title: I Wanna Dance with Somebody (Who Loves Me)
+    artist: Whitney Houston
+    year: 1987
+    genre: Pop
+    styles:
+    - Dance-Pop
+    vocal: female
+    language: en
+    themes:
+    - Loneliness / Sadness
+    - Party / Dancing
+    difficulty: easy
+    youtube: eH3giaIzONA
+    aliases:
+    - I Wanna Dance with Somebody
+    source: https://en.wikipedia.org/wiki/I_Wanna_Dance_with_Somebody_(Who_Loves_Me)
+    facts:
+    - - easy
+      - It was the lead single from the singer's second album in 1987.
+    - - medium
+      - It was written by George Merrill and Shannon Rubicam of the band Boy Meets Girl.
+    - - strong
+      - Its narrator longs for a special person to share her life with.
+
+  - title: Like a Prayer
+    artist: Madonna
+    year: 1989
+    genre: Pop
+    styles:
+    - Dance-Pop
+    - Pop Rock
+    vocal: female
+    language: en
+    themes:
+    - Religion / Spirituality
+    - Passion / Desire
+    difficulty: medium
+    youtube: 79fzeNUqQbQ
+    source: https://en.wikipedia.org/wiki/Like_a_Prayer_(song)
+    facts:
+    - - easy
+      - It was released on 3 March 1989 as the lead single of the album of the same name.
+    - - medium
+      - It mixes pop rock and dance-pop with gospel and features a choir.
+    - - strong
+      - Its lyrics use religious words but are often read as being about love and desire.
+
+  - title: Purple Rain
+    artist: Prince and the Revolution
+    year: 1984
+    genre: Rock
+    styles:
+    - Soft Rock
+    vocal: male
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    difficulty: medium
+    youtube: uW1UIDYmYyI
+    source: https://en.wikipedia.org/wiki/Purple_Rain_(song)
+    facts:
+    - - easy
+      - It reached number one on the US Cash Box Top 100.
+    - - medium
+      - It is the title track of a 1984 soundtrack album.
+    - - strong
+      - It comes from a 1984 film starring the singer himself.
+
+  - title: Livin' on a Prayer
+    artist: Bon Jovi
+    year: 1986
+    genre: Rock
+    styles:
+    - Hard Rock
+    - Glam Metal
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    - Motivation / Strength
+    difficulty: easy
+    youtube: lDK9QqIzhwk
+    aliases:
+    - Living on a Prayer
+    - Livin on a Prayer
+    source: https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer
+    facts:
+    - - easy
+      - It was co-written with songwriter Desmond Child.
+    - - medium
+      - It was the band's second consecutive number one on the Billboard Hot 100.
+    - - strong
+      - It comes from the band's third album, Slippery When Wet.
+
+  - title: Stayin' Alive
+    artist: Bee Gees
+    year: 1977
+    genre: Disco/Funk
+    styles:
+    - Disco
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    - City / Place
+    difficulty: easy
+    youtube: fNFzfwLM72c
+    aliases:
+    - Staying Alive
+    - Stayin Alive
+    source: https://en.wikipedia.org/wiki/Stayin%27_Alive
+    facts:
+    - - easy
+      - It was released in December 1977 as the second single from a film soundtrack.
+    - - medium
+      - Rolling Stone ranked it number 99 on its 2021 list of the 500 greatest songs.
+    - - strong
+      - It comes from the soundtrack of Saturday Night Fever.
+
+  - title: September
+    artist: Earth, Wind & Fire
+    year: 1978
+    genre: Disco/Funk
+    styles:
+    - Disco
+    - Funk
+    vocal: male
+    language: en
+    themes:
+    - Nostalgia / Memories
+    - Party / Dancing
+    difficulty: easy
+    youtube: Gs069dndIYk
+    source: https://en.wikipedia.org/wiki/September_(Earth,_Wind_%26_Fire_song)
+    facts:
+    - - easy
+      - It was released as a single on 18 November 1978.
+    - - medium
+      - It was co-written by songwriter Allee Willis.
+    - - strong
+      - It reached number one on the US R&B chart and number 3 in the UK.
+
+  - title: I Will Survive
+    artist: Gloria Gaynor
+    year: 1978
+    genre: Disco/Funk
+    styles:
+    - Disco
+    vocal: female
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    - Motivation / Strength
+    difficulty: easy
+    youtube: 6dYWe1c3OyU
+    source: https://en.wikipedia.org/wiki/I_Will_Survive
+    facts:
+    - - easy
+      - It was released in October 1978 from the singer's sixth album, Love Tracks.
+    - - medium
+      - It was written by Freddie Perren and Dino Fekaris.
+    - - strong
+      - Its narrator finds her inner strength after a devastating breakup.
+
+  - title: Eye of the Tiger
+    artist: Survivor
+    year: 1982
+    genre: Rock
+    styles:
+    - Hard Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: easy
+    youtube: btPJPFnesV4
+    source: https://en.wikipedia.org/wiki/Eye_of_the_Tiger
+    facts:
+    - - easy
+      - It combines hard rock with a post-disco beat.
+    - - medium
+      - Its riff was written to match the punches in boxing scenes.
+    - - strong
+      - It was written as the theme of Rocky III after Queen refused to let the film use one of their songs.
+
+  - title: The Final Countdown
+    artist: Europe
+    year: 1986
+    genre: Rock
+    styles:
+    - Hard Rock
+    - Glam Metal
+    vocal: male
+    language: en
+    themes:
+    - Fantasy / Surreal
+    - Road / Journey
+    difficulty: easy
+    youtube: 9jK-NcRmVcw
+    aliases:
+    - Final Countdown
+    source: https://en.wikipedia.org/wiki/The_Final_Countdown_(song)
+    facts:
+    - - easy
+      - It was the debut single from the album of the same name, released in 1986.
+    - - medium
+      - Its music video has over 1.4 billion views on YouTube.
+    - - strong
+      - Its lyrics were inspired by David Bowie's “Space Oddity”.
+
+  - title: With or Without You
+    artist: U2
+    year: 1987
+    genre: Rock
+    styles:
+    - Alternative Rock
+    vocal: male
+    language: en
+    themes:
+    - Passion / Desire
+    - Breakup / Heartbreak
+    difficulty: medium
+    youtube: ujNeHIo7oTE
+    source: https://en.wikipedia.org/wiki/With_or_Without_You
+    facts:
+    - - easy
+      - It is the third track on the band's fifth album.
+    - - medium
+      - It was the band's first number one in the US and Canada.
+    - - strong
+      - It comes from the 1987 album The Joshua Tree.
+
+  - title: Viva la Vida
+    artist: Coldplay
+    year: 2008
+    genre: Rock
+    styles:
+    - Alternative Rock
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    difficulty: medium
+    youtube: dvgZkm1xWPE
+    source: https://en.wikipedia.org/wiki/Viva_la_Vida
+    facts:
+    - - easy
+      - It was written by all the band members for their fourth album.
+    - - medium
+      - Its lyrics refer to King Louis XVI and the French Revolution.
+    - - strong
+      - Its title comes from the last painting by Mexican artist Frida Kahlo.
+
+  - title: Whenever, Wherever
+    artist: Shakira
+    year: 2001
+    genre: Latin
+    styles:
+    - Latin Pop
+    vocal: female
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: easy
+    youtube: weRHyjj34ZE
+    aliases:
+    - Whenever Wherever
+    - Suerte
+    source: https://en.wikipedia.org/wiki/Whenever,_Wherever
+    facts:
+    - - easy
+      - It was released on 27 August 2001 together with its Spanish version.
+    - - medium
+      - Gloria Estefan adapted the original Spanish lyrics into English.
+    - - strong
+      - It was the lead single of the singer's first English-language album, Laundry Service.
+
+  - title: In the End
+    artist: Linkin Park
+    year: 2000
+    genre: Metal
+    styles:
+    - Nu Metal
+    vocal: male
+    language: en
+    themes:
+    - Loneliness / Sadness
+    - Growing Up / Self-Discovery
+    difficulty: medium
+    youtube: eVTXPUF4Oz4
+    source: https://en.wikipedia.org/wiki/In_the_End_(Linkin_Park_song)
+    facts:
+    - - easy
+      - It is the eighth track on the band's debut album.
+    - - medium
+      - Known for its piano riff, it reached number two on the Billboard Hot 100.
+    - - strong
+      - It comes from the 2000 album Hybrid Theory.
+
+  - title: Hero
+    artist: Enrique Iglesias
+    year: 2001
+    genre: Latin
+    styles:
+    - Latin Pop
+    - Pop Ballad
+    vocal: male
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: medium
+    youtube: koJlIGDImiU
+    source: https://en.wikipedia.org/wiki/Hero_(Enrique_Iglesias_song)
+    facts:
+    - - easy
+      - It was written with Paul Barry and Mark Taylor.
+    - - medium
+      - It has sold over eight million copies worldwide.
+    - - strong
+      - After the 11 September attacks, New York radio DJs remixed it with audio from that day.
