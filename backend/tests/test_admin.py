@@ -45,6 +45,7 @@ def admin_client(client: Client) -> Client:
         "catalog.song",
         "game.dailypuzzle",
         "game.gamesession",
+        "importer.importbatch",
     ],
 )
 def test_changelist_and_add_pages_open(admin_client: Client, model: str) -> None:
@@ -52,7 +53,7 @@ def test_changelist_and_add_pages_open(admin_client: Client, model: str) -> None
     complete_song()
 
     assert admin_client.get(reverse(f"admin:{app}_{name}_changelist")).status_code == 200
-    if model != "game.gamesession":
+    if model not in ("game.gamesession", "importer.importbatch"):
         assert admin_client.get(reverse(f"admin:{app}_{name}_add")).status_code == 200
 
 
@@ -234,3 +235,17 @@ def test_admin_switches_to_russian(admin_client: Client) -> None:
     # Our own translations, not only Django's built-in ones.
     assert "Администрирование DailyHit" in page
     assert "Песни дня" in page
+
+
+def test_import_report_page_opens(admin_client: Client) -> None:
+    from apps.importer.models import ImportBatch, ImportRow
+
+    batch = ImportBatch.objects.create(file_name="songs.csv", summary={"error": 1})
+    ImportRow.objects.create(
+        batch=batch, row_number=2, raw={"title": "X"}, status="error", messages=["unknown genre"]
+    )
+
+    response = admin_client.get(reverse("admin:importer_importbatch_change", args=[batch.pk]))
+
+    assert response.status_code == 200
+    assert "unknown genre" in response.content.decode()

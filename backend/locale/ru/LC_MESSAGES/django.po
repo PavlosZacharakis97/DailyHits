@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dailyhit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 10:30+0000\n"
+"POT-Creation-Date: 2026-10-09 20:00+0000\n"
 "PO-Revision-Date: 2026-10-06 10:30+0000\n"
 "Last-Translator: DailyHit\n"
 "Language-Team: Russian\n"
@@ -48,8 +48,11 @@ msgid "problems"
 msgstr "проблемы"
 
 #: apps/catalog/admin.py:257
-msgid "The song was saved with status “Review” because it cannot be verified yet:"
-msgstr "Песня сохранена со статусом «На проверке», потому что её пока нельзя подтвердить:"
+msgid ""
+"The song was saved with status “Review” because it cannot be verified yet:"
+msgstr ""
+"Песня сохранена со статусом «На проверке», потому что её пока нельзя "
+"подтвердить:"
 
 #: apps/catalog/admin.py:263
 msgid "Move selected songs to review"
@@ -167,6 +170,7 @@ msgid "Strong — revealing"
 msgstr "Сильный — почти выдаёт ответ"
 
 #: apps/catalog/models.py:88 apps/game/models.py:88 apps/game/models.py:120
+#: apps/importer/models.py:21
 msgid "created at"
 msgstr "создано"
 
@@ -211,8 +215,11 @@ msgid "countries"
 msgstr "страны"
 
 #: apps/catalog/models.py:144
-msgid "ISO 639-1 (en), or ISO 639-3 when there is no two-letter code (zxx = no lyrics)."
-msgstr "ISO 639-1 (en) или ISO 639-3, если двухбуквенного кода нет (zxx — без слов)."
+msgid ""
+"ISO 639-1 (en), or ISO 639-3 when there is no two-letter code (zxx = no "
+"lyrics)."
+msgstr ""
+"ISO 639-1 (en) или ISO 639-3, если двухбуквенного кода нет (zxx — без слов)."
 
 #: apps/catalog/models.py:146
 msgid "Two or three lowercase letters."
@@ -344,7 +351,9 @@ msgstr "основной исполнитель"
 
 #: apps/catalog/models.py:329
 msgid "The artist credited on the original release. Featured artists go below."
-msgstr "Исполнитель, указанный на оригинальном релизе. Приглашённые исполнители — ниже."
+msgstr ""
+"Исполнитель, указанный на оригинальном релизе. Приглашённые исполнители — "
+"ниже."
 
 #: apps/catalog/models.py:332
 msgid "year"
@@ -374,7 +383,7 @@ msgstr "Если пусто, игра даст ссылку на поиск YouT
 msgid "difficulty"
 msgstr "сложность"
 
-#: apps/catalog/models.py:374 apps/game/models.py:86
+#: apps/catalog/models.py:374 apps/game/models.py:86 apps/importer/models.py:41
 msgid "status"
 msgstr "статус"
 
@@ -393,6 +402,7 @@ msgstr "заметки модератора"
 #: apps/catalog/models.py:392 apps/catalog/models.py:474
 #: apps/catalog/models.py:521 apps/catalog/models.py:547
 #: apps/catalog/models.py:575 apps/game/models.py:18 apps/game/models.py:118
+#: apps/importer/models.py:48
 msgid "song"
 msgstr "песня"
 
@@ -470,8 +480,11 @@ msgid "text"
 msgstr "текст"
 
 #: apps/catalog/models.py:579
-msgid "In your own words. No lyric quotes. Must not mention the title or the artist."
-msgstr "Своими словами. Без цитат из текста песни. Без названия песни и имени исполнителя."
+msgid ""
+"In your own words. No lyric quotes. Must not mention the title or the artist."
+msgstr ""
+"Своими словами. Без цитат из текста песни. Без названия песни и имени "
+"исполнителя."
 
 #: apps/catalog/models.py:582
 msgid "strength"
@@ -666,12 +679,17 @@ msgstr "Песня не входит в версию игры «%(edition)s»."
 #: apps/game/schedule.py:37
 #, python-format
 msgid "Already scheduled on %(date)s; a song may repeat once in %(days)s days."
-msgstr "Уже стоит в расписании на %(date)s; песня может повторяться раз в %(days)s дней."
+msgstr ""
+"Уже стоит в расписании на %(date)s; песня может повторяться раз в %(days)s "
+"дней."
 
 #: apps/game/schedule.py:51
 #, python-format
-msgid "%(artist)s is also on %(date)s; an artist cannot play two days in a row."
-msgstr "%(artist)s уже стоит на %(date)s; один исполнитель не может быть два дня подряд."
+msgid ""
+"%(artist)s is also on %(date)s; an artist cannot play two days in a row."
+msgstr ""
+"%(artist)s уже стоит на %(date)s; один исполнитель не может быть два дня "
+"подряд."
 
 #: apps/game/schedule.py:79
 #, python-format
@@ -683,27 +701,91 @@ msgstr "%(days)s дня подряд с %(date)s один жанр: %(genre)s."
 msgid "%(days)s hard songs in a row from %(date)s."
 msgstr "%(days)s сложные песни подряд с %(date)s."
 
+#: apps/importer/admin.py:19 apps/importer/models.py:50
+msgid "messages"
+msgstr "сообщения"
+
+#: apps/importer/admin.py:38
+msgid "result"
+msgstr "результат"
+
 #: apps/importer/apps.py:8
 msgid "Import"
 msgstr "Импорт"
 
-#: config/settings.py:95
+#: apps/importer/models.py:11
+msgid "Created"
+msgstr "Создана"
+
+#: apps/importer/models.py:12
+msgid "Updated"
+msgstr "Обновлена"
+
+#: apps/importer/models.py:13
+msgid "Unchanged"
+msgstr "Без изменений"
+
+#: apps/importer/models.py:14
+msgid "Conflict"
+msgstr "Конфликт"
+
+#: apps/importer/models.py:15
+msgid "Error"
+msgstr "Ошибка"
+
+#: apps/importer/models.py:19
+msgid "file name"
+msgstr "имя файла"
+
+#: apps/importer/models.py:20
+msgid "dry run"
+msgstr "пробный запуск"
+
+#: apps/importer/models.py:22
+msgid "summary"
+msgstr "итог"
+
+#: apps/importer/models.py:25 apps/importer/models.py:37
+msgid "import"
+msgstr "импорт"
+
+#: apps/importer/models.py:26
+msgid "imports"
+msgstr "импорты"
+
+#: apps/importer/models.py:39
+msgid "row"
+msgstr "строка"
+
+#: apps/importer/models.py:40
+msgid "raw data"
+msgstr "исходные данные"
+
+#: apps/importer/models.py:53
+msgid "import row"
+msgstr "строка импорта"
+
+#: apps/importer/models.py:54
+msgid "import rows"
+msgstr "строки импорта"
+
+#: config/settings.py:96
 msgid "English"
 msgstr "Английский"
 
-#: config/settings.py:96
+#: config/settings.py:97
 msgid "Russian"
 msgstr "Русский"
 
-#: config/urls.py:8
+#: config/urls.py:9
 msgid "DailyHit administration"
 msgstr "Администрирование DailyHit"
 
-#: config/urls.py:9
+#: config/urls.py:10
 msgid "DailyHit admin"
 msgstr "Админка DailyHit"
 
-#: config/urls.py:10
+#: config/urls.py:11
 msgid "Content"
 msgstr "Контент"
 

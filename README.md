@@ -46,17 +46,17 @@ docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py seed_reference
 ```
 
-Для разработки можно загрузить 40 демо-песен со всеми полями и фактами (статус «На проверке»):
+Для разработки можно загрузить 80 демо-песен со всеми полями и фактами (статус «На проверке»):
 
 ```sh
 docker compose exec backend python manage.py seed_demo
 ```
 
 Чтобы поиграть локально, подтвердите демо-песни и составьте из них расписание
-(40 дней, начиная с недели назад — для архива):
+(80 дней, начиная с недели назад — для архива):
 
 ```sh
-docker compose exec backend python manage.py seed_demo --status verified --schedule 40 --past 7
+docker compose exec backend python manage.py seed_demo --status verified --schedule 80 --past 7
 ```
 
 Сами справочники лежат в [backend/apps/catalog/seed/reference.yaml](backend/apps/catalog/seed/reference.yaml).
@@ -115,6 +115,34 @@ docker compose up -d --build backend     # или frontend
 - POST-запросы должны прийти с заголовком `Origin` сайта игры.
 - Ошибки: `{"error": {"code": "...", "message": "..."}}`, например `already_guessed`, `game_over`, `throttled`.
 - Ограничения частоты: `API_THROTTLE_SEARCH` и `API_THROTTLE_GUESS` в `.env`.
+
+## Наполнение и проверка данных
+
+Правила заполнения — [docs/data-rules.md](docs/data-rules.md). Формат таблицы для импорта — [docs/import-format.md](docs/import-format.md), пример — [docs/import-example.csv](docs/import-example.csv).
+
+Положите CSV в `backend/data/` (папка не попадает в git) и запустите:
+
+```sh
+docker compose exec backend python manage.py import_songs /app/data/songs.csv --dry-run  # только отчёт
+docker compose exec backend python manage.py import_songs /app/data/songs.csv            # импорт в черновики
+docker compose exec backend python manage.py validate_data                               # проблемы в данных и дубли
+docker compose exec backend python manage.py check_schedule --days 60                    # пропуски и ошибки расписания
+```
+
+История импортов с отчётом по каждой строке — в админке, раздел «Import».
+
+## Бэкапы
+
+```sh
+scripts/backup.sh                                   # сжатая копия базы в backups/, хранятся 14 последних
+scripts/restore.sh backups/dailyhit-YYYYMMDD-HHMMSS.dump   # восстановление (спросит подтверждение)
+```
+
+- Количество хранимых копий — `BACKUP_KEEP`, папка — `BACKUP_DIR`.
+- Каждый дамп сразу проверяется (`pg_restore --list`); испорченный файл не сохраняется.
+- Восстановление **заменяет всю базу**, на это время контейнер `backend` останавливается.
+- Для ежедневного бэкапа добавьте в cron: `0 3 * * * cd /путь/к/DailyHit.live && scripts/backup.sh >> backups/backup.log 2>&1`.
+- Храните копии ещё где-то кроме этого компьютера.
 
 ## Данные
 

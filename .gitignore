@@ -15,6 +15,9 @@ backend/staticfiles/
 # Backups produced by scripts/backup.sh
 backups/
 
+# Local CSV files for import_songs
+backend/data/
+
 # OS / editors
 .DS_Store
 .idea/
