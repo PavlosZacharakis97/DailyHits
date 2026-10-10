@@ -171,6 +171,27 @@
   white-space: nowrap;
 }
 
+.badgeDivider {
+  opacity: 0.6;
+}
+
+.countdown {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.badgeNew {
+  border: 0;
+  background: var(--button-grad);
+  color: var(--button-text);
+  cursor: pointer;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% { transform: scale(1.05); }
+}
+
 .mystery {
   margin: 0;
   font-family: var(--font-display);

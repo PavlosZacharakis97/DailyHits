@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { knowledge } from '../game/knowledge.js'
+import { nextPuzzleAt } from '../game/stats.js'
+import { useCountdown } from '../hooks/useCountdown.js'
 import { Artwork } from './Artwork.jsx'
 import { Vinyl } from './Vinyl.jsx'
 import { GuessInput } from './GuessInput.jsx'
@@ -46,9 +48,7 @@ export function PuzzleCard({ game, onShowResult }) {
               <h1 id="puzzle-title" ref={titleRef} tabIndex={-1} className={`${styles.title} gradient-text`} data-won={status === 'won' || undefined}>
                 {finished ? STATUS_TITLE[status] : 'Guess the song'}
               </h1>
-              <span className={styles.badge}>
-                <NoteIcon size={16} /> #{number} · 1 song a day
-              </span>
+              <NextSong number={number} date={game.date} />
             </div>
 
             {finished && !answer && <p className={styles.answerArtist}>Loading the answer…</p>}
@@ -129,6 +129,30 @@ export function PuzzleCard({ game, onShowResult }) {
         {announcement}
       </div>
     </section>
+  )
+}
+
+/** Issue number and a live countdown to the next daily song. */
+function NextSong({ number, date }) {
+  const countdown = useCountdown(nextPuzzleAt(date))
+  if (countdown.done) {
+    return (
+      <button type="button" className={`${styles.badge} ${styles.badgeNew}`} onClick={() => window.location.reload()}>
+        <NoteIcon size={16} /> New song! Play
+      </button>
+    )
+  }
+  return (
+    <span className={styles.badge}>
+      <NoteIcon size={16} /> #{number}
+      <span className={styles.badgeDivider} aria-hidden="true">·</span>
+      <span>
+        New song in{' '}
+        <time className={styles.countdown} aria-label={countdown.spoken}>
+          {countdown.text}
+        </time>
+      </span>
+    </span>
   )
 }
 

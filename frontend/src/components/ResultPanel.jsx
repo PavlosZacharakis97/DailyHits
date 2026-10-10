@@ -55,7 +55,7 @@ export function ResultPanel({ open, onClose, game, date }) {
         <div className={styles.next}>
           <span className={styles.scoreLabel}>Next song in</span>
           <span className={`${styles.countdown} display`} aria-live="off">
-            {countdown}
+            {countdown.text}
           </span>
         </div>
       </div>
