@@ -160,6 +160,89 @@ people:
   - Dave Farrell
   - Enrique Iglesias
 
+  - Albert Johnson
+  - Kejuan Muchita
+  - Louis Freese
+  - Senen Reyes
+  - Lawrence Muggerud
+  - RZA
+  - GZA
+  - Method Man
+  - Raekwon
+  - Ghostface Killah
+  - Inspectah Deck
+  - U-God
+  - Masta Killa
+  - Ol' Dirty Bastard
+  - Nasir Jones
+  - Christopher Wallace
+  - Tupac Shakur
+  - Andre Young
+  - Calvin Broadus
+  - Roger Troutman
+  - Eric Wright
+  - O'Shea Jackson
+  - Lorenzo Patterson
+  - Antoine Carraby
+  - Joseph Saddler
+  - Melvin Glover
+  - Nathaniel Glover
+  - Keith Wiggins
+  - Eddie Morris
+  - Guy Williams
+  - Michael Wright
+  - Guy O'Brien
+  - Henry Jackson
+  - Michael Diamond
+  - Adam Horovitz
+  - Adam Yauch
+  - Carlton Ridenhour
+  - William Drayton
+  - Norman Rogers
+  - Richard Griffin
+  - Kamaal Fareed
+  - Malik Taylor
+  - Ali Shaheed Muhammad
+  - Jarobi White
+  - Cheryl James
+  - Sandra Denton
+  - Deidra Roper
+  - Erik Schrody
+  - Daniel O'Connor
+  - Leor Dimant
+  - Warren Griffin
+  - Nathaniel Hale
+  - André Benjamin
+  - Antwan Patton
+  - Melissa Elliott
+  - Lauryn Hill
+  - Earl Simmons
+  - Marshall Mathers
+  - Curtis Jackson
+  - Alicia Keys
+  - Kanye West
+  - Jamie Foxx
+  - Cornell Haynes Jr.
+  - William Adams
+  - Allan Pineda
+  - Jaime Gomez
+  - Stacy Ferguson
+  - Kendrick Lamar
+  - Aubrey Graham
+  - Jacques Webster II
+  - Austin Post
+  - Shéyaa Abraham-Joseph
+  - Montero Hill
+  - Belcalis Almánzar
+  - Onika Maraj
+  - Ben Haggerty
+  - Ryan Lewis
+  - Michael Wansley
+  - Jarad Higgins
+  - Cameron Thomaz
+  - Charlie Puth
+  - Oakley Caesar-Su
+
 artists:
   - {name: Queen, type: group, country: GB,
      members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
@@ -250,6 +333,52 @@ artists:
   - {name: Linkin Park, type: group, country: US,
      members: [Chester Bennington, Mike Shinoda, Brad Delson, Rob Bourdon, Joe Hahn, Dave Farrell]}
   - {name: Enrique Iglesias, type: solo, country: ES, members: [Enrique Iglesias]}
+
+  - {country: US, members: [Albert Johnson, Kejuan Muchita], name: Mobb Deep, type: duo}
+  - {country: US, members: [Louis Freese, Senen Reyes, Lawrence Muggerud], name: Cypress Hill, type: group}
+  - {country: US, members: [RZA, GZA, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, Masta Killa, Ol' Dirty Bastard], name: Wu-Tang Clan, type: group}
+  - {country: US, members: [Nasir Jones], name: Nas, type: solo}
+  - {country: US, members: [Christopher Wallace], name: The Notorious B.I.G., type: solo}
+  - {country: US, members: [Tupac Shakur], name: 2Pac, type: solo}
+  - {country: US, members: [Andre Young], name: Dr. Dre, type: solo}
+  - {country: US, members: [Calvin Broadus], name: Snoop Dogg, type: solo}
+  - {country: US, members: [Roger Troutman], name: Roger Troutman, type: solo}
+  - {country: US, members: [Eric Wright, O'Shea Jackson, Andre Young, Lorenzo Patterson, Antoine Carraby], name: N.W.A, type: group}
+  - {country: US, members: [O'Shea Jackson], name: Ice Cube, type: solo}
+  - {country: US, members: [Joseph Saddler, Melvin Glover, Nathaniel Glover, Keith Wiggins, Eddie Morris, Guy Williams], name: Grandmaster Flash and the Furious Five, type: group}
+  - {country: US, members: [Michael Wright, Guy O'Brien, Henry Jackson], name: The Sugarhill Gang, type: group}
+  - {country: US, members: [Michael Diamond, Adam Horovitz, Adam Yauch], name: Beastie Boys, type: group}
+  - {country: US, members: [Carlton Ridenhour, William Drayton, Norman Rogers, Richard Griffin], name: Public Enemy, type: group}
+  - {country: US, members: [Kamaal Fareed, Malik Taylor, Ali Shaheed Muhammad, Jarobi White], name: A Tribe Called Quest, type: group}
+  - {country: US, members: [Cheryl James, Sandra Denton, Deidra Roper], name: Salt-N-Pepa, type: group}
+  - {country: US, members: [Erik Schrody, Daniel O'Connor, Leor Dimant], name: House of Pain, type: group}
+  - {country: US, members: [Warren Griffin], name: Warren G, type: solo}
+  - {country: US, members: [Nathaniel Hale], name: Nate Dogg, type: solo}
+  - {country: US, members: [André Benjamin, Antwan Patton], name: Outkast, type: duo}
+  - {country: US, members: [Melissa Elliott], name: Missy Elliott, type: solo}
+  - {country: US, members: [Lauryn Hill], name: Lauryn Hill, type: solo}
+  - {country: US, members: [Earl Simmons], name: DMX, type: solo}
+  - {country: US, members: [Marshall Mathers], name: Eminem, type: solo}
+  - {country: US, members: [Curtis Jackson], name: 50 Cent, type: solo}
+  - {country: US, members: [Alicia Keys], name: Alicia Keys, type: solo}
+  - {country: US, members: [Kanye West], name: Kanye West, type: solo}
+  - {country: US, members: [Jamie Foxx], name: Jamie Foxx, type: solo}
+  - {country: US, members: [Cornell Haynes Jr.], name: Nelly, type: solo}
+  - {country: US, members: [William Adams, Allan Pineda, Jaime Gomez, Stacy Ferguson], name: Black Eyed Peas, type: group}
+  - {country: US, members: [Kendrick Lamar], name: Kendrick Lamar, type: solo}
+  - {country: CA, members: [Aubrey Graham], name: Drake, type: solo}
+  - {country: US, members: [Jacques Webster II], name: Travis Scott, type: solo}
+  - {country: US, members: [Austin Post], name: Post Malone, type: solo}
+  - {country: GB, members: [Shéyaa Abraham-Joseph], name: 21 Savage, type: solo}
+  - {country: US, members: [Montero Hill], name: Lil Nas X, type: solo}
+  - {country: US, members: [Belcalis Almánzar], name: Cardi B, type: solo}
+  - {country: TT, members: [Onika Maraj], name: Nicki Minaj, type: solo}
+  - {country: US, members: [Ben Haggerty, Ryan Lewis], name: Macklemore & Ryan Lewis, type: duo}
+  - {country: US, members: [Michael Wansley], name: Wanz, type: solo}
+  - {country: US, members: [Jarad Higgins], name: Juice WRLD, type: solo}
+  - {country: US, members: [Cameron Thomaz], name: Wiz Khalifa, type: solo}
+  - {country: US, members: [Charlie Puth], name: Charlie Puth, type: solo}
+  - {country: GB, members: [Oakley Caesar-Su], name: Central Cee, type: solo}
 
 songs:
   - title: Bohemian Rhapsody
@@ -1833,3 +1962,1161 @@ songs:
       - It has sold over eight million copies worldwide.
     - - strong
       - After the 11 September attacks, New York radio DJs remixed it with audio from that day.
+
+  # --- Set 5: hip-hop, from old school to today. Many artist links:
+  # Dr. Dre and Ice Cube were in N.W.A, Snoop Dogg and Drake appear as guests.
+
+  - title: Shook Ones (Part II)
+    artist: Mobb Deep
+    year: 1995
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    difficulty: hard
+    youtube: yoYZf-lBF_U
+    aliases:
+    - Shook Ones Part II
+    - Shook Ones Pt. II
+    source: https://en.wikipedia.org/wiki/Shook_Ones_(Part_II)
+    facts:
+    - - easy
+      - It is a sequel to a 1994 promotional single, with similar lyrics but less profanity.
+    - - medium
+      - On some releases the 1994 original appears as its B-side.
+    - - strong
+      - It was the lead single from the 1995 album The Infamous.
+
+  - title: Survival of the Fittest
+    artist: Mobb Deep
+    year: 1995
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    - Motivation / Strength
+    difficulty: hard
+    youtube: nfM43P_kIFU
+    source: https://en.wikipedia.org/wiki/Survival_of_the_Fittest_(song)
+    facts:
+    - - easy
+      - It samples the 1976 song “Skylark” by the Barry Harris Trio and Al Cohn.
+    - - medium
+      - It peaked at number 69 on the Billboard Hot 100.
+    - - strong
+      - It was the second single from the 1995 album The Infamous.
+
+  - title: Insane in the Brain
+    artist: Cypress Hill
+    year: 1993
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: medium
+    youtube: RijB8wnJCN0
+    source: https://en.wikipedia.org/wiki/Insane_in_the_Brain
+    facts:
+    - - easy
+      - It reached number one on the US rap chart and number 19 on the Billboard Hot 100.
+    - - medium
+      - It was released in June 1993 as the first single from the group's second album.
+    - - strong
+      - It comes from the album Black Sunday.
+
+  - title: How I Could Just Kill a Man
+    artist: Cypress Hill
+    year: 1991
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    - Death / Loss
+    difficulty: hard
+    youtube: Yg-RIOATCbU
+    source: https://en.wikipedia.org/wiki/How_I_Could_Just_Kill_a_Man
+    facts:
+    - - easy
+      - It was released as a double A-side with “The Phuncky Feel One”.
+    - - medium
+      - It was used in the 1992 film Juice and re-released in 1999 with Spanish lyrics.
+    - - strong
+      - It was the group's debut single and first major hit, from their self-titled first album.
+
+  - title: C.R.E.A.M.
+    artist: Wu-Tang Clan
+    year: 1994
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Social Issues
+    difficulty: medium
+    youtube: PBwAxmrE194
+    aliases:
+    - CREAM
+    - Cash Rules Everything Around Me
+    source: https://en.wikipedia.org/wiki/C.R.E.A.M.
+    facts:
+    - - easy
+      - It samples the Charmels' 1967 song “As Long As I've Got You”.
+    - - medium
+      - It was produced by the group's de facto leader and released on 31 January 1994.
+    - - strong
+      - It is the second single from the debut album Enter the Wu-Tang (36 Chambers).
+
+  - title: N.Y. State of Mind
+    artist: Nas
+    year: 1994
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    vocal: male
+    language: en
+    themes:
+    - City / Place
+    - Social Issues
+    difficulty: hard
+    youtube: hI8A14Qcv68
+    aliases:
+    - NY State of Mind
+    source: https://en.wikipedia.org/wiki/N.Y._State_of_Mind
+    facts:
+    - - easy
+      - DJ Premier built its beat from jazz samples by Joe Chambers and Donald Byrd.
+    - - medium
+      - It comes from a 1994 debut album.
+    - - strong
+      - It is from the album Illmatic.
+
+  - title: Juicy
+    artist: The Notorious B.I.G.
+    year: 1994
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Story / Character
+    difficulty: medium
+    youtube: _JZom_gVfuw
+    source: https://en.wikipedia.org/wiki/Juicy_(The_Notorious_B.I.G._song)
+    facts:
+    - - easy
+      - It samples a 1983 song by the band Mtume.
+    - - medium
+      - Its chorus is sung by the girl group Total and label founder Sean Combs.
+    - - strong
+      - It was the first single from the 1994 debut album Ready to Die.
+
+  - title: Hypnotize
+    artist: The Notorious B.I.G.
+    year: 1997
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Party / Dancing
+    difficulty: medium
+    youtube: glEiPXAYE-U
+    source: https://en.wikipedia.org/wiki/Hypnotize_(The_Notorious_B.I.G._song)
+    facts:
+    - - easy
+      - It includes uncredited vocals by Pamela Long.
+    - - medium
+      - It was released on 4 March 1997, five days before the rapper was murdered.
+    - - strong
+      - It was the first single from the album Life After Death.
+
+  - title: California Love
+    artist: 2Pac
+    featured:
+    - Dr. Dre
+    - Roger Troutman
+    year: 1995
+    genre: Hip-Hop
+    styles:
+    - G-Funk
+    vocal: male
+    language: en
+    themes:
+    - City / Place
+    - Party / Dancing
+    difficulty: easy
+    youtube: J7_bMdYfSws
+    source: https://en.wikipedia.org/wiki/California_Love
+    facts:
+    - - easy
+      - It was released on 3 December 1995.
+    - - medium
+      - It was the rapper's comeback single after his release from prison.
+    - - strong
+      - It was his first single on Death Row Records.
+
+  - title: Changes
+    artist: 2Pac
+    year: 1998
+    genre: Hip-Hop
+    styles:
+    - Conscious Hip-Hop
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    - Protest / Politics
+    difficulty: medium
+    youtube: eXvBjCO19QY
+    source: https://en.wikipedia.org/wiki/Changes_(Tupac_Shakur_song)
+    facts:
+    - - easy
+      - It was recorded in 1992 but only released in October 1998.
+    - - medium
+      - Its chorus is sung by the R&B trio Talent from Kansas City.
+    - - strong
+      - It discusses race relations and came out on the rapper's posthumous Greatest Hits.
+
+  - title: Still D.R.E.
+    artist: Dr. Dre
+    featured:
+    - Snoop Dogg
+    year: 1999
+    genre: Hip-Hop
+    styles:
+    - G-Funk
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    difficulty: easy
+    youtube: _CL6n0FJZpk
+    aliases:
+    - Still Dre
+    source: https://en.wikipedia.org/wiki/Still_D.R.E.
+    facts:
+    - - easy
+      - It was released on 28 September 1999.
+    - - medium
+      - It re-entered the Billboard Hot 100 in 2022 and peaked at number 23.
+    - - strong
+      - It was the lead single of the album 2001.
+
+  - title: Nuthin' but a "G" Thang
+    artist: Dr. Dre
+    featured:
+    - Snoop Dogg
+    year: 1992
+    genre: Hip-Hop
+    styles:
+    - G-Funk
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: medium
+    youtube: 8GliyDgAGQI
+    aliases:
+    - Nuthin but a G Thang
+    - G Thang
+    source: https://en.wikipedia.org/wiki/Nuthin%27_but_a_%22G%22_Thang
+    facts:
+    - - easy
+      - It was released as a single in January 1993 by Death Row.
+    - - medium
+      - It comes from the producer-rapper's debut solo album.
+    - - strong
+      - It is on the 1992 album The Chronic.
+
+  - title: Drop It Like It's Hot
+    artist: Snoop Dogg
+    featured:
+    - Pharrell Williams
+    year: 2004
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    - Money / Success
+    difficulty: easy
+    youtube: GtUVQei3nX4
+    aliases:
+    - Drop It Like Its Hot
+    source: https://en.wikipedia.org/wiki/Drop_It_Like_It%27s_Hot
+    facts:
+    - - easy
+      - It was released on 27 September 2004.
+    - - medium
+      - It was produced by the Neptunes.
+    - - strong
+      - 'It was the lead single from R&G (Rhythm & Gangsta): The Masterpiece.'
+
+  - title: Straight Outta Compton
+    artist: N.W.A
+    year: 1988
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - City / Place
+    - Social Issues
+    difficulty: medium
+    youtube: TMZi25Pq3T8
+    aliases:
+    - Straight Out of Compton
+    source: https://en.wikipedia.org/wiki/Straight_Outta_Compton_(song)
+    facts:
+    - - easy
+      - It samples Funkadelic and the famous “Amen, Brother” drum break.
+    - - medium
+      - It is the opening track of the group's debut album.
+    - - strong
+      - Its title names the group's home city in Los Angeles County.
+
+  - title: It Was a Good Day
+    artist: Ice Cube
+    year: 1993
+    genre: Hip-Hop
+    styles:
+    - G-Funk
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    - City / Place
+    difficulty: medium
+    youtube: h4UqMyldS7Q
+    aliases:
+    - Today Was a Good Day
+    source: https://en.wikipedia.org/wiki/It_Was_a_Good_Day
+    facts:
+    - - easy
+      - It was released on 23 February 1993.
+    - - medium
+      - It samples the Isley Brothers song “Footsteps in the Dark”.
+    - - strong
+      - It was the second single from the rapper's third solo album, The Predator.
+
+  - title: The Message
+    artist: Grandmaster Flash and the Furious Five
+    year: 1982
+    genre: Hip-Hop
+    styles:
+    - Old-School Hip-Hop
+    - Conscious Hip-Hop
+    vocal: male
+    language: en
+    themes:
+    - Social Issues
+    - City / Place
+    difficulty: medium
+    youtube: 8ByQ5oGOBCI
+    source: https://en.wikipedia.org/wiki/The_Message_(Grandmaster_Flash_and_the_Furious_Five_song)
+    facts:
+    - - easy
+      - It was released as a single by Sugar Hill Records on 1 July 1982.
+    - - medium
+      - It was written in response to the 1980 New York City transit strike.
+    - - strong
+      - It was an early hip-hop song built around social commentary.
+
+  - title: Rapper's Delight
+    artist: The Sugarhill Gang
+    year: 1979
+    genre: Hip-Hop
+    styles:
+    - Old-School Hip-Hop
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: medium
+    youtube: mcCK99wHrk0
+    aliases:
+    - Rappers Delight
+    source: https://en.wikipedia.org/wiki/Rapper%27s_Delight
+    facts:
+    - - easy
+      - It was produced by Sylvia Robinson in 1979.
+    - - medium
+      - It reached number one in Canada and the top three in the UK.
+    - - strong
+      - It is credited with introducing rap music to a wide audience.
+
+  - title: (You Gotta) Fight for Your Right (To Party!)
+    artist: Beastie Boys
+    year: 1986
+    genre: Hip-Hop
+    styles:
+    - Rap Rock
+    vocal: male
+    language: en
+    themes:
+    - Freedom / Carefree
+    - Party / Dancing
+    difficulty: medium
+    youtube: eBShN8qT4lk
+    aliases:
+    - Fight for Your Right
+    - Fight for Your Right to Party
+    source: https://en.wikipedia.org/wiki/(You_Gotta)_Fight_for_Your_Right_(To_Party!)
+    facts:
+    - - easy
+      - It reached number 7 on the Billboard Hot 100 in March 1987.
+    - - medium
+      - It was the fourth single from the group's 1986 debut album.
+    - - strong
+      - It comes from the album Licensed to Ill.
+
+  - title: Fight the Power
+    artist: Public Enemy
+    year: 1989
+    genre: Hip-Hop
+    styles:
+    - Conscious Hip-Hop
+    vocal: male
+    language: en
+    themes:
+    - Protest / Politics
+    difficulty: medium
+    youtube: mmo3HFa2vjg
+    source: https://en.wikipedia.org/wiki/Fight_the_Power_(Public_Enemy_song)
+    facts:
+    - - easy
+      - It was first issued in 1989 on a film soundtrack.
+    - - medium
+      - Director Spike Lee asked for it as the theme of his film.
+    - - strong
+      - It is the theme of Do the Right Thing.
+
+  - title: Can I Kick It?
+    artist: A Tribe Called Quest
+    year: 1990
+    genre: Hip-Hop
+    styles:
+    - Boom Bap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: hard
+    youtube: O3pyCGnZzYA
+    aliases:
+    - Can I Kick It
+    source: https://en.wikipedia.org/wiki/Can_I_Kick_It%3F
+    facts:
+    - - easy
+      - It samples Lou Reed's “Walk on the Wild Side”.
+    - - medium
+      - It was recorded in 1989, when the members were 18 and 19.
+    - - strong
+      - It is the third single from the group's debut album, People's Instinctive Travels and the Paths of Rhythm.
+
+  - title: Push It
+    artist: Salt-N-Pepa
+    year: 1987
+    genre: Hip-Hop
+    styles:
+    - Old-School Hip-Hop
+    vocal: female
+    language: en
+    themes:
+    - Party / Dancing
+    - Passion / Desire
+    difficulty: medium
+    youtube: vCadcBR95oU
+    source: https://en.wikipedia.org/wiki/Push_It_(Salt-N-Pepa_song)
+    facts:
+    - - easy
+      - It peaked at number 19 on the Billboard Hot 100 in early 1988.
+    - - medium
+      - It re-entered the UK chart after a performance at the Nelson Mandela 70th Birthday Tribute.
+    - - strong
+      - It first came out as the B-side of the single “Tramp”.
+
+  - title: Jump Around
+    artist: House of Pain
+    year: 1992
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: easy
+    youtube: jrL_LzX5wv4
+    source: https://en.wikipedia.org/wiki/Jump_Around
+    facts:
+    - - easy
+      - It was released in May 1992 as the group's first single.
+    - - medium
+      - It is widely regarded as a club classic in the UK.
+    - - strong
+      - It was produced by DJ Muggs of Cypress Hill.
+
+  - title: Regulate
+    artist: Warren G
+    featured:
+    - Nate Dogg
+    year: 1994
+    genre: Hip-Hop
+    styles:
+    - G-Funk
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    difficulty: medium
+    youtube: 1plPyJdXKIY
+    source: https://en.wikipedia.org/wiki/Regulate_(song)
+    facts:
+    - - easy
+      - It was released in April 1994 on a film soundtrack.
+    - - medium
+      - It reached number 2 on the Billboard Hot 100.
+    - - strong
+      - It comes from the soundtrack to Above the Rim.
+
+  - title: Ms. Jackson
+    artist: Outkast
+    year: 2000
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    difficulty: easy
+    youtube: MYxAiK6VnXw
+    aliases:
+    - Miss Jackson
+    source: https://en.wikipedia.org/wiki/Ms._Jackson
+    facts:
+    - - easy
+      - It topped the Billboard Hot 100 for one week in February 2001.
+    - - medium
+      - It reached number one in Germany, the Netherlands, Norway and Sweden.
+    - - strong
+      - It comes from the duo's album Stankonia.
+
+  - title: Get Ur Freak On
+    artist: Missy Elliott
+    year: 2001
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: female
+    language: en
+    themes:
+    - Party / Dancing
+    difficulty: medium
+    youtube: FPoKiGQzbSQ
+    aliases:
+    - Get Your Freak On
+    source: https://en.wikipedia.org/wiki/Get_Ur_Freak_On
+    facts:
+    - - easy
+      - It was written and produced with Timbaland.
+    - - medium
+      - It is built on bhangra elements from Punjab.
+    - - strong
+      - It was the lead single from Miss E... So Addictive.
+
+  - title: Doo Wop (That Thing)
+    artist: Lauryn Hill
+    year: 1998
+    genre: Hip-Hop
+    styles:
+    - Conscious Hip-Hop
+    vocal: female
+    language: en
+    themes:
+    - Social Issues
+    difficulty: medium
+    youtube: T6QKqFPRZSA
+    aliases:
+    - Doo Wop
+    - That Thing
+    source: https://en.wikipedia.org/wiki/Doo_Wop_(That_Thing)
+    facts:
+    - - easy
+      - It was sent to radio on 10 August 1998.
+    - - medium
+      - It was written and produced by the singer herself.
+    - - strong
+      - It was her solo debut single, after her time in a famous trio.
+
+  - title: X Gon' Give It to Ya
+    artist: DMX
+    year: 2002
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: medium
+    youtube: fGx6K90TmCI
+    aliases:
+    - X Gonna Give It to Ya
+    source: https://en.wikipedia.org/wiki/X_Gon%27_Give_It_to_Ya
+    facts:
+    - - easy
+      - It later appeared as a hidden track on the rapper's greatest hits album.
+    - - medium
+      - It was the lead single from a 2003 film soundtrack.
+    - - strong
+      - It comes from the film Cradle 2 the Grave.
+
+  - title: Lose Yourself
+    artist: Eminem
+    year: 2002
+    genre: Hip-Hop
+    styles:
+    - Rap Rock
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: easy
+    youtube: xFYQQPAOz7Y
+    source: https://en.wikipedia.org/wiki/Lose_Yourself
+    facts:
+    - - easy
+      - It was released on 28 October 2002.
+    - - medium
+      - It won the Academy Award for Best Original Song.
+    - - strong
+      - It comes from the soundtrack of the film 8 Mile.
+
+  - title: The Real Slim Shady
+    artist: Eminem
+    year: 2000
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    difficulty: easy
+    youtube: eJO5HU_7_1w
+    aliases:
+    - Real Slim Shady
+    source: https://en.wikipedia.org/wiki/The_Real_Slim_Shady
+    facts:
+    - - easy
+      - It was released a month before its album came out.
+    - - medium
+      - It was the rapper's first number one in the UK and Ireland.
+    - - strong
+      - It was the lead single of his third studio album, from 2000.
+
+  - title: Without Me
+    artist: Eminem
+    year: 2002
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    difficulty: easy
+    youtube: YVkUvmDQ3HY
+    source: https://en.wikipedia.org/wiki/Without_Me_(Eminem_song)
+    facts:
+    - - easy
+      - It was released on 29 April 2002.
+    - - medium
+      - It reached number one in fifteen countries.
+    - - strong
+      - It was the lead single from the rapper's fourth studio album.
+
+  - title: In da Club
+    artist: 50 Cent
+    year: 2003
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    - Money / Success
+    difficulty: easy
+    youtube: 5qm8PH4xAss
+    aliases:
+    - In the Club
+    source: https://en.wikipedia.org/wiki/In_da_Club
+    facts:
+    - - easy
+      - It uses an unconventional off-beat rhythm.
+    - - medium
+      - It was co-produced by Dr. Dre and Mike Elizondo.
+    - - strong
+      - It was the lead single from Get Rich or Die Tryin'.
+
+  - title: 99 Problems
+    artist: Jay-Z
+    year: 2004
+    genre: Hip-Hop
+    styles:
+    - Rap Rock
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    - Social Issues
+    difficulty: medium
+    youtube: 6uikJTnmtgw
+    source: https://en.wikipedia.org/wiki/99_Problems
+    facts:
+    - - easy
+      - It was released on 27 April 2004.
+    - - medium
+      - Its chorus is taken from a 1993 song by Ice-T.
+    - - strong
+      - Its story includes a traffic stop by a police officer who wants to search the car.
+
+  - title: Empire State of Mind
+    artist: Jay-Z
+    featured:
+    - Alicia Keys
+    year: 2009
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: mixed
+    language: en
+    themes:
+    - City / Place
+    difficulty: easy
+    youtube: vk6014HuxcE
+    source: https://en.wikipedia.org/wiki/Empire_State_of_Mind
+    facts:
+    - - easy
+      - It samples “Love on a Two-Way Street” by the Moments.
+    - - medium
+      - Angela Hunte and Janet Sewell-Ulepic first wrote it as a tribute to their hometown.
+    - - strong
+      - It is an ode to New York City from the album The Blueprint 3.
+
+  - title: Stronger
+    artist: Kanye West
+    year: 2007
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Motivation / Strength
+    difficulty: easy
+    youtube: PsO6ZnUZI0g
+    source: https://en.wikipedia.org/wiki/Stronger_(Kanye_West_song)
+    facts:
+    - - easy
+      - It was released on 31 July 2007.
+    - - medium
+      - Daft Punk are credited as co-writers because their track is sampled.
+    - - strong
+      - It comes from the album Graduation.
+
+  - title: Gold Digger
+    artist: Kanye West
+    featured:
+    - Jamie Foxx
+    year: 2005
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    difficulty: easy
+    youtube: 6vwNcNOTVzY
+    source: https://en.wikipedia.org/wiki/Gold_Digger_(Kanye_West_song)
+    facts:
+    - - easy
+      - It was originally meant for Shawnna's debut album.
+    - - medium
+      - Its beat was made in Atlanta and it was produced with Jon Brion.
+    - - strong
+      - It comes from the album Late Registration.
+
+  - title: Hot in Herre
+    artist: Nelly
+    year: 2002
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Party / Dancing
+    - Passion / Desire
+    difficulty: easy
+    youtube: GeZZr_p6vB8
+    aliases:
+    - Hot in Here
+    source: https://en.wikipedia.org/wiki/Hot_in_Herre
+    facts:
+    - - easy
+      - It was released on 7 May 2002.
+    - - medium
+      - It draws on Chuck Brown's 1979 single “Bustin' Loose”.
+    - - strong
+      - It was produced by the Neptunes and led the rapper's second album.
+
+  - title: Where Is the Love?
+    artist: Black Eyed Peas
+    year: 2003
+    genre: Hip-Hop
+    styles:
+    - Conscious Hip-Hop
+    - Pop Rap
+    vocal: mixed
+    language: en
+    themes:
+    - Social Issues
+    - War / Peace
+    difficulty: easy
+    youtube: WpYeekQkAdc
+    aliases:
+    - Where Is the Love
+    source: https://en.wikipedia.org/wiki/Where_Is_the_Love%3F
+    facts:
+    - - easy
+      - It was released on 12 May 2003.
+    - - medium
+      - Justin Timberlake sings on it without being credited.
+    - - strong
+      - It was the lead single from the album Elephunk.
+
+  - title: Humble
+    artist: Kendrick Lamar
+    year: 2017
+    genre: Hip-Hop
+    styles:
+    - Trap
+    vocal: male
+    language: en
+    themes:
+    - Growing Up / Self-Discovery
+    difficulty: easy
+    youtube: tvTRZJ-4EyI
+    aliases:
+    - HUMBLE.
+    source: https://en.wikipedia.org/wiki/Humble_(song)
+    facts:
+    - - easy
+      - It was released on 30 March 2017 together with its music video.
+    - - medium
+      - Its lyrics are a call to humility.
+    - - strong
+      - It was the lead single of the album Damn.
+
+  - title: Not Like Us
+    artist: Kendrick Lamar
+    year: 2024
+    genre: Hip-Hop
+    styles:
+    - Gangsta Rap
+    vocal: male
+    language: en
+    themes:
+    - Story / Character
+    difficulty: easy
+    youtube: H58vbez_m4E
+    source: https://en.wikipedia.org/wiki/Not_Like_Us
+    facts:
+    - - easy
+      - It was released on 4 May 2024.
+    - - medium
+      - It came out less than 20 hours after the rapper's previous diss track.
+    - - strong
+      - It is a diss track aimed at Drake.
+
+  - title: God's Plan
+    artist: Drake
+    year: 2018
+    genre: Hip-Hop
+    styles:
+    - Trap
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Religion / Spirituality
+    - Money / Success
+    difficulty: easy
+    youtube: xpVfcZ0ZcFM
+    aliases:
+    - Gods Plan
+    source: https://en.wikipedia.org/wiki/God%27s_Plan_(song)
+    facts:
+    - - easy
+      - It was released on 19 January 2018.
+    - - medium
+      - It was produced by Cardo, Yung Exclusive, Boi-1da and Noah “40” Shebib.
+    - - strong
+      - It appears on the 2018 album Scorpion.
+
+  - title: Hotline Bling
+    artist: Drake
+    year: 2015
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    - Jealousy / Infidelity
+    difficulty: easy
+    youtube: uxpDa-c-4Mc
+    source: https://en.wikipedia.org/wiki/Hotline_Bling
+    facts:
+    - - easy
+      - It was released for download on 31 July 2015.
+    - - medium
+      - It is listed as a bonus track on its album.
+    - - strong
+      - It was the lead single of the album Views.
+
+  - title: Sicko Mode
+    artist: Travis Scott
+    featured:
+    - Drake
+    year: 2018
+    genre: Hip-Hop
+    styles:
+    - Trap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Party / Dancing
+    difficulty: medium
+    youtube: 6ONRf7h3Mdk
+    aliases:
+    - SICKO MODE
+    source: https://en.wikipedia.org/wiki/Sicko_Mode
+    facts:
+    - - easy
+      - It was released as a single on 21 August 2018.
+    - - medium
+      - Billboard called it a three-part “prog-rap odyssey”.
+    - - strong
+      - It reached number one after seventeen weeks in the top ten, helped by a Skrillex remix.
+
+  - title: Rockstar
+    artist: Post Malone
+    featured:
+    - 21 Savage
+    year: 2017
+    genre: Hip-Hop
+    styles:
+    - Trap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Party / Dancing
+    difficulty: easy
+    youtube: UceaB4D0jpo
+    source: https://en.wikipedia.org/wiki/Rockstar_(Post_Malone_song)
+    facts:
+    - - easy
+      - It was released on 15 September 2017.
+    - - medium
+      - It was written with Joey Bada$$ among others.
+    - - strong
+      - It was the lead single from Beerbongs & Bentleys.
+
+  - title: Old Town Road
+    artist: Lil Nas X
+    year: 2018
+    genre: Hip-Hop
+    styles:
+    - Country Pop
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Freedom / Carefree
+    difficulty: easy
+    youtube: r7qovpFAGrQ
+    source: https://en.wikipedia.org/wiki/Old_Town_Road
+    facts:
+    - - easy
+      - It was first released independently in December 2018.
+    - - medium
+      - A remix features country singer Billy Ray Cyrus.
+    - - strong
+      - It was the rapper's debut mainstream single, mixing country and rap.
+
+  - title: Bodak Yellow
+    artist: Cardi B
+    year: 2017
+    genre: Hip-Hop
+    styles:
+    - Trap
+    vocal: female
+    language: en
+    themes:
+    - Money / Success
+    difficulty: medium
+    youtube: PEGccV-NOm8
+    aliases:
+    - Bodak Yellow (Money Moves)
+    source: https://en.wikipedia.org/wiki/Bodak_Yellow
+    facts:
+    - - easy
+      - It was released on 16 June 2017.
+    - - medium
+      - It interpolates Kodak Black's song “No Flockin”.
+    - - strong
+      - It was the rapper's major-label debut single.
+
+  - title: Super Bass
+    artist: Nicki Minaj
+    year: 2011
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: female
+    language: en
+    themes:
+    - Falling in Love
+    difficulty: easy
+    youtube: 4JipHEz53sU
+    source: https://en.wikipedia.org/wiki/Super_Bass
+    facts:
+    - - easy
+      - It was sent to US rhythmic radio on 5 April 2011.
+    - - medium
+      - Ester Dean co-wrote it and sings additional vocals.
+    - - strong
+      - It comes from the deluxe edition of Pink Friday.
+
+  - title: Thrift Shop
+    artist: Macklemore & Ryan Lewis
+    featured:
+    - Wanz
+    year: 2012
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Money / Success
+    - Story / Character
+    difficulty: easy
+    youtube: QK8mJJJvaes
+    source: https://en.wikipedia.org/wiki/Thrift_Shop
+    facts:
+    - - easy
+      - It was the fourth single from the pair's debut album.
+    - - medium
+      - Its lyrics praise second-hand shopping and saving money instead of flaunting luxury.
+    - - strong
+      - It comes from the album The Heist.
+
+  - title: Lucid Dreams
+    artist: Juice WRLD
+    year: 2018
+    genre: Hip-Hop
+    styles:
+    - Trap
+    vocal: male
+    language: en
+    themes:
+    - Breakup / Heartbreak
+    difficulty: medium
+    youtube: mzB1VGEGcSU
+    source: https://en.wikipedia.org/wiki/Lucid_Dreams_(Juice_Wrld_song)
+    facts:
+    - - easy
+      - It was first posted on SoundCloud in June 2017.
+    - - medium
+      - It was produced by Nick Mira and peaked at number 2 in the US.
+    - - strong
+      - It has more than 3 billion streams on Spotify.
+
+  - title: See You Again
+    artist: Wiz Khalifa
+    featured:
+    - Charlie Puth
+    year: 2015
+    genre: Hip-Hop
+    styles:
+    - Pop Rap
+    vocal: male
+    language: en
+    themes:
+    - Death / Loss
+    - Nostalgia / Memories
+    difficulty: easy
+    youtube: RgKAFK5djSk
+    source: https://en.wikipedia.org/wiki/See_You_Again
+    facts:
+    - - easy
+      - It was released on 10 March 2015.
+    - - medium
+      - It was commissioned for a 2015 film soundtrack.
+    - - strong
+      - It is a tribute to actor Paul Walker from Furious 7.
+
+  - title: Doja
+    artist: Central Cee
+    year: 2022
+    genre: Hip-Hop
+    styles:
+    - Drill
+    vocal: male
+    language: en
+    themes:
+    - Passion / Desire
+    difficulty: medium
+    youtube: _VuJA-VQRcY
+    source: https://en.wikipedia.org/wiki/Doja_(Central_Cee_song)
+    facts:
+    - - easy
+      - It was released on 21 July 2022.
+    - - medium
+      - It samples Eve's 2001 song with Gwen Stefani, “Let Me Blow Ya Mind”.
+    - - strong
+      - It went viral on TikTok and debuted at number two in the UK.
