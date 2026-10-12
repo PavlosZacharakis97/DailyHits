@@ -1,11 +1,12 @@
 from datetime import timedelta
 from itertools import pairwise
+from types import SimpleNamespace
 
 import pytest
 import yaml
 from django.core.management import CommandError, call_command
 
-from apps.catalog.management.commands.seed_demo import DEMO_FILE
+from apps.catalog.management.commands.seed_demo import DEMO_FILE, interleave_genres
 from apps.catalog.models import ArtistRole, Fact, Song, SongStatus
 from apps.catalog.validation import SONG_ISSUE_PREFETCH, song_issues
 from apps.game.dates import edition_today
@@ -60,6 +61,22 @@ def test_schedule_follows_the_rules() -> None:
     assert [p.number for p in puzzles] == list(range(1, 26))
     artists = [p.song.primary_artist_id for p in puzzles]
     assert all(a != b for a, b in pairwise(artists))
+
+
+def test_schedule_spreads_genres() -> None:
+    call_command("seed_demo", status=SongStatus.VERIFIED, schedule=90)
+
+    genres = list(DailyPuzzle.objects.order_by("date").values_list("song__genre_id", flat=True))
+    assert len(genres) == 90
+    assert all(len(set(genres[i : i + 3])) > 1 for i in range(len(genres) - 2))
+
+
+def test_interleave_genres_never_repeats_a_genre_while_another_is_left() -> None:
+    songs = [SimpleNamespace(name=n, genre_id=n[0]) for n in ["a1", "a2", "a3", "b1", "c1"]]
+
+    ordered = interleave_genres(songs, last_genre_id="a")
+
+    assert [s.name for s in ordered] == ["b1", "a1", "c1", "a2", "a3"]
 
 
 def test_schedule_is_idempotent() -> None:

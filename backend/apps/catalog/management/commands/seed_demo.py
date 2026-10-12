@@ -1,3 +1,5 @@
+from collections import deque
+from collections.abc import Iterable
 from datetime import timedelta
 from pathlib import Path
 from typing import Any
@@ -30,6 +32,35 @@ from apps.game.dates import edition_today
 from apps.game.models import DailyPuzzle
 
 DEMO_FILE = Path(__file__).resolve().parents[2] / "seed" / "demo_songs.yaml"
+
+
+def interleave_genres(songs: Iterable[Song], last_genre_id: int | None = None) -> list[Song]:
+    """Spread genres evenly over the schedule, never the same genre twice in a row if avoidable.
+
+    Smooth weighted round-robin: every genre earns credit in proportion to its size and
+    the one with the most credit plays next, so big genres recur steadily instead of
+    clustering. Ties keep the original order. `last_genre_id` is the genre of the day
+    before the first one.
+    """
+    queues: dict[int | None, deque[Song]] = {}
+    for song in songs:
+        queues.setdefault(song.genre_id, deque()).append(song)
+    weights = {genre: len(queue) for genre, queue in queues.items()}
+    total = sum(weights.values())
+    credit = dict.fromkeys(queues, 0)
+    ordered: list[Song] = []
+    last = last_genre_id
+    while queues:
+        for genre in queues:
+            credit[genre] += weights[genre]
+        ranked = sorted(queues, key=lambda g: -credit[g])
+        genre = next((g for g in ranked if g != last), ranked[0])
+        credit[genre] -= total
+        ordered.append(queues[genre].popleft())
+        if not queues[genre]:
+            del queues[genre]
+        last = genre
+    return ordered
 
 
 class Command(BaseCommand):
@@ -103,7 +134,7 @@ class Command(BaseCommand):
     def _schedule(self, edition: Edition, days: int, past: int) -> None:
         """Fill free dates with demo songs, respecting every schedule rule."""
         start = edition_today(edition) - timedelta(days=past)
-        songs = list(
+        songs = interleave_genres(
             Song.objects.filter(editions=edition, status=SongStatus.VERIFIED).order_by("pk")
         )
         created = 0
