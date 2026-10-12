@@ -7,6 +7,10 @@
   background: var(--card);
   box-shadow: var(--card-shadow);
   backdrop-filter: blur(24px) saturate(1.2);
+  /* backdrop-filter makes the card its own stacking context; lift it so the
+     suggestion list that opens downwards on phones covers the guess history. */
+  position: relative;
+  z-index: 2;
 }
 
 .layout {
