@@ -46,17 +46,17 @@ docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py seed_reference
 ```
 
-Для разработки можно загрузить 290 демо-песен со всеми полями и фактами (статус «На проверке»):
+Для разработки можно загрузить 365 демо-песен со всеми полями и фактами (статус «На проверке»):
 
 ```sh
 docker compose exec backend python manage.py seed_demo
 ```
 
 Чтобы поиграть локально, подтвердите демо-песни и составьте из них расписание
-(290 дней, начиная с недели назад — для архива):
+(365 дней, начиная с недели назад — для архива):
 
 ```sh
-docker compose exec backend python manage.py seed_demo --status verified --schedule 290 --past 7
+docker compose exec backend python manage.py seed_demo --status verified --schedule 365 --past 7
 ```
 
 Сами справочники лежат в [backend/apps/catalog/seed/reference.yaml](backend/apps/catalog/seed/reference.yaml).

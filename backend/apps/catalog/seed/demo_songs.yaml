@@ -601,6 +601,158 @@ people:
   - Kristján Páll Kristjánsson
   - John Williams
 
+  - Bizzy Bone
+  - Krayzie Bone
+  - Layzie Bone
+  - Wish Bone
+  - Flesh-n-Bone
+  - Will Smith
+  - Cecil Glenn
+  - Steve Gibson
+  - Stephen Garrett
+  - Swae Lee
+  - Slim Jxmmi
+  - Radric Davis
+  - Klaus Meine
+  - Rudolf Schenker
+  - Matthias Jabs
+  - Francis Buchholz
+  - Herman Rarebell
+  - Roger Daltrey
+  - Pete Townshend
+  - John Entwistle
+  - Keith Moon
+  - Ray Davies
+  - Dave Davies
+  - Pete Quaife
+  - Mick Avory
+  - Eric Bloom
+  - Donald Roeser
+  - Allen Lanier
+  - Joe Bouchard
+  - Albert Bouchard
+  - Caleb Followill
+  - Nathan Followill
+  - Jared Followill
+  - Matthew Followill
+  - Matt Bellamy
+  - Chris Wolstenholme
+  - Dominic Howard
+  - Jamie Hewlett
+  - Posdnuos
+  - Trugoy
+  - Maseo
+  - Viktor Tsoi
+  - Yuri Kasparyan
+  - Igor Tikhomirov
+  - Georgy Guryanov
+  - Ronnie James Dio
+  - Vivian Campbell
+  - Jimmy Bain
+  - Vinny Appice
+  - Tom Araya
+  - Jeff Hanneman
+  - Kerry King
+  - Dave Lombardo
+  - Corey Taylor
+  - Mick Thomson
+  - Jim Root
+  - Shawn Crahan
+  - Craig Jones
+  - Sid Wilson
+  - Paul Gray
+  - Joey Jordison
+  - Chris Fehn
+  - Alan Braxe
+  - Benjamin Diamond
+  - Romain Tranchart
+  - Yann Destagnol
+  - Tom Rowlands
+  - Ed Simons
+  - Michael Münzing
+  - Luca Anzilotti
+  - Thea Austin
+  - Turbo B
+  - Gala Rizzatto
+  - Derrick May
+  - Kgaogelo Moagi
+  - Nomcebo Zikode
+  - Bernard Sumner
+  - Peter Hook
+  - Stephen Morris
+  - Gillian Gilbert
+  - "Ella Yelich-O'Connor"
+  - Olivia Rodrigo
+  - Kate Bush
+  - Mariya Takeuchi
+  - Lena Katina
+  - Yulia Volkova
+  - Tarkan Tevetoğlu
+  - Divine Ikubor
+  - Amr Diab
+  - Édith Gassion
+  - Teddy Riley
+  - Chauncey Hannibal
+  - Mark Middleton
+  - Eric Williams
+  - Lynise Walters
+  - Mark Morrison
+  - Al Green
+  - Otis Williams
+  - Melvin Franklin
+  - Eddie Kendricks
+  - Paul Williams
+  - David Ruffin
+  - Bill Withers
+  - Otis Redding
+  - Cheryl Lynn
+  - LaDonna Gaines
+  - Gwen Dickey
+  - Kenny Copeland
+  - Kenji Brown
+  - Lequeint Jobe
+  - Henry Garner
+  - Harry Wayne Casey
+  - Richard Finch
+  - Willie Nelson
+  - Virginia Hensley
+  - Ketch Secor
+  - Critter Fuqua
+  - Willie Watson
+  - Kevin Hayes
+  - Morgan Jahnig
+  - Morgan Wallen
+  - Brent Dowe
+  - Tony Brevett
+  - Trevor McNaughton
+  - James Chambers
+  - Ophlin Russell
+  - Anthony Moses Davis
+  - Edward Kennedy Ellington
+  - Robert Johnson
+  - Stevie Ray Vaughan
+  - Chester Burnett
+  - Juan Esteban Aristizábal
+  - Carlos Vives
+  - Juan Luis Londoño
+  - Pedro Tovar
+  - Brian Tovar
+  - Ulises González
+  - Hassan Laija
+  - Tito Puente
+  - Celia Cruz
+  - Johnny Pacheco
+  - Wesley Schultz
+  - Jeremiah Fraites
+  - Neyla Pekarek
+  - Justin Vernon
+  - James Keogh
+  - Neil Young
+  - Ennio Morricone
+  - Klaus Badelt
+  - Lalo Schifrin
+  - Andrea Bocelli
+
 artists:
   - {name: Queen, type: group, country: GB,
      members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
@@ -931,6 +1083,94 @@ artists:
   - {name: Of Monsters and Men, type: group, country: IS,
      members: [Nanna Bryndís Hilmarsdóttir, Ragnar Þórhallsson, Brynjar Leifsson, Arnar Rósenkranz Hilmarsson, Kristján Páll Kristjánsson]}
   - {name: John Williams, type: solo, country: US, members: [John Williams]}
+
+  - {name: Bone Thugs-n-Harmony, type: group, country: US,
+     members: [Bizzy Bone, Krayzie Bone, Layzie Bone, Wish Bone, Flesh-n-Bone]}
+  - {name: Will Smith, type: solo, country: US, members: [Will Smith]}
+  - {name: Tag Team, type: duo, country: US, members: [Cecil Glenn, Steve Gibson]}
+  - {name: Static Major, type: solo, country: US, members: [Stephen Garrett]}
+  - {name: Rae Sremmurd, type: duo, country: US, members: [Swae Lee, Slim Jxmmi]}
+  - {name: Gucci Mane, type: solo, country: US, members: [Radric Davis]}
+  - {name: Scorpions, type: group, country: DE,
+     members: [Klaus Meine, Rudolf Schenker, Matthias Jabs, Francis Buchholz, Herman Rarebell]}
+  - {name: The Who, type: group, country: GB, members: [Roger Daltrey, Pete Townshend, John Entwistle, Keith Moon]}
+  - {name: The Kinks, type: group, country: GB, members: [Ray Davies, Dave Davies, Pete Quaife, Mick Avory]}
+  - {name: Blue Öyster Cult, type: group, country: US,
+     members: [Eric Bloom, Donald Roeser, Allen Lanier, Joe Bouchard, Albert Bouchard]}
+  - {name: Kings of Leon, type: group, country: US,
+     members: [Caleb Followill, Nathan Followill, Jared Followill, Matthew Followill]}
+  - {name: Muse, type: group, country: GB, members: [Matt Bellamy, Chris Wolstenholme, Dominic Howard]}
+  - {name: Gorillaz, type: duo, country: GB, members: [Damon Albarn, Jamie Hewlett]}
+  - {name: De La Soul, type: group, country: US, members: [Posdnuos, Trugoy, Maseo]}
+  - {name: Kino, type: group, country: RU,
+     members: [Viktor Tsoi, Yuri Kasparyan, Igor Tikhomirov, Georgy Guryanov]}
+  - {name: Ozzy Osbourne, type: solo, country: GB, members: [Ozzy Osbourne]}
+  - {name: Dio, type: group, country: US, members: [Ronnie James Dio, Vivian Campbell, Jimmy Bain, Vinny Appice]}
+  - {name: Slayer, type: group, country: US, members: [Tom Araya, Jeff Hanneman, Kerry King, Dave Lombardo]}
+  - {name: Slipknot, type: group, country: US,
+     members: [Corey Taylor, Mick Thomson, Jim Root, Shawn Crahan, Craig Jones, Sid Wilson, Paul Gray, Joey Jordison, Chris Fehn]}
+  - {name: Stardust, type: group, country: FR, members: [Thomas Bangalter, Alan Braxe, Benjamin Diamond]}
+  - {name: Modjo, type: duo, country: FR, members: [Romain Tranchart, Yann Destagnol]}
+  - {name: The Chemical Brothers, type: duo, country: GB, members: [Tom Rowlands, Ed Simons]}
+  - {name: Snap!, type: group, country: DE, members: [Michael Münzing, Luca Anzilotti, Thea Austin, Turbo B]}
+  - {name: Gala, type: solo, country: IT, members: [Gala Rizzatto]}
+  - {name: Rhythim Is Rhythim, type: solo, country: US, members: [Derrick May]}
+  - {name: Master KG, type: solo, country: ZA, members: [Kgaogelo Moagi]}
+  - {name: Nomcebo Zikode, type: solo, country: ZA, members: [Nomcebo Zikode]}
+  - {name: New Order, type: group, country: GB,
+     members: [Bernard Sumner, Peter Hook, Stephen Morris, Gillian Gilbert]}
+  - {name: Lorde, type: solo, country: NZ, members: [Ella Yelich-O'Connor]}
+  - {name: Olivia Rodrigo, type: solo, country: US, members: [Olivia Rodrigo]}
+  - {name: Kate Bush, type: solo, country: GB, members: [Kate Bush]}
+  - {name: Mariya Takeuchi, type: solo, country: JP, members: [Mariya Takeuchi]}
+  - {name: t.A.T.u., type: duo, country: RU, members: [Lena Katina, Yulia Volkova]}
+  - {name: Tarkan, type: solo, country: TR, members: [Tarkan Tevetoğlu]}
+  - {name: Rema, type: solo, country: NG, members: [Divine Ikubor]}
+  - {name: Amr Diab, type: solo, country: EG, members: [Amr Diab]}
+  - {name: Édith Piaf, type: solo, country: FR, members: [Édith Gassion]}
+  - {name: Blackstreet, type: group, country: US,
+     members: [Teddy Riley, Chauncey Hannibal, Mark Middleton, Eric Williams]}
+  - {name: Queen Pen, type: solo, country: US, members: [Lynise Walters]}
+  - {name: Mark Morrison, type: solo, country: GB, members: [Mark Morrison]}
+  - {name: Al Green, type: solo, country: US, members: [Al Green]}
+  - {name: The Temptations, type: group, country: US,
+     members: [Otis Williams, Melvin Franklin, Eddie Kendricks, Paul Williams, David Ruffin]}
+  - {name: Bill Withers, type: solo, country: US, members: [Bill Withers]}
+  - {name: Otis Redding, type: solo, country: US, members: [Otis Redding]}
+  - {name: Cheryl Lynn, type: solo, country: US, members: [Cheryl Lynn]}
+  - {name: Donna Summer, type: solo, country: US, members: [LaDonna Gaines]}
+  - {name: Rose Royce, type: group, country: US,
+     members: [Gwen Dickey, Kenny Copeland, Kenji Brown, Lequeint Jobe, Henry Garner]}
+  - {name: KC and the Sunshine Band, type: group, country: US, members: [Harry Wayne Casey, Richard Finch]}
+  - {name: Willie Nelson, type: solo, country: US, members: [Willie Nelson]}
+  - {name: Patsy Cline, type: solo, country: US, members: [Virginia Hensley]}
+  - {name: Old Crow Medicine Show, type: group, country: US,
+     members: [Ketch Secor, Critter Fuqua, Willie Watson, Kevin Hayes, Morgan Jahnig]}
+  - {name: Morgan Wallen, type: solo, country: US, members: [Morgan Wallen]}
+  - {name: The Melodians, type: group, country: JM, members: [Brent Dowe, Tony Brevett, Trevor McNaughton]}
+  - {name: Jimmy Cliff, type: solo, country: JM, members: [James Chambers]}
+  - {name: Sister Nancy, type: solo, country: JM, members: [Ophlin Russell]}
+  - {name: Beenie Man, type: solo, country: JM, members: [Anthony Moses Davis]}
+  - {name: Duke Ellington, type: solo, country: US, members: [Edward Kennedy Ellington]}
+  - {name: Robert Johnson, type: solo, country: US, members: [Robert Johnson]}
+  - {name: Stevie Ray Vaughan, type: solo, country: US, members: [Stevie Ray Vaughan]}
+  - {name: Howlin' Wolf, type: solo, country: US, members: [Chester Burnett]}
+  - {name: Juanes, type: solo, country: CO, members: [Juan Esteban Aristizábal]}
+  - {name: Carlos Vives, type: solo, country: CO, members: [Carlos Vives]}
+  - {name: Maluma, type: solo, country: CO, members: [Juan Luis Londoño]}
+  - {name: Eslabon Armado, type: group, country: US, members: [Pedro Tovar, Brian Tovar, Ulises González]}
+  - {name: Peso Pluma, type: solo, country: MX, members: [Hassan Laija]}
+  - {name: Tito Puente, type: solo, country: US, members: [Tito Puente]}
+  - {name: Celia Cruz, type: solo, country: CU, members: [Celia Cruz]}
+  - {name: Johnny Pacheco, type: solo, country: DO, members: [Johnny Pacheco]}
+  - {name: The Lumineers, type: group, country: US, members: [Wesley Schultz, Jeremiah Fraites, Neyla Pekarek]}
+  - {name: Bon Iver, type: group, country: US, members: [Justin Vernon]}
+  - {name: Vance Joy, type: solo, country: AU, members: [James Keogh]}
+  - {name: Neil Young, type: solo, country: CA, members: [Neil Young]}
+  - {name: Ennio Morricone, type: solo, country: IT, members: [Ennio Morricone]}
+  - {name: Klaus Badelt, type: solo, country: DE, members: [Klaus Badelt]}
+  - {name: Lalo Schifrin, type: solo, country: AR, members: [Lalo Schifrin]}
+  - {name: Andrea Bocelli, type: solo, country: IT, members: [Andrea Bocelli]}
 
 songs:
   - title: Bohemian Rhapsody
@@ -6564,3 +6804,1241 @@ songs:
       - [easy, "It premiered on 29 April 1980 at a Boston Pops concert."]
       - [medium, "It was written for the film The Empire Strikes Back."]
       - [strong, "It is the Star Wars leitmotif of Darth Vader."]
+
+  # Set 10 (2026-10-12): the last 75 songs to reach a full year (365).
+  - title: Tha Crossroads
+    artist: Bone Thugs-n-Harmony
+    year: 1996
+    genre: Hip-Hop
+    styles: [Gangsta Rap]
+    vocal: male
+    language: en
+    themes: [Death / Loss]
+    difficulty: easy
+    youtube: VMYAEHE2GrM
+    aliases: [Crossroads]
+    source: https://en.wikipedia.org/wiki/Tha_Crossroads
+    facts:
+      - [easy, "It won the 1997 Grammy for Best Rap Performance by a Duo or Group."]
+      - [medium, "It spent eight consecutive weeks at number one on the Billboard Hot 100."]
+      - [strong, "It is dedicated to the group's late mentor Eazy-E."]
+
+  - title: Ruff Ryders' Anthem
+    artist: DMX
+    year: 1998
+    genre: Hip-Hop
+    styles: [Gangsta Rap]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: ThlhSnRk21E
+    aliases: [Ruff Ryders Anthem]
+    source: https://en.wikipedia.org/wiki/Ruff_Ryders%27_Anthem
+    facts:
+      - [easy, "It was produced by a young Swizz Beatz."]
+      - [medium, "It reached a new peak of number 16 on the Hot 100 after its rapper's death in 2021."]
+      - [strong, "It is the third single from It's Dark and Hell Is Hot (1998)."]
+
+  - title: Gettin' Jiggy wit It
+    artist: Will Smith
+    year: 1997
+    genre: Hip-Hop
+    styles: [Pop Rap]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: 3JcmQONgXJM
+    aliases: [Gettin Jiggy wit It, Getting Jiggy with It]
+    source: https://en.wikipedia.org/wiki/Gettin%27_Jiggy_wit_It
+    facts:
+      - [easy, "Its verse samples Sister Sledge's “He's the Greatest Dancer”."]
+      - [medium, "It won the 1999 Grammy for Best Rap Solo Performance."]
+      - [strong, "It comes from the album Big Willie Style (1997)."]
+
+  - title: Whoomp! (There It Is)
+    artist: Tag Team
+    year: 1993
+    genre: Hip-Hop
+    styles: [Pop Rap]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: L6mNa_QZVHg
+    aliases: [Whoomp There It Is, Whoomp]
+    source: https://en.wikipedia.org/wiki/Whoomp!_(There_It_Is)
+    facts:
+      - [easy, "It was released by the label Life in May 1993."]
+      - [medium, "It broke records for consecutive weeks in the Billboard top 10."]
+      - [strong, "It was the duo's debut single and their only big hit."]
+
+  - title: Scenario
+    artist: A Tribe Called Quest
+    year: 1991
+    genre: Hip-Hop
+    styles: [Boom Bap]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: hard
+    youtube: Q6TLWqn82J4
+    source: https://en.wikipedia.org/wiki/Scenario_(song)
+    facts:
+      - [easy, "Its music video was directed by Jim Swaffield."]
+      - [medium, "It features Leaders of the New School and is often called hip-hop's greatest posse cut."]
+      - [strong, "It was a breakout for a 19-year-old Busta Rhymes and comes from The Low End Theory."]
+
+  - title: Lollipop
+    artist: Lil Wayne
+    featured: [Static Major]
+    year: 2008
+    genre: Hip-Hop
+    styles: [Pop Rap]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: 2IH8tNQAzSs
+    source: https://en.wikipedia.org/wiki/Lollipop_(Lil_Wayne_song)
+    facts:
+      - [easy, "It was produced by Deezle and Jim Jonsin."]
+      - [medium, "It makes heavy use of Auto-Tune."]
+      - [strong, "It is the lead single from Tha Carter III."]
+
+  - title: Black Beatles
+    artist: Rae Sremmurd
+    featured: [Gucci Mane]
+    year: 2016
+    genre: Hip-Hop
+    styles: [Trap]
+    vocal: male
+    language: en
+    themes: [Money / Success]
+    difficulty: easy
+    youtube: b8m9zhNAgKs
+    source: https://en.wikipedia.org/wiki/Black_Beatles
+    facts:
+      - [easy, "It was produced by Mike Will Made It."]
+      - [medium, "It went viral through the Mannequin Challenge."]
+      - [strong, "It is the third single from the duo's album SremmLife 2."]
+
+  - title: XO Tour Llif3
+    artist: Lil Uzi Vert
+    year: 2017
+    genre: Hip-Hop
+    styles: [Trap]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: medium
+    youtube: WrsFXgQk5UI
+    aliases: [XO Tour Life]
+    source: https://en.wikipedia.org/wiki/XO_Tour_Llif3
+    facts:
+      - [easy, "It was produced by TM88 and JW Lucas."]
+      - [medium, "It was first released on SoundCloud on 26 February 2017."]
+      - [strong, "Its title references a record label founded by The Weeknd."]
+
+  - title: Wind of Change
+    artist: Scorpions
+    year: 1990
+    genre: Rock
+    styles: [Hard Rock]
+    vocal: male
+    language: en
+    themes: [Protest / Politics, War / Peace]
+    difficulty: easy
+    youtube: n4RjJKxsamQ
+    source: https://en.wikipedia.org/wiki/Wind_of_Change_(Scorpions_song)
+    facts:
+      - [easy, "It was produced by Keith Olsen together with the band."]
+      - [medium, "It became a worldwide hit just after the failed 1991 coup in the Soviet Union."]
+      - [strong, "It was inspired by the German band's visit to the Soviet Union during perestroika."]
+
+  - title: Baba O'Riley
+    artist: The Who
+    year: 1971
+    genre: Rock
+    styles: [Classic Rock]
+    vocal: male
+    language: en
+    themes: [Growing Up / Self-Discovery]
+    difficulty: medium
+    youtube: QRTNm6GLJYI
+    aliases: [Teenage Wasteland]
+    source: https://en.wikipedia.org/wiki/Baba_O%27Riley
+    facts:
+      - [easy, "It was written for the abandoned rock opera Lifehouse."]
+      - [medium, "Time included it in its All-Time 100 Songs."]
+      - [strong, "It is the opening track of Who's Next (1971)."]
+
+  - title: You Really Got Me
+    artist: The Kinks
+    year: 1964
+    genre: Rock
+    styles: [Classic Rock]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: fTTsY-oz6Go
+    source: https://en.wikipedia.org/wiki/You_Really_Got_Me
+    facts:
+      - [easy, "Its writer described it as “a love song for street kids”."]
+      - [medium, "Its distorted power-chord riff influenced heavy metal and punk."]
+      - [strong, "It was the band's third single and their British Invasion breakthrough."]
+
+  - title: (Don't Fear) The Reaper
+    artist: Blue Öyster Cult
+    year: 1976
+    genre: Rock
+    styles: [Classic Rock]
+    vocal: male
+    language: en
+    themes: [Death / Loss]
+    difficulty: easy
+    youtube: Dy4HA3vUv2c
+    aliases: [Don't Fear the Reaper, Dont Fear the Reaper]
+    source: https://en.wikipedia.org/wiki/(Don%27t_Fear)_The_Reaper
+    facts:
+      - [easy, "Its writer pictured an early death for himself while writing it."]
+      - [medium, "It is the band's highest-charting single, reaching number 12 on the Hot 100."]
+      - [strong, "It comes from the album Agents of Fortune (1976)."]
+
+  - title: Use Somebody
+    artist: Kings of Leon
+    year: 2008
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: easy
+    youtube: gnhXHvRoUd0
+    source: https://en.wikipedia.org/wiki/Use_Somebody
+    facts:
+      - [easy, "It topped Australia's airplay chart for six consecutive weeks."]
+      - [medium, "It won Record of the Year at the 52nd Grammy Awards."]
+      - [strong, "It is the second single from Only by the Night (2008)."]
+
+  - title: Supermassive Black Hole
+    artist: Muse
+    year: 2006
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: Xsp3_a-PMTw
+    source: https://en.wikipedia.org/wiki/Supermassive_Black_Hole_(song)
+    facts:
+      - [easy, "It mixes alternative rock and dance-rock with elements of funk."]
+      - [medium, "It is the band's highest-charting UK single, reaching number four."]
+      - [strong, "It is the lead single from Black Holes and Revelations (2006)."]
+
+  - title: Feel Good Inc.
+    artist: Gorillaz
+    featured: [De La Soul]
+    year: 2005
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Freedom / Carefree]
+    difficulty: easy
+    youtube: HyHNuVaZJ-k
+    aliases: [Feel Good Inc]
+    source: https://en.wikipedia.org/wiki/Feel_Good_Inc.
+    facts:
+      - [easy, "It topped the US Modern Rock Tracks chart for eight consecutive weeks."]
+      - [medium, "It reached number one in Spain, Poland and Greece."]
+      - [strong, "It is the lead single from the virtual band's album Demon Days (2005)."]
+
+  - title: Gruppa Krovi
+    artist: Kino
+    year: 1988
+    genre: Rock
+    styles: [New Wave]
+    vocal: male
+    language: ru
+    themes: [War / Peace]
+    difficulty: medium
+    youtube: xtxjm7ciwmc
+    aliases: [Группа крови, Blood Type]
+    source: https://en.wikipedia.org/wiki/Gruppa_krovi
+    facts:
+      - [easy, "It was featured on the soundtrack of Grand Theft Auto IV."]
+      - [medium, "Nashe Radio ranked it the best Russian rock song of the 20th century."]
+      - [strong, "Metallica covered it at Moscow's Luzhniki Stadium in 2019."]
+
+  - title: Under the Bridge
+    artist: Red Hot Chili Peppers
+    year: 1991
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness, City / Place]
+    difficulty: easy
+    youtube: GLvohMXgcBo
+    source: https://en.wikipedia.org/wiki/Under_the_Bridge
+    facts:
+      - [easy, "Its music video was directed by Gus Van Sant."]
+      - [medium, "It is the band's highest-charting single, peaking at number two."]
+      - [strong, "Its lyrics reflect on loneliness and staying clean, and it comes from Blood Sugar Sex Magik."]
+
+  - title: Crazy Train
+    artist: Ozzy Osbourne
+    year: 1980
+    genre: Metal
+    styles: [Heavy Metal]
+    vocal: male
+    language: en
+    themes: [War / Peace]
+    difficulty: easy
+    youtube: tMDFv5m18Pw
+    source: https://en.wikipedia.org/wiki/Crazy_Train
+    facts:
+      - [easy, "It was written with Randy Rhoads and Bob Daisley."]
+      - [medium, "Its lyrics deal with Cold War fears of annihilation."]
+      - [strong, "It is its singer's debut solo single, from Blizzard of Ozz (1980)."]
+
+  - title: Holy Diver
+    artist: Dio
+    year: 1983
+    genre: Metal
+    styles: [Heavy Metal]
+    vocal: male
+    language: en
+    themes: [Religion / Spirituality, Fantasy / Surreal]
+    difficulty: medium
+    youtube: 2lvs2FzF64o
+    source: https://en.wikipedia.org/wiki/Holy_Diver_(song)
+    facts:
+      - [easy, "Rolling Stone ranked it the ninth greatest metal song of all time in 2023."]
+      - [medium, "After 9/11 it was put on Clear Channel's list of inappropriate titles."]
+      - [strong, "Its lyrics are about a Christ figure on another planet."]
+
+  - title: Raining Blood
+    artist: Slayer
+    year: 1986
+    genre: Metal
+    styles: [Thrash Metal]
+    vocal: male
+    language: en
+    themes: [Religion / Spirituality]
+    difficulty: medium
+    youtube: CkaE237oiwE
+    source: https://en.wikipedia.org/wiki/Raining_Blood
+    facts:
+      - [easy, "It begins and ends with rain sound effects."]
+      - [medium, "Its religious concept is about overthrowing Heaven."]
+      - [strong, "It comes from the thrash album Reign in Blood (1986)."]
+
+  - title: Duality
+    artist: Slipknot
+    year: 2004
+    genre: Metal
+    styles: [Nu Metal]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: easy
+    youtube: 6fVE8kSM43I
+    source: https://en.wikipedia.org/wiki/Duality_(song)
+    facts:
+      - [easy, "It is played in drop B tuning."]
+      - [medium, "Its label Roadrunner listed its video as its greatest of all time."]
+      - [strong, "It is the first single from Vol. 3: (The Subliminal Verses)."]
+
+  - title: Music Sounds Better with You
+    artist: Stardust
+    year: 1998
+    genre: Electronic
+    styles: [House]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: FQlAEiCb8m0
+    source: https://en.wikipedia.org/wiki/Music_Sounds_Better_with_You
+    facts:
+      - [easy, "Its guitar riff is sampled from Chaka Khan's 1981 song “Fate”."]
+      - [medium, "Its music video was directed by Michel Gondry."]
+      - [strong, "It is the only song by a French trio that included a member of Daft Punk."]
+
+  - title: Lady (Hear Me Tonight)
+    artist: Modjo
+    year: 2000
+    genre: Electronic
+    styles: [House]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: mMfxI3r_LyA
+    aliases: [Hear Me Tonight]
+    source: https://en.wikipedia.org/wiki/Lady_(Hear_Me_Tonight)
+    facts:
+      - [easy, "Its two members met at the American School of Modern Music in Paris."]
+      - [medium, "It samples Chic's 1982 song “Soup for One”."]
+      - [strong, "It topped the UK Singles Chart and is the lead single from the duo's only album."]
+
+  - title: Hey Boy Hey Girl
+    artist: The Chemical Brothers
+    year: 1999
+    genre: Electronic
+    styles: [EDM]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: tpKCqp9CALQ
+    source: https://en.wikipedia.org/wiki/Hey_Boy_Hey_Girl
+    facts:
+      - [easy, "It samples “The Roof Is on Fire” by way of an Armand van Helden track."]
+      - [medium, "It reached number three on the UK Singles Chart in June 1999."]
+      - [strong, "It is the first single from the duo's album Surrender (1999)."]
+
+  - title: Rhythm Is a Dancer
+    artist: Snap!
+    year: 1992
+    genre: Electronic
+    styles: [Eurodance]
+    vocal: mixed
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: JYIaWeVL1JM
+    source: https://en.wikipedia.org/wiki/Rhythm_Is_a_Dancer
+    facts:
+      - [easy, "Its producers worked under the aliases Benito Benites and John “Virgo” Garrett III."]
+      - [medium, "It spent six weeks at number one on the UK Singles Chart in 1992."]
+      - [strong, "It is the second single from The Madman's Return (1992)."]
+
+  - title: Freed from Desire
+    artist: Gala
+    year: 1996
+    genre: Electronic
+    styles: [Eurodance]
+    vocal: female
+    language: en
+    themes: [Freedom / Carefree]
+    difficulty: easy
+    youtube: p3l7fgvrEKM
+    source: https://en.wikipedia.org/wiki/Freed_from_Desire
+    facts:
+      - [easy, "It was produced by DJ Molella and Phil Jay."]
+      - [medium, "It reached number one in France and Belgium."]
+      - [strong, "It is the first single from the Italian singer's debut album Come into My Life (1997)."]
+
+  - title: Turn Down for What
+    artist: DJ Snake
+    featured: [Lil Jon]
+    year: 2013
+    genre: Electronic
+    styles: [EDM]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: HMUDVMiITOU
+    source: https://en.wikipedia.org/wiki/Turn_Down_for_What
+    facts:
+      - [easy, "Its first album appearance was on the Furious 7 soundtrack."]
+      - [medium, "Its viral music video passed a billion views on YouTube in 2020."]
+      - [strong, "It was the French producer's debut single, shouted over by a crunk rapper."]
+
+  - title: Strings of Life
+    artist: Rhythim Is Rhythim
+    year: 1987
+    genre: Electronic
+    styles: [Techno, House]
+    vocal: instrumental
+    language: zxx
+    themes: [Party / Dancing]
+    difficulty: hard
+    youtube: vGFw2qeUp0s
+    source: https://en.wikipedia.org/wiki/Strings_of_Life
+    facts:
+      - [easy, "It is based on a piano piece by Michael James."]
+      - [medium, "It was named by Frankie Knuckles."]
+      - [strong, "LA Weekly named it the best dance music track in history in 2015."]
+
+  - title: Jerusalema
+    artist: Master KG
+    featured: [Nomcebo Zikode]
+    year: 2019
+    genre: Electronic
+    styles: [House]
+    vocal: female
+    language: zu
+    themes: [Religion / Spirituality]
+    difficulty: easy
+    youtube: fCZVL_8D048
+    source: https://en.wikipedia.org/wiki/Jerusalema
+    facts:
+      - [easy, "It is a gospel-influenced house song."]
+      - [medium, "A dance challenge started by friends in Angola made it go viral in 2020."]
+      - [strong, "It is sung in Zulu by a South African vocalist over a South African DJ's track."]
+
+  - title: Blue Monday
+    artist: New Order
+    year: 1983
+    genre: Pop
+    styles: [Synth-Pop]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: medium
+    youtube: c1GxjzHm5us
+    source: https://en.wikipedia.org/wiki/Blue_Monday_(New_Order_song)
+    facts:
+      - [easy, "Its sleeve was designed to resemble a floppy disk."]
+      - [medium, "Its B-side was a mostly instrumental version called “The Beach”."]
+      - [strong, "It was released as a 12-inch single by Factory Records in March 1983."]
+
+  - title: Royals
+    artist: Lorde
+    year: 2012
+    genre: Pop
+    styles: [Electropop]
+    vocal: female
+    language: en
+    themes: [Social Issues, Money / Success]
+    difficulty: easy
+    youtube: nlcIKh6sBtc
+    source: https://en.wikipedia.org/wiki/Royals_(song)
+    facts:
+      - [easy, "It was written with producer Joel Little."]
+      - [medium, "It first appeared on The Love Club EP (2012)."]
+      - [strong, "It is the New Zealand singer's debut single, mocking pop stars' lavish lifestyles."]
+
+  - title: Drivers License
+    artist: Olivia Rodrigo
+    year: 2021
+    genre: Pop
+    styles: [Pop Ballad]
+    vocal: female
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: easy
+    youtube: ZmDBbnmKpqQ
+    aliases: [Driver's License]
+    source: https://en.wikipedia.org/wiki/Drivers_License_(song)
+    facts:
+      - [easy, "It was written with producer Dan Nigro."]
+      - [medium, "It is a piano-led pop power ballad."]
+      - [strong, "It is the debut single from the album Sour (2021)."]
+
+  - title: Running Up That Hill
+    artist: Kate Bush
+    year: 1985
+    genre: Pop
+    styles: [Synth-Pop]
+    vocal: female
+    language: en
+    themes: [Passion / Desire, Fantasy / Surreal]
+    difficulty: easy
+    youtube: wp43OdtAAkM
+    aliases: [A Deal with God]
+    source: https://en.wikipedia.org/wiki/Running_Up_That_Hill
+    facts:
+      - [easy, "It was made with a Fairlight CMI synthesiser and a LinnDrum drum machine."]
+      - [medium, "It reached number one in eight countries after appearing in Stranger Things in 2022."]
+      - [strong, "It is the lead single from Hounds of Love (1985)."]
+
+  - title: Plastic Love
+    artist: Mariya Takeuchi
+    year: 1984
+    genre: Pop
+    styles: [Synth-Pop]
+    vocal: female
+    language: ja
+    themes: [Loneliness / Sadness]
+    difficulty: medium
+    youtube: T_lC2O1oIew
+    source: https://en.wikipedia.org/wiki/Plastic_Love
+    facts:
+      - [easy, "It was arranged by Tatsuro Yamashita."]
+      - [medium, "An eight-minute remix of it went viral through the YouTube algorithm in the late 2010s."]
+      - [strong, "It is a city pop song from the album Variety (1984)."]
+
+  - title: All the Things She Said
+    artist: t.A.T.u.
+    year: 2002
+    genre: Pop
+    styles: [Synth-Pop]
+    vocal: female
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: 8mGBaXPlri8
+    source: https://en.wikipedia.org/wiki/All_the_Things_She_Said
+    facts:
+      - [easy, "It was produced by Trevor Horn."]
+      - [medium, "Its original story came from a dream one of its writers had at the dentist."]
+      - [strong, "It is the English version of the Russian duo's 2000 song “Ya soshla s uma”."]
+
+  - title: Şımarık
+    artist: Tarkan
+    year: 1997
+    genre: Pop
+    styles: [Dance-Pop]
+    vocal: male
+    language: tr
+    themes: [Passion / Desire]
+    difficulty: medium
+    youtube: cpp69ghR1IM
+    aliases: [Simarik, Kiss Kiss]
+    source: https://en.wikipedia.org/wiki/%C5%9E%C4%B1mar%C4%B1k
+    facts:
+      - [easy, "Its lyrics were written by Sezen Aksu."]
+      - [medium, "It comes from the album Ölürüm Sana (1997)."]
+      - [strong, "Its title means “Spoiled”, and English covers by Stella Soleil and Holly Valance followed."]
+
+  - title: Calm Down
+    artist: Rema
+    year: 2022
+    genre: Pop
+    styles: [Dance-Pop]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: CQLsdm1ZYAw
+    source: https://en.wikipedia.org/wiki/Calm_Down_(Rema_song)
+    facts:
+      - [easy, "It spent 27 weeks in the UK top ten."]
+      - [medium, "A remix with Selena Gomez reached number three on the Billboard Global 200."]
+      - [strong, "It comes from the Nigerian singer's debut album Rave & Roses (2022)."]
+
+  - title: Nour El Ain
+    artist: Amr Diab
+    year: 1996
+    genre: Pop
+    styles: [Dance-Pop]
+    vocal: male
+    language: ar
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: KLJA-srM_yM
+    aliases: [Habibi Ya Nour El Ain, Nour El Ein]
+    source: https://en.wikipedia.org/wiki/Nour_El_Ain
+    facts:
+      - [easy, "Its music video was filmed in Hurghada."]
+      - [medium, "Its album won a World Music Award as the Middle East's best-selling album of 1996."]
+      - [strong, "Its title means “Light of the Eye”."]
+
+  - title: Non, je ne regrette rien
+    artist: Édith Piaf
+    year: 1960
+    genre: Pop
+    styles: [Pop Ballad]
+    vocal: female
+    language: fr
+    themes: [Motivation / Strength]
+    difficulty: easy
+    youtube: 4r454dad7tc
+    aliases: [Non je ne regrette rien, No Regrets]
+    source: https://en.wikipedia.org/wiki/Non,_je_ne_regrette_rien
+    facts:
+      - [easy, "It was composed by Charles Dumont with lyrics by Michel Vaucaire."]
+      - [medium, "Its singer dedicated her recording to the French Foreign Legion."]
+      - [strong, "It plays a key part in the film Inception (2010)."]
+
+  - title: No Diggity
+    artist: Blackstreet
+    featured: [Dr. Dre, Queen Pen]
+    year: 1996
+    genre: R&B/Soul
+    styles: [Contemporary R&B]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: 3KL9mRus19o
+    source: https://en.wikipedia.org/wiki/No_Diggity
+    facts:
+      - [easy, "It samples Bill Withers's “Grandma's Hands”."]
+      - [medium, "Its music video was directed by Hype Williams."]
+      - [strong, "It is the lead single from the album Another Level (1996)."]
+
+  - title: Return of the Mack
+    artist: Mark Morrison
+    year: 1996
+    genre: R&B/Soul
+    styles: [Contemporary R&B]
+    vocal: male
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: easy
+    youtube: uB1D9wWxd2w
+    source: https://en.wikipedia.org/wiki/Return_of_the_Mack_(song)
+    facts:
+      - [easy, "It was produced with Phil Chill and Cutfather & Joe."]
+      - [medium, "It topped the UK Singles Chart for two weeks in April 1996."]
+      - [strong, "It reached number two in the US in 1997 and is the British singer's signature hit."]
+
+  - title: Let's Stay Together
+    artist: Al Green
+    year: 1971
+    genre: R&B/Soul
+    styles: [Soul]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: XXx6RDzR6eM
+    aliases: [Lets Stay Together]
+    source: https://en.wikipedia.org/wiki/Let%27s_Stay_Together_(Al_Green_song)
+    facts:
+      - [easy, "It was produced by Willie Mitchell."]
+      - [medium, "It topped the Billboard R&B chart for nine weeks."]
+      - [strong, "It reached number one on the Hot 100 and is the title track of its singer's 1972 album."]
+
+  - title: My Girl
+    artist: The Temptations
+    year: 1964
+    genre: R&B/Soul
+    styles: [Motown, Soul]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: y3KJ7d2qBoA
+    source: https://en.wikipedia.org/wiki/My_Girl_(The_Temptations_song)
+    facts:
+      - [easy, "It was written by Smokey Robinson and Ronald White of the Miracles."]
+      - [medium, "Its writer was inspired by his wife, Claudette."]
+      - [strong, "It was the Motown group's first US number one and their signature song."]
+
+  - title: Ain't No Sunshine
+    artist: Bill Withers
+    year: 1971
+    genre: R&B/Soul
+    styles: [Soul]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness, Breakup / Heartbreak]
+    difficulty: easy
+    youtube: YuKfiH0Scao
+    aliases: [Aint No Sunshine]
+    source: https://en.wikipedia.org/wiki/Ain%27t_No_Sunshine
+    facts:
+      - [easy, "It was produced by Booker T. Jones."]
+      - [medium, "Stephen Stills played guitar on it."]
+      - [strong, "It comes from its singer's 1971 debut album Just As I Am."]
+
+  - title: (Sittin' On) The Dock of the Bay
+    artist: Otis Redding
+    year: 1968
+    genre: R&B/Soul
+    styles: [Soul]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness, City / Place]
+    difficulty: easy
+    youtube: rTVjnBo96Ug
+    aliases: [Dock of the Bay, Sittin' On the Dock of the Bay]
+    source: https://en.wikipedia.org/wiki/(Sittin%27_On)_The_Dock_of_the_Bay
+    facts:
+      - [easy, "It was co-written with guitarist Steve Cropper."]
+      - [medium, "Its lyrics were begun on a rented houseboat in Sausalito."]
+      - [strong, "It was the first posthumous number-one single in the US."]
+
+  - title: Got to Be Real
+    artist: Cheryl Lynn
+    year: 1978
+    genre: Disco/Funk
+    styles: [Disco]
+    vocal: female
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: fI569nw0YUQ
+    source: https://en.wikipedia.org/wiki/Got_to_Be_Real
+    facts:
+      - [easy, "It was written with David Paich and David Foster."]
+      - [medium, "Ray Parker Jr. played guitar on it."]
+      - [strong, "It is its singer's debut single and topped the Hot Soul Singles chart in 1979."]
+
+  - title: I Feel Love
+    artist: Donna Summer
+    year: 1977
+    genre: Disco/Funk
+    styles: [Disco]
+    vocal: female
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: yEbaeLv-aOo
+    source: https://en.wikipedia.org/wiki/I_Feel_Love
+    facts:
+      - [easy, "It was produced and co-written by Giorgio Moroder and Pete Bellotte."]
+      - [medium, "It was built on a Moog synthesizer to sound futuristic."]
+      - [strong, "It was first released as a B-side and later topped the UK Singles Chart."]
+
+  - title: Car Wash
+    artist: Rose Royce
+    year: 1976
+    genre: Disco/Funk
+    styles: [Funk, Disco]
+    vocal: female
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: TsYS68M4Eqk
+    source: https://en.wikipedia.org/wiki/Car_Wash_(song)
+    facts:
+      - [easy, "It was written by former Motown producer Norman Whitfield."]
+      - [medium, "Christina Aguilera and Missy Elliott covered it for the film Shark Tale."]
+      - [strong, "It is the theme of the 1976 film of the same name."]
+
+  - title: Get Down Tonight
+    artist: KC and the Sunshine Band
+    year: 1975
+    genre: Disco/Funk
+    styles: [Disco, Funk]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: yd3OegUtX8Q
+    source: https://en.wikipedia.org/wiki/Get_Down_Tonight
+    facts:
+      - [easy, "It was released by TK Records in February 1975."]
+      - [medium, "Rolling Stone ranked it 100th among the greatest dance songs in 2022."]
+      - [strong, "It was the first of the band's five US number ones."]
+
+  - title: On the Road Again
+    artist: Willie Nelson
+    year: 1980
+    genre: Country
+    styles: [Classic Country]
+    vocal: male
+    language: en
+    themes: [Road / Journey]
+    difficulty: easy
+    youtube: dBN86y30Ufc
+    source: https://en.wikipedia.org/wiki/On_the_Road_Again_(Willie_Nelson_song)
+    facts:
+      - [easy, "It reached number 20 on the Billboard Hot 100."]
+      - [medium, "Its subject is life on tour."]
+      - [strong, "It was written for the 1980 film Honeysuckle Rose, which starred its singer."]
+
+  - title: Crazy
+    artist: Patsy Cline
+    year: 1961
+    genre: Country
+    styles: [Classic Country, Country Pop]
+    vocal: female
+    language: en
+    themes: [Falling in Love, Loneliness / Sadness]
+    difficulty: medium
+    youtube: 7PqtUULmZSE
+    source: https://en.wikipedia.org/wiki/Crazy_(Willie_Nelson_song)
+    facts:
+      - [easy, "It reached its singer through songwriter Hank Cochran."]
+      - [medium, "In 1996 it became the most played jukebox song in US history."]
+      - [strong, "It was written by Willie Nelson."]
+
+  - title: Wagon Wheel
+    artist: Old Crow Medicine Show
+    year: 2004
+    genre: Country
+    styles: [Country Rock]
+    vocal: male
+    language: en
+    themes: [Road / Journey]
+    difficulty: medium
+    youtube: 1gX1EP6mG-E
+    source: https://en.wikipedia.org/wiki/Wagon_Wheel_(song)
+    facts:
+      - [easy, "Its chorus comes from a 1973 sketch by Bob Dylan."]
+      - [medium, "Darius Rucker had a hit with his cover of it in 2013."]
+      - [strong, "It describes hitchhiking south towards Raleigh, North Carolina."]
+
+  - title: Last Night
+    artist: Morgan Wallen
+    year: 2023
+    genre: Country
+    styles: [Country Pop]
+    vocal: male
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: easy
+    youtube: bUjPPBxbQrQ
+    source: https://en.wikipedia.org/wiki/Last_Night_(Morgan_Wallen_song)
+    facts:
+      - [easy, "It was written by John Byron, Ashley Gorley, Jacob Kasher Hindlin and Ryan Vojtesak."]
+      - [medium, "It spent 16 weeks at number one on the Billboard Hot 100."]
+      - [strong, "It comes from the 2023 album One Thing at a Time."]
+
+  - title: Rivers of Babylon
+    artist: The Melodians
+    year: 1970
+    genre: Reggae
+    styles: [Roots Reggae]
+    vocal: male
+    language: en
+    themes: [Religion / Spirituality]
+    difficulty: medium
+    youtube: BXf1j8Hz2bU
+    source: https://en.wikipedia.org/wiki/Rivers_of_Babylon
+    facts:
+      - [easy, "Its lyrics are adapted from Psalms 19 and 137."]
+      - [medium, "It appeared on the soundtrack of the 1972 film The Harder They Come."]
+      - [strong, "Boney M.'s 1978 cover became one of the UK's best-selling singles."]
+
+  - title: The Harder They Come
+    artist: Jimmy Cliff
+    year: 1972
+    genre: Reggae
+    styles: [Roots Reggae]
+    vocal: male
+    language: en
+    themes: [Motivation / Strength]
+    difficulty: medium
+    youtube: pmc5H6zAi6M
+    source: https://en.wikipedia.org/wiki/The_Harder_They_Come_(song)
+    facts:
+      - [easy, "Rolling Stone ranked it 350th on its list of the 500 Greatest Songs of All Time."]
+      - [medium, "In its film it is supposedly written by the main character, Ivanhoe Martin."]
+      - [strong, "It is the title song of the 1972 film that starred its singer."]
+
+  - title: Bam Bam
+    artist: Sister Nancy
+    year: 1982
+    genre: Reggae
+    styles: [Dancehall]
+    vocal: female
+    language: en
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: a9OopCd1gpE
+    source: https://en.wikipedia.org/wiki/Bam_Bam_(Sister_Nancy_song)
+    facts:
+      - [easy, "Its riddim samples Ansell Collins's “Stalag 17”."]
+      - [medium, "Billboard called it a contender for the most sampled reggae song of all time."]
+      - [strong, "Its chorus was inspired by a 1966 Toots and the Maytals song of the same name."]
+
+  - title: Who Am I (Sim Simma)
+    artist: Beenie Man
+    year: 1997
+    genre: Reggae
+    styles: [Dancehall]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: medium
+    youtube: WI-xQ7IksUc
+    aliases: [Who Am I, Sim Simma]
+    source: https://en.wikipedia.org/wiki/Who_Am_I_(Sim_Simma)
+    facts:
+      - [easy, "It is built on the “Playground” riddim produced by Jeremy Harding."]
+      - [medium, "Its singer showed up at the studio unannounced and recorded it in one go."]
+      - [strong, "It comes from the album Many Moods of Moses (1997)."]
+
+  - title: Take the "A" Train
+    artist: Duke Ellington
+    year: 1941
+    genre: Jazz/Blues
+    styles: [Swing]
+    vocal: instrumental
+    language: zxx
+    themes: [City / Place, Road / Journey]
+    difficulty: medium
+    youtube: r2G1fKYFgVU
+    aliases: [Take the A Train]
+    source: https://en.wikipedia.org/wiki/Take_the_%22A%22_Train
+    facts:
+      - [easy, "It was composed by Billy Strayhorn."]
+      - [medium, "Its 1941 Victor recording entered the Grammy Hall of Fame in 1976."]
+      - [strong, "Its title comes from subway directions to the bandleader's home."]
+
+  - title: Cross Road Blues
+    artist: Robert Johnson
+    year: 1937
+    genre: Jazz/Blues
+    styles: [Blues]
+    vocal: male
+    language: en
+    themes: [Road / Journey]
+    difficulty: hard
+    youtube: Kxi4XkIVWLQ
+    aliases: [Crossroads, Crossroad Blues]
+    source: https://en.wikipedia.org/wiki/Cross_Road_Blues
+    facts:
+      - [easy, "It was recorded in two takes on 27 November 1936."]
+      - [medium, "Cream turned it into a blues rock staple in 1968."]
+      - [strong, "Legend ties it to the place where its singer sold his soul to the Devil."]
+
+  - title: Pride and Joy
+    artist: Stevie Ray Vaughan
+    year: 1983
+    genre: Jazz/Blues
+    styles: [Blues Rock]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: I3MTGhRC82s
+    source: https://en.wikipedia.org/wiki/Pride_and_Joy_(Stevie_Ray_Vaughan_song)
+    facts:
+      - [easy, "It is a twelve-bar Texas shuffle."]
+      - [medium, "It was written for a girlfriend, and a later fight with her inspired “I'm Crying”."]
+      - [strong, "It is the debut single from Texas Flood (1983)."]
+
+  - title: Smokestack Lightnin'
+    artist: Howlin' Wolf
+    year: 1956
+    genre: Jazz/Blues
+    styles: [Blues]
+    vocal: male
+    language: en
+    themes: [Road / Journey]
+    difficulty: hard
+    youtube: VMUt8KdDtTY
+    aliases: [Smokestack Lightning, Smoke Stack Lightning]
+    source: https://en.wikipedia.org/wiki/Smokestack_Lightning
+    facts:
+      - [easy, "It was recorded at Chess's studio in Chicago in January 1956."]
+      - [medium, "It is a hypnotic one-chord drone piece."]
+      - [strong, "Its singer said it was inspired by watching trains at night."]
+
+  - title: La Camisa Negra
+    artist: Juanes
+    year: 2004
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: male
+    language: es
+    themes: [Breakup / Heartbreak]
+    difficulty: easy
+    youtube: kRt2sRyup6A
+    source: https://en.wikipedia.org/wiki/La_Camisa_Negra
+    facts:
+      - [easy, "It was produced with Gustavo Santaolalla."]
+      - [medium, "It spent eight weeks at number one on Hot Latin Tracks."]
+      - [strong, "Its title means “The Black Shirt” and it comes from Mi Sangre (2004)."]
+
+  - title: La Bicicleta
+    artist: Carlos Vives
+    featured: [Shakira]
+    year: 2016
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: mixed
+    language: es
+    themes: [Nostalgia / Memories]
+    difficulty: easy
+    youtube: -UV0QGLmYys
+    source: https://en.wikipedia.org/wiki/La_Bicicleta
+    facts:
+      - [easy, "It mixes vallenato, pop and reggaeton."]
+      - [medium, "It describes a bike trip to places from its two singers' childhoods."]
+      - [strong, "Its title means “The Bicycle”."]
+
+  - title: Hawái
+    artist: Maluma
+    year: 2020
+    genre: Latin
+    styles: [Reggaeton]
+    vocal: male
+    language: es
+    themes: [Breakup / Heartbreak, Jealousy / Infidelity]
+    difficulty: easy
+    youtube: pK060iUFWXg
+    aliases: [Hawai]
+    source: https://en.wikipedia.org/wiki/Haw%C3%A1i_(song)
+    facts:
+      - [easy, "A remix of it features The Weeknd."]
+      - [medium, "It topped Hot Latin Songs for nine consecutive weeks."]
+      - [strong, "It comes from the album Papi Juancho (2020)."]
+
+  - title: Ella Baila Sola
+    artist: Eslabon Armado
+    featured: [Peso Pluma]
+    year: 2023
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: male
+    language: es
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: lZiaYpD9ZrI
+    source: https://en.wikipedia.org/wiki/Ella_Baila_Sola_(song)
+    facts:
+      - [easy, "It is a sierreño song released by DEL Records."]
+      - [medium, "It went viral on TikTok days before its official release."]
+      - [strong, "It was the first regional Mexican song to reach the top 10 of the Billboard Hot 100."]
+
+  - title: Oye Como Va
+    artist: Tito Puente
+    year: 1962
+    genre: Latin
+    styles: [Salsa]
+    vocal: male
+    language: es
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: BpAXzTpANNw
+    aliases: [Oye Cómo Va]
+    source: https://en.wikipedia.org/wiki/Oye_C%C3%B3mo_Va
+    facts:
+      - [easy, "It was first released on the album El Rey Bravo."]
+      - [medium, "Its ostinato was probably borrowed from Cachao's 1957 mambo “Chanchullo”."]
+      - [strong, "Santana's 1970 rock cover made it famous worldwide."]
+
+  - title: Quimbara
+    artist: Celia Cruz
+    featured: [Johnny Pacheco]
+    year: 1974
+    genre: Latin
+    styles: [Salsa]
+    vocal: female
+    language: es
+    themes: [Party / Dancing]
+    difficulty: hard
+    youtube: yRqzYM0Dw6E
+    source: https://en.wikipedia.org/wiki/Quimbara
+    facts:
+      - [easy, "It was written by 20-year-old Junior Cepeda from Puerto Rico."]
+      - [medium, "It reached number one in Miami and New York."]
+      - [strong, "It is the lead single from the joint album Celia & Johnny (1974)."]
+
+  - title: Ho Hey
+    artist: The Lumineers
+    year: 2012
+    genre: Folk
+    styles: [Indie Folk, Folk Rock]
+    vocal: male
+    language: en
+    themes: [Falling in Love]
+    difficulty: easy
+    youtube: zvCBSSwgtg4
+    source: https://en.wikipedia.org/wiki/Ho_Hey
+    facts:
+      - [easy, "Its music video came out three months before the single."]
+      - [medium, "It topped the Billboard Rock Songs chart for 18 weeks."]
+      - [strong, "It is the lead single from the band's self-titled 2012 debut album."]
+
+  - title: Skinny Love
+    artist: Bon Iver
+    year: 2007
+    genre: Folk
+    styles: [Indie Folk]
+    vocal: male
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: medium
+    youtube: 95FyXUHv8hk
+    source: https://en.wikipedia.org/wiki/Skinny_Love
+    facts:
+      - [easy, "A 2011 cover by Birdy also became a hit."]
+      - [medium, "It was released as a single in the UK on 28 April 2008."]
+      - [strong, "It is the first single from For Emma, Forever Ago (2007)."]
+
+  - title: Riptide
+    artist: Vance Joy
+    year: 2013
+    genre: Folk
+    styles: [Indie Folk]
+    vocal: male
+    language: en
+    themes: [Falling in Love, Growing Up / Self-Discovery]
+    difficulty: easy
+    youtube: uJ_1HMAGb4k
+    source: https://en.wikipedia.org/wiki/Riptide_(Vance_Joy_song)
+    facts:
+      - [easy, "It was co-produced with drummer Edwin White."]
+      - [medium, "It first appeared on the EP God Loves You When You're Dancing (2013)."]
+      - [strong, "It is the Australian singer's breakthrough, later on Dream Your Life Away (2014)."]
+
+  - title: Heart of Gold
+    artist: Neil Young
+    year: 1972
+    genre: Folk
+    styles: [Singer-Songwriter, Folk Rock]
+    vocal: male
+    language: en
+    themes: [Growing Up / Self-Discovery]
+    difficulty: easy
+    youtube: c7eB7Wns1-M
+    source: https://en.wikipedia.org/wiki/Heart_of_Gold_(Neil_Young_song)
+    facts:
+      - [easy, "James Taylor and Linda Ronstadt sing backing vocals on it."]
+      - [medium, "It is one of several soft acoustic songs written partly because of a back injury."]
+      - [strong, "It is its singer's only US number one, from the album Harvest (1972)."]
+
+  - title: The Good, the Bad and the Ugly
+    artist: Ennio Morricone
+    year: 1966
+    genre: Classical/Soundtrack
+    styles: [Film Score]
+    vocal: instrumental
+    language: zxx
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: XOl73VQOS9M
+    aliases: [The Good the Bad and the Ugly]
+    source: https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly_(theme)
+    facts:
+      - [easy, "Bruno Nicolai conducted the orchestra on its soundtrack recording."]
+      - [medium, "Its two-note opening melody imitates the howl of a coyote."]
+      - [strong, "Hugo Montenegro's 1967 cover was a pop hit in the US and the UK."]
+
+  - title: He's a Pirate
+    artist: Klaus Badelt
+    year: 2003
+    genre: Classical/Soundtrack
+    styles: [Film Score]
+    vocal: instrumental
+    language: zxx
+    themes: [Fantasy / Surreal]
+    difficulty: easy
+    youtube: BuYf0taXoNw
+    aliases: [Hes a Pirate]
+    source: https://en.wikipedia.org/wiki/He%27s_a_Pirate
+    facts:
+      - [easy, "Hans Zimmer wrote an early version of it."]
+      - [medium, "Tiësto released a remix of it in 2006."]
+      - [strong, "It plays over the credits of Pirates of the Caribbean: The Curse of the Black Pearl."]
+
+  - title: "Theme from Mission: Impossible"
+    artist: Lalo Schifrin
+    year: 1967
+    genre: Classical/Soundtrack
+    styles: [Film Score]
+    vocal: instrumental
+    language: zxx
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: O07WucFwdq8
+    aliases: ["Mission: Impossible Theme", Mission Impossible]
+    source: https://en.wikipedia.org/wiki/Theme_from_Mission:_Impossible
+    facts:
+      - [easy, "Its 5/4 rhythm matches the Morse code for the letters M and I."]
+      - [medium, "It won Best Instrumental Theme at the 10th Grammy Awards."]
+      - [strong, "It is the theme of a 1966 American spy TV series and its later film franchise."]
+
+  - title: Con te partirò
+    artist: Andrea Bocelli
+    year: 1995
+    genre: Classical/Soundtrack
+    styles: [Classical Crossover]
+    vocal: male
+    language: it
+    themes: [Falling in Love, Road / Journey]
+    difficulty: easy
+    youtube: nVUHHW1tJYA
+    aliases: [Con te partiro, Time to Say Goodbye]
+    source: https://en.wikipedia.org/wiki/Con_te_partir%C3%B2
+    facts:
+      - [easy, "It was written by Francesco Sartori and Lucio Quarantotto."]
+      - [medium, "It was first performed at the 1995 Sanremo Music Festival."]
+      - [strong, "Its 1996 duet version with Sarah Brightman topped charts across Europe."]
