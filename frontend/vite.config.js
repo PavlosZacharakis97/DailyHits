@@ -5,6 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   server: {
+    // Temporary Cloudflare tunnel links (https://*.trycloudflare.com) for sharing a dev build.
+    allowedHosts: ['.trycloudflare.com'],
     // Same-origin API: the browser calls /api on the Vite server, which proxies to Django.
     // Keep the browser's Host header so Django sees the same origin as the browser.
     proxy: {
