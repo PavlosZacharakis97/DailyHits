@@ -21,7 +21,7 @@ def test_seed_loads_reference_data() -> None:
         "Country": 81,
         "Language": 38,
         "Genre": 13,
-        "Style": 66,
+        "Style": 68,
         "Theme": 21,
         "Edition": 1,
     }

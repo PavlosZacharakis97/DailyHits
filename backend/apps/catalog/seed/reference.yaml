@@ -158,9 +158,9 @@ genres:
   Disco/Funk: [Disco, Funk, Nu-Disco]
   Country: [Classic Country, Country Pop, Country Rock]
   Folk: [Folk Rock, Singer-Songwriter, Indie Folk]
-  Latin: [Latin Pop, Reggaeton, Salsa, Bachata, Bossa Nova]
+  Latin: [Latin Pop, Reggaeton, Salsa, Bachata, Merengue, Bossa Nova]
   Reggae: [Roots Reggae, Ska, Dancehall]
-  Jazz/Blues: [Vocal Jazz, Swing, Blues, Blues Rock]
+  Jazz/Blues: [Vocal Jazz, Swing, Cool Jazz, Blues, Blues Rock]
   Classical/Soundtrack: [Film Score, Musical Theatre, Classical Crossover]
 
 # Symmetric pairs: a guess in a related genre gets a yellow genre tile.
