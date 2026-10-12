@@ -505,6 +505,102 @@ people:
   - Judy Santos
   - Tracy Chapman
 
+  - Chris Kelly
+  - Chris Smith
+  - Robert Van Winkle
+  - Sidney Selby
+  - Alex Kapranos
+  - Nick McCarthy
+  - Bob Hardy
+  - Paul Thomson
+  - Julian Casablancas
+  - Nick Valensi
+  - Albert Hammond Jr.
+  - Nikolai Fraiture
+  - Fabrizio Moretti
+  - John Fogerty
+  - Tom Fogerty
+  - Stu Cook
+  - Doug Clifford
+  - Steve Perry
+  - Neal Schon
+  - Jonathan Cain
+  - Ross Valory
+  - Steve Smith
+  - Richard Ashcroft
+  - Nick McCabe
+  - Simon Jones
+  - Peter Salisbury
+  - Lemmy Kilmister
+  - Fast Eddie Clarke
+  - Phil Taylor
+  - Rob Halford
+  - K. K. Downing
+  - Glenn Tipton
+  - Ian Hill
+  - Dave Holland
+  - David Draiman
+  - Dan Donegan
+  - Steve Kmak
+  - Mike Wengren
+  - Karl Hyde
+  - Rick Smith
+  - Darren Emerson
+  - Marco Benassi
+  - Joel Zimmerman
+  - Sonny Moore
+  - Clifford Price
+  - Diane Charlemagne
+  - Søren Rasted
+  - Claus Norreen
+  - René Dif
+  - Lene Nystrøm
+  - Sabrina Carpenter
+  - Solána Rowe
+  - Aya Danioko
+  - Chaka Khan
+  - Tony Maiden
+  - Bobby Watson
+  - David Wolinski
+  - John Robinson
+  - Toni Braxton
+  - Robert Bell
+  - Ronald Bell
+  - George Brown
+  - Dennis Thomas
+  - Robert Mickens
+  - Claydes Charles Smith
+  - James Taylor
+  - Steven Greenberg
+  - Cynthia Johnson
+  - Liz Mitchell
+  - Marcia Barrett
+  - Maizie Williams
+  - Bobby Farrell
+  - Hillary Scott
+  - Charles Kelley
+  - Dave Haywood
+  - Virginia Wynette Pugh
+  - Cecil Campbell
+  - Ian Lewis
+  - Roger Lewis
+  - Calton Coffie
+  - Touter Harvey
+  - John Taylor
+  - Everton Bonner
+  - Miles Davis
+  - Eleanora Fagan
+  - McKinley Morganfield
+  - Alejandro Sánchez Pizarro
+  - Juan Luis Guerra
+  - Roberta Joan Anderson
+  - Nanna Bryndís Hilmarsdóttir
+  - Ragnar Þórhallsson
+  - Brynjar Leifsson
+  - Arnar Rósenkranz Hilmarsson
+  - Kristján Páll Kristjánsson
+  - John Williams
+
 artists:
   - {name: Queen, type: group, country: GB,
      members: [Freddie Mercury, Brian May, Roger Taylor, John Deacon]}
@@ -784,6 +880,57 @@ artists:
      members: [Anthony Santos, Henry Santos, Lenny Santos, Max Santos]}
   - {name: Judy Santos, type: solo, country: US, members: [Judy Santos]}
   - {name: Tracy Chapman, type: solo, country: US, members: [Tracy Chapman]}
+
+  - {name: Kris Kross, type: duo, country: US, members: [Chris Kelly, Chris Smith]}
+  - {name: Vanilla Ice, type: solo, country: US, members: [Robert Van Winkle]}
+  - {name: Desiigner, type: solo, country: US, members: [Sidney Selby]}
+  - {name: Ol' Dirty Bastard, type: solo, country: US, members: [Ol' Dirty Bastard]}
+  - {name: Franz Ferdinand, type: group, country: GB,
+     members: [Alex Kapranos, Nick McCarthy, Bob Hardy, Paul Thomson]}
+  - {name: The Strokes, type: group, country: US,
+     members: [Julian Casablancas, Nick Valensi, Albert Hammond Jr., Nikolai Fraiture, Fabrizio Moretti]}
+  - {name: Creedence Clearwater Revival, type: group, country: US,
+     members: [John Fogerty, Tom Fogerty, Stu Cook, Doug Clifford]}
+  - {name: Journey, type: group, country: US,
+     members: [Steve Perry, Neal Schon, Jonathan Cain, Ross Valory, Steve Smith]}
+  - {name: The Verve, type: group, country: GB,
+     members: [Richard Ashcroft, Nick McCabe, Simon Jones, Peter Salisbury]}
+  - {name: Motörhead, type: group, country: GB, members: [Lemmy Kilmister, Fast Eddie Clarke, Phil Taylor]}
+  - {name: Judas Priest, type: group, country: GB,
+     members: [Rob Halford, K. K. Downing, Glenn Tipton, Ian Hill, Dave Holland]}
+  - {name: Disturbed, type: group, country: US,
+     members: [David Draiman, Dan Donegan, Steve Kmak, Mike Wengren]}
+  - {name: Underworld, type: group, country: GB, members: [Karl Hyde, Rick Smith, Darren Emerson]}
+  - {name: Benny Benassi, type: solo, country: IT, members: [Marco Benassi]}
+  - {name: deadmau5, type: solo, country: CA, members: [Joel Zimmerman]}
+  - {name: Skrillex, type: solo, country: US, members: [Sonny Moore]}
+  - {name: Goldie, type: solo, country: GB, members: [Clifford Price]}
+  - {name: Diane Charlemagne, type: solo, country: GB, members: [Diane Charlemagne]}
+  - {name: Aqua, type: group, country: DK, members: [Søren Rasted, Claus Norreen, René Dif, Lene Nystrøm]}
+  - {name: Sabrina Carpenter, type: solo, country: US, members: [Sabrina Carpenter]}
+  - {name: SZA, type: solo, country: US, members: [Solána Rowe]}
+  - {name: Aya Nakamura, type: solo, country: FR, members: [Aya Danioko]}
+  - {name: Rufus, type: group, country: US,
+     members: [Chaka Khan, Tony Maiden, Bobby Watson, David Wolinski, John Robinson]}
+  - {name: Toni Braxton, type: solo, country: US, members: [Toni Braxton]}
+  - {name: Kool & the Gang, type: group, country: US,
+     members: [Robert Bell, Ronald Bell, George Brown, Dennis Thomas, Robert Mickens, Claydes Charles Smith, James Taylor]}
+  - {name: Lipps Inc., type: group, country: US, members: [Steven Greenberg, Cynthia Johnson]}
+  - {name: Boney M., type: group, country: DE, members: [Liz Mitchell, Marcia Barrett, Maizie Williams, Bobby Farrell]}
+  - {name: Lady A, type: group, country: US, members: [Hillary Scott, Charles Kelley, Dave Haywood]}
+  - {name: Tammy Wynette, type: solo, country: US, members: [Virginia Wynette Pugh]}
+  - {name: Ini Kamoze, type: solo, country: JM, members: [Cecil Campbell]}
+  - {name: Inner Circle, type: group, country: JM, members: [Ian Lewis, Roger Lewis, Calton Coffie, Touter Harvey]}
+  - {name: Chaka Demus & Pliers, type: duo, country: JM, members: [John Taylor, Everton Bonner]}
+  - {name: Miles Davis, type: solo, country: US, members: [Miles Davis]}
+  - {name: Billie Holiday, type: solo, country: US, members: [Eleanora Fagan]}
+  - {name: Muddy Waters, type: solo, country: US, members: [McKinley Morganfield]}
+  - {name: Alejandro Sanz, type: solo, country: ES, members: [Alejandro Sánchez Pizarro]}
+  - {name: Juan Luis Guerra, type: solo, country: DO, members: [Juan Luis Guerra]}
+  - {name: Joni Mitchell, type: solo, country: CA, members: [Roberta Joan Anderson]}
+  - {name: Of Monsters and Men, type: group, country: IS,
+     members: [Nanna Bryndís Hilmarsdóttir, Ragnar Þórhallsson, Brynjar Leifsson, Arnar Rósenkranz Hilmarsson, Kristján Páll Kristjánsson]}
+  - {name: John Williams, type: solo, country: US, members: [John Williams]}
 
 songs:
   - title: Bohemian Rhapsody
@@ -5762,3 +5909,658 @@ songs:
       - [easy, "It won the eighth Sanremo Music Festival."]
       - [medium, "It came third at the 1958 Eurovision Song Contest in Hilversum."]
       - [strong, "It was the first Grammy winner for both Record of the Year and Song of the Year."]
+
+  # Set 9 (2026-10-12): 40 more songs; seed_demo spreads the genres in the schedule.
+  - title: Jump
+    artist: Kris Kross
+    year: 1992
+    genre: Hip-Hop
+    styles: [Pop Rap]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: 010KyIQjkTk
+    source: https://en.wikipedia.org/wiki/Jump_(Kris_Kross_song)
+    facts:
+      - [easy, "It was produced by Jermaine Dupri and Joe “The Butcher” Nicolo."]
+      - [medium, "Its music video was directed by Rich Murray and filmed in Atlanta."]
+      - [strong, "It was the duo's debut single and the third-best-selling song of 1992 in the US."]
+
+  - title: Take Me Out
+    artist: Franz Ferdinand
+    year: 2004
+    genre: Rock
+    styles: [Indie Rock]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: Ijk4j-r7qPA
+    source: https://en.wikipedia.org/wiki/Take_Me_Out_(song)
+    facts:
+      - [easy, "The Village Voice Pazz & Jop poll voted it the best single of 2004."]
+      - [medium, "It topped Triple J's Hottest 100 of 2004."]
+      - [strong, "It is the second single from the Glasgow band's self-titled 2004 debut album."]
+
+  - title: Born Slippy .NUXX
+    artist: Underworld
+    year: 1995
+    genre: Electronic
+    styles: [Techno]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: XiMrrleH_hI
+    aliases: [Born Slippy, Born Slippy Nuxx]
+    source: https://en.wikipedia.org/wiki/Born_Slippy_(Nuxx)
+    facts:
+      - [easy, "It was first released as a B-side in May 1995."]
+      - [medium, "Its lyrics were written after a night of drinking on Wardour Street in Soho."]
+      - [strong, "It reached number two in the UK after it was used in the film Trainspotting."]
+
+  - title: Barbie Girl
+    artist: Aqua
+    year: 1997
+    genre: Pop
+    styles: [Dance-Pop, Eurodance]
+    vocal: mixed
+    language: en
+    themes: [Fantasy / Surreal]
+    difficulty: easy
+    youtube: ZyhrYis509A
+    source: https://en.wikipedia.org/wiki/Barbie_Girl
+    facts:
+      - [easy, "It was performed as the interval act of the Eurovision Song Contest 2001."]
+      - [medium, "It was a UK number one for four weeks."]
+      - [strong, "Mattel accused the group's label of diluting the name of its famous doll."]
+
+  - title: Kill Bill
+    artist: SZA
+    year: 2022
+    genre: R&B/Soul
+    styles: [Contemporary R&B]
+    vocal: female
+    language: en
+    themes: [Jealousy / Infidelity]
+    difficulty: easy
+    youtube: MSRcC626prw
+    source: https://en.wikipedia.org/wiki/Kill_Bill_(song)
+    facts:
+      - [easy, "Its flute sound was sampled from a Prophet-6 synthesizer."]
+      - [medium, "It was its singer's first number one on the Billboard Hot 100."]
+      - [strong, "It is named after a Quentin Tarantino film duology and comes from the album SOS."]
+
+  - title: Ace of Spades
+    artist: Motörhead
+    year: 1980
+    genre: Metal
+    styles: [Heavy Metal]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: 3mbvWn1EY6g
+    source: https://en.wikipedia.org/wiki/Ace_of_Spades_(song)
+    facts:
+      - [easy, "A Christmas 12-inch edition showed the band in Santa outfits."]
+      - [medium, "It opens with an overdriven bass intro."]
+      - [strong, "It is the title track of the band's 1980 album."]
+
+  - title: Celebration
+    artist: Kool & the Gang
+    year: 1980
+    genre: Disco/Funk
+    styles: [Disco, Funk]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: easy
+    youtube: 3GwjfUFyY6M
+    source: https://en.wikipedia.org/wiki/Celebration_(Kool_%26_the_Gang_song)
+    facts:
+      - [easy, "The band's saxophonist said it was inspired by the Quran."]
+      - [medium, "It was inducted into the Grammy Hall of Fame in 2016."]
+      - [strong, "It was the band's only US number one, from the album Celebrate!"]
+
+  - title: Need You Now
+    artist: Lady A
+    year: 2009
+    genre: Country
+    styles: [Country Pop]
+    vocal: mixed
+    language: en
+    themes: [Loneliness / Sadness, Passion / Desire]
+    difficulty: easy
+    youtube: eM213aMKTHg
+    source: https://en.wikipedia.org/wiki/Need_You_Now_(Lady_Antebellum_song)
+    facts:
+      - [easy, "It was co-written with Josh Kear and produced with Paul Worley."]
+      - [medium, "It won Song of the Year and Record of the Year at the 2011 Grammy Awards."]
+      - [strong, "It is the title track of the country trio's second album."]
+
+  - title: Here Comes the Hotstepper
+    artist: Ini Kamoze
+    year: 1994
+    genre: Reggae
+    styles: [Dancehall]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: 15UffN8eilI
+    aliases: [Hotstepper]
+    source: https://en.wikipedia.org/wiki/Here_Comes_the_Hotstepper
+    facts:
+      - [easy, "It was recorded in 1992 and passed over by several labels."]
+      - [medium, "Its chorus borrows from Cannibal & the Headhunters' “Land of 1000 Dances”."]
+      - [strong, "It appears on the Prêt-à-Porter soundtrack and topped the Hot 100 in December 1994."]
+
+  - title: So What
+    artist: Miles Davis
+    year: 1959
+    genre: Jazz/Blues
+    styles: [Cool Jazz]
+    vocal: instrumental
+    language: zxx
+    themes: [Freedom / Carefree]
+    difficulty: medium
+    youtube: ylXk1LBvIqU
+    source: https://en.wikipedia.org/wiki/So_What_(Miles_Davis_composition)
+    facts:
+      - [easy, "Its piano-and-bass introduction was written by Gil Evans."]
+      - [medium, "Its central theme is played on the double bass."]
+      - [strong, "It is the opening track of Kind of Blue (1959)."]
+
+  - title: Corazón Partío
+    artist: Alejandro Sanz
+    year: 1997
+    genre: Latin
+    styles: [Latin Pop]
+    vocal: male
+    language: es
+    themes: [Breakup / Heartbreak]
+    difficulty: medium
+    youtube: ALbxIboSbMU
+    aliases: [Corazon Partio]
+    source: https://en.wikipedia.org/wiki/Coraz%C3%B3n_Part%C3%ADo
+    facts:
+      - [easy, "It won awards at the Premios Ondas and the BMI Latin Awards."]
+      - [medium, "A 1998 remix of it reached number one in Spain."]
+      - [strong, "Its title means “Broken heart” and it comes from the album Más (1997)."]
+
+  - title: Big Yellow Taxi
+    artist: Joni Mitchell
+    year: 1970
+    genre: Folk
+    styles: [Singer-Songwriter, Folk Rock]
+    vocal: female
+    language: en
+    themes: [Social Issues]
+    difficulty: easy
+    youtube: 2595abcvh2M
+    source: https://en.wikipedia.org/wiki/Big_Yellow_Taxi
+    facts:
+      - [easy, "Janet Jackson sampled it in “Got 'til It's Gone”."]
+      - [medium, "It comes from the album Ladies of the Canyon (1970)."]
+      - [strong, "Counting Crows and Vanessa Carlton had a hit with their cover of it in 2002."]
+
+  - title: Ice Ice Baby
+    artist: Vanilla Ice
+    year: 1990
+    genre: Hip-Hop
+    styles: [Pop Rap]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: rog8ou-ZepE
+    source: https://en.wikipedia.org/wiki/Ice_Ice_Baby
+    facts:
+      - [easy, "It was first released as the B-side of a cover of “Play That Funky Music”."]
+      - [medium, "It was the first hip-hop single to top the Billboard Hot 100."]
+      - [strong, "It samples the bassline of “Under Pressure” by Queen and David Bowie."]
+
+  - title: Last Nite
+    artist: The Strokes
+    year: 2001
+    genre: Rock
+    styles: [Indie Rock]
+    vocal: male
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: medium
+    youtube: TOypSnKFHrE
+    aliases: [Last Night]
+    source: https://en.wikipedia.org/wiki/Last_Nite
+    facts:
+      - [easy, "It was produced by Gordon Raphael."]
+      - [medium, "Its riff and structure are based on Tom Petty's “American Girl”."]
+      - [strong, "It is the second single from the debut album Is This It (2001)."]
+
+  - title: Satisfaction
+    artist: Benny Benassi
+    year: 2002
+    genre: Electronic
+    styles: [EDM, House]
+    vocal: mixed
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: a0fkNdPiIL4
+    source: https://en.wikipedia.org/wiki/Satisfaction_(Benny_Benassi_song)
+    facts:
+      - [easy, "Its vocals are two MacinTalk speech synthesizers, one male and one female."]
+      - [medium, "It is credited with bringing electro house into the mainstream."]
+      - [strong, "It is the Italian DJ's debut single and the lead single from Hypnotica."]
+
+  - title: Chandelier
+    artist: Sia
+    year: 2014
+    genre: Pop
+    styles: [Electropop]
+    vocal: female
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: easy
+    youtube: 2vjPBrBU-TM
+    source: https://en.wikipedia.org/wiki/Chandelier_(song)
+    facts:
+      - [easy, "It was written with Jesse Shatkin and produced with Greg Kurstin."]
+      - [medium, "Its lyrics describe the alcoholism of a “party girl”."]
+      - [strong, "It is the lead single from 1000 Forms of Fear (2014)."]
+
+  - title: Djadja
+    artist: Aya Nakamura
+    year: 2018
+    genre: R&B/Soul
+    styles: [Contemporary R&B]
+    vocal: female
+    language: fr
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: iPGgnzc34tY
+    source: https://en.wikipedia.org/wiki/Djadja_(song)
+    facts:
+      - [easy, "Its music video was shot in Barcelona."]
+      - [medium, "A 2020 remix of it features Maluma."]
+      - [strong, "It reached number one in France, the Netherlands and Romania."]
+
+  - title: Breaking the Law
+    artist: Judas Priest
+    year: 1980
+    genre: Metal
+    styles: [Heavy Metal]
+    vocal: male
+    language: en
+    themes: [Social Issues]
+    difficulty: easy
+    youtube: L397TWLwrUU
+    source: https://en.wikipedia.org/wiki/Breaking_the_Law
+    facts:
+      - [easy, "Its bridge leads back to the main riff with a police siren sound effect."]
+      - [medium, "It is known for its minor-key opening guitar riff."]
+      - [strong, "It comes from the album British Steel (1980)."]
+
+  - title: Funkytown
+    artist: Lipps Inc.
+    year: 1980
+    genre: Disco/Funk
+    styles: [Disco]
+    vocal: female
+    language: en
+    themes: [City / Place]
+    difficulty: easy
+    youtube: Z6dqIYKIBSU
+    source: https://en.wikipedia.org/wiki/Funkytown
+    facts:
+      - [easy, "It was released by Casablanca Records."]
+      - [medium, "It was inspired by the band's dream of moving from Minneapolis to New York City."]
+      - [strong, "It sold over eight million copies and topped the Hot 100 in 1980."]
+
+  - title: Stand by Your Man
+    artist: Tammy Wynette
+    year: 1968
+    genre: Country
+    styles: [Classic Country]
+    vocal: female
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: AM-b8P1yj9w
+    source: https://en.wikipedia.org/wiki/Stand_by_Your_Man
+    facts:
+      - [easy, "It was co-written with producer Billy Sherrill."]
+      - [medium, "CMT ranked it number one on its list of the Top 100 Country Music Songs."]
+      - [strong, "It reached number one in the UK in 1975, seven years after its release."]
+
+  - title: Sweat (A La La La La Long)
+    artist: Inner Circle
+    year: 1992
+    genre: Reggae
+    styles: [Dancehall]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: easy
+    youtube: uc2UEfWjvo8
+    aliases: [A La La La La Long]
+    source: https://en.wikipedia.org/wiki/Sweat_(A_La_La_La_La_Long)
+    facts:
+      - [easy, "Its music video, set on a beach, was directed by Mathias Julien."]
+      - [medium, "It topped the charts in Germany, the Netherlands and New Zealand."]
+      - [strong, "It is the lead single from the album Bad to the Bone (1992)."]
+
+  - title: Strange Fruit
+    artist: Billie Holiday
+    year: 1939
+    genre: Jazz/Blues
+    styles: [Vocal Jazz]
+    vocal: female
+    language: en
+    themes: [Protest / Politics, Social Issues]
+    difficulty: medium
+    youtube: 649wWWkW_1o
+    source: https://en.wikipedia.org/wiki/Strange_Fruit
+    facts:
+      - [easy, "It was written by Abel Meeropol under the pseudonym Lewis Allan."]
+      - [medium, "Ahmet Ertegun called it “the beginning of the civil rights movement”."]
+      - [strong, "It protests the lynching of African Americans."]
+
+  - title: Burbujas de Amor
+    artist: Juan Luis Guerra
+    year: 1990
+    genre: Latin
+    styles: [Bachata]
+    vocal: male
+    language: es
+    themes: [Passion / Desire]
+    difficulty: medium
+    youtube: v0ckuv1xBm0
+    source: https://en.wikipedia.org/wiki/Burbujas_de_Amor
+    facts:
+      - [easy, "It was marketed as a bachata, although its form is a bolero."]
+      - [medium, "Billboard's Latin music critics named it Song of the Year of 1990."]
+      - [strong, "Its title means “Love Bubbles” and it comes from the album Bachata Rosa."]
+
+  - title: Little Talks
+    artist: Of Monsters and Men
+    year: 2011
+    genre: Folk
+    styles: [Indie Folk]
+    vocal: mixed
+    language: en
+    themes: [Death / Loss]
+    difficulty: easy
+    youtube: ghb6eDopW8I
+    source: https://en.wikipedia.org/wiki/Little_Talks
+    facts:
+      - [easy, "It was produced by Aron Þór Arnarsson."]
+      - [medium, "It was inspired by an old house one of its singers moved into."]
+      - [strong, "It is the Icelandic band's debut single, from My Head Is an Animal."]
+
+  - title: Panda
+    artist: Desiigner
+    year: 2015
+    genre: Hip-Hop
+    styles: [Trap]
+    vocal: male
+    language: en
+    themes: [Money / Success]
+    difficulty: easy
+    youtube: E5ONTXHS2mM
+    source: https://en.wikipedia.org/wiki/Panda_(song)
+    facts:
+      - [easy, "It was produced by Menace."]
+      - [medium, "Kanye West sampled it on “Pt. 2” from The Life of Pablo."]
+      - [strong, "Its hook likens a white BMW X6 to a black-and-white bear."]
+
+  - title: Fortunate Son
+    artist: Creedence Clearwater Revival
+    year: 1969
+    genre: Rock
+    styles: [Classic Rock]
+    vocal: male
+    language: en
+    themes: [Protest / Politics, War / Peace]
+    difficulty: easy
+    youtube: ZWijx_AgPiA
+    source: https://en.wikipedia.org/wiki/Fortunate_Son
+    facts:
+      - [easy, "It was released with “Down on the Corner” as its B-side."]
+      - [medium, "It comes from the album Willy and the Poor Boys (1969)."]
+      - [strong, "It became an anthem of the movement against the Vietnam War."]
+
+  - title: Strobe
+    artist: deadmau5
+    year: 2009
+    genre: Electronic
+    styles: [House]
+    vocal: instrumental
+    language: zxx
+    themes: [Nostalgia / Memories]
+    difficulty: medium
+    youtube: tKi9Z-f6qX4
+    source: https://en.wikipedia.org/wiki/Strobe_(instrumental)
+    facts:
+      - [easy, "It grew out of a track called “Then We Stood Still”."]
+      - [medium, "It is the final single from For Lack of a Better Name (2009)."]
+      - [strong, "Its producer's label Mau5trap marked its hundredth release with an album of its remixes."]
+
+  - title: Un-Break My Heart
+    artist: Toni Braxton
+    year: 1996
+    genre: R&B/Soul
+    styles: [Contemporary R&B, Pop Ballad]
+    vocal: female
+    language: en
+    themes: [Breakup / Heartbreak]
+    difficulty: easy
+    youtube: p2Rch6WvPJE
+    aliases: [Unbreak My Heart]
+    source: https://en.wikipedia.org/wiki/Un-Break_My_Heart
+    facts:
+      - [easy, "It was written by Diane Warren and produced by David Foster."]
+      - [medium, "It won Best Female Pop Vocal Performance at the 1997 Grammy Awards."]
+      - [strong, "It spent eleven weeks at number one on the Hot 100 and comes from the album Secrets."]
+
+  - title: Daddy Cool
+    artist: Boney M.
+    year: 1976
+    genre: Disco/Funk
+    styles: [Disco]
+    vocal: mixed
+    language: en
+    themes: [Story / Character]
+    difficulty: easy
+    youtube: rYoALQp7BfY
+    source: https://en.wikipedia.org/wiki/Daddy_Cool_(Boney_M._song)
+    facts:
+      - [easy, "Its producer, Frank Farian, sang its male vocal parts."]
+      - [medium, "It became a hit after a performance on the German TV show Musikladen."]
+      - [strong, "It was the group's breakthrough, from the debut album Take the Heat off Me (1976)."]
+
+  - title: Inner City Life
+    artist: Goldie
+    featured: [Diane Charlemagne]
+    year: 1994
+    genre: Electronic
+    styles: [Drum and Bass]
+    vocal: female
+    language: en
+    themes: [City / Place]
+    difficulty: hard
+    youtube: i-P98B2skts
+    source: https://en.wikipedia.org/wiki/Inner_City_Life
+    facts:
+      - [easy, "It was written with Rob Playford."]
+      - [medium, "It is part of a 21-minute opening track on its album."]
+      - [strong, "It is a landmark drum and bass track from the album Timeless (1995)."]
+
+  - title: Hoochie Coochie Man
+    artist: Muddy Waters
+    year: 1954
+    genre: Jazz/Blues
+    styles: [Blues]
+    vocal: male
+    language: en
+    themes: [Passion / Desire]
+    difficulty: hard
+    youtube: 4Poe-vMVvpw
+    aliases: [I'm Your Hoochie Coochie Man]
+    source: https://en.wikipedia.org/wiki/Hoochie_Coochie_Man
+    facts:
+      - [easy, "It was written by Willie Dixon."]
+      - [medium, "Bo Diddley adapted its stop-time riff for “I'm a Man”."]
+      - [strong, "It is a Chicago blues standard first recorded in 1954."]
+
+  - title: Don't Stop Believin'
+    artist: Journey
+    year: 1981
+    genre: Rock
+    styles: [Classic Rock]
+    vocal: male
+    language: en
+    themes: [Motivation / Strength]
+    difficulty: easy
+    youtube: 1k8craCGpgs
+    aliases: [Dont Stop Believin, Don't Stop Believing]
+    source: https://en.wikipedia.org/wiki/Don%27t_Stop_Believin%27
+    facts:
+      - [easy, "It was recorded in one take at Fantasy Studios in Berkeley."]
+      - [medium, "Its chorus does not arrive until the song is nearly over."]
+      - [strong, "It is the second single from the album Escape (1981)."]
+
+  - title: Scary Monsters and Nice Sprites
+    artist: Skrillex
+    year: 2010
+    genre: Electronic
+    styles: [EDM]
+    vocal: instrumental
+    language: zxx
+    themes: [Fantasy / Surreal]
+    difficulty: medium
+    youtube: WSeNSzJ2-Jw
+    aliases: [Scary Monsters]
+    source: https://en.wikipedia.org/wiki/Scary_Monsters_and_Nice_Sprites_(song)
+    facts:
+      - [easy, "It began as a test of the Native Instruments FM8 synthesizer."]
+      - [medium, "Its name was inspired by a 1980 David Bowie album."]
+      - [strong, "It won Best Dance Recording at the 2012 Grammys and brought dubstep to the mainstream."]
+
+  - title: Espresso
+    artist: Sabrina Carpenter
+    year: 2024
+    genre: Pop
+    styles: [Dance-Pop]
+    vocal: female
+    language: en
+    themes: [Motivation / Strength]
+    difficulty: easy
+    youtube: eVli-tstM5E
+    source: https://en.wikipedia.org/wiki/Espresso_(song)
+    facts:
+      - [easy, "It was written with Amy Allen, Steph Jones and its producer Julian Bunetta."]
+      - [medium, "It was its singer's first number one on the Billboard Global 200."]
+      - [strong, "It is the lead single from Short n' Sweet (2024)."]
+
+  - title: Ain't Nobody
+    artist: Rufus
+    year: 1983
+    genre: R&B/Soul
+    styles: [Contemporary R&B, Funk]
+    vocal: female
+    language: en
+    themes: [Falling in Love]
+    difficulty: medium
+    youtube: BNirQXe8HOA
+    aliases: [Aint Nobody]
+    source: https://en.wikipedia.org/wiki/Ain%27t_Nobody
+    facts:
+      - [easy, "It was built around a synthesizer loop over a Linn LM-1 drum machine."]
+      - [medium, "Its writer threatened to give it to Michael Jackson if it was not released as a single."]
+      - [strong, "It was one of the new studio songs on the live album Stompin' at the Savoy (1983)."]
+
+  - title: Down with the Sickness
+    artist: Disturbed
+    year: 2000
+    genre: Metal
+    styles: [Nu Metal]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: 09LTT0xwdfw
+    aliases: [Down with Sickness]
+    source: https://en.wikipedia.org/wiki/Down_with_the_Sickness
+    facts:
+      - [easy, "It is usually the last song of the band's concerts."]
+      - [medium, "Spin called its staccato “ooh-wah-ah-ah-ah” the throat-clearing heard 'round the world."]
+      - [strong, "It is the second single from the debut album The Sickness (2000)."]
+
+  - title: Shimmy Shimmy Ya
+    artist: Ol' Dirty Bastard
+    year: 1995
+    genre: Hip-Hop
+    styles: [Boom Bap]
+    vocal: male
+    language: en
+    themes: [Party / Dancing]
+    difficulty: medium
+    youtube: bB1RYVMBqQg
+    source: https://en.wikipedia.org/wiki/Shimmy_Shimmy_Ya
+    facts:
+      - [easy, "Its music video, directed by Hype Williams, recreates the 1970s."]
+      - [medium, "It was produced by RZA."]
+      - [strong, "It is the second single from Return to the 36 Chambers: The Dirty Version."]
+
+  - title: Bitter Sweet Symphony
+    artist: The Verve
+    year: 1997
+    genre: Rock
+    styles: [Alternative Rock]
+    vocal: male
+    language: en
+    themes: [Loneliness / Sadness]
+    difficulty: easy
+    youtube: 1lyu1KKwC74
+    aliases: [Bittersweet Symphony]
+    source: https://en.wikipedia.org/wiki/Bitter_Sweet_Symphony
+    facts:
+      - [easy, "It was produced by Youth at Olympic Studios in London."]
+      - [medium, "It is built on a sample of an orchestral version of the Rolling Stones' “The Last Time”."]
+      - [strong, "Its video shows the singer walking down a busy pavement in Hoxton, bumping into people."]
+
+  - title: Murder She Wrote
+    artist: Chaka Demus & Pliers
+    year: 1992
+    genre: Reggae
+    styles: [Dancehall]
+    vocal: male
+    language: en
+    themes: [Story / Character]
+    difficulty: medium
+    youtube: 2uiL5ewGP1w
+    source: https://en.wikipedia.org/wiki/Murder_She_Wrote_(song)
+    facts:
+      - [easy, "Its music is based on the Maytals' 1966 song “Bam Bam”."]
+      - [medium, "Its third verse reveals that it is about abortion."]
+      - [strong, "It comes from the duo's 1993 album Tease Me."]
+
+  - title: The Imperial March
+    artist: John Williams
+    year: 1980
+    genre: Classical/Soundtrack
+    styles: [Film Score]
+    vocal: instrumental
+    language: zxx
+    themes: [War / Peace, Fantasy / Surreal]
+    difficulty: easy
+    youtube: u7HF4JG1pOg
+    aliases: [Imperial March, Darth Vader's Theme]
+    source: https://en.wikipedia.org/wiki/The_Imperial_March
+    facts:
+      - [easy, "It premiered on 29 April 1980 at a Boston Pops concert."]
+      - [medium, "It was written for the film The Empire Strikes Back."]
+      - [strong, "It is the Star Wars leitmotif of Darth Vader."]
